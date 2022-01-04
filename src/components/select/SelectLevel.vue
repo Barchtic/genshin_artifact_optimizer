@@ -117,7 +117,6 @@ export default {
 </script>
 
 <style scoped>
-
 .special {
     background: #123456;
     color: white;
@@ -125,9 +124,6 @@ export default {
 
 .special:hover {
     background: #345678;
-}
-span{
-    color: white;
 }
 
 /* .active {

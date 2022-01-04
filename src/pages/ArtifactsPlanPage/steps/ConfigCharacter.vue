@@ -50,14 +50,12 @@
                 size="small"
             ></el-input-number>
         </div>
-        <div>
-            <h3 class="config-title">Character Level</h3>
+
         <select-level
             :value="levelText"
+            title="Character Level"
             @input="handleChangeLevel"
         ></select-level>
-        </div>
-        
     </div>
 </template>
 
@@ -188,13 +186,6 @@ export default {
         // transform: rotateZ(30deg) rotateY(10deg);
         // box-shadow: 10px 0px 10px 1px #00000022;
     }
-}
-h3 {
-    color: white;
-}
-select-level{
-
-    color: white;
 }
 
 .skill {
