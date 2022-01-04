@@ -266,7 +266,7 @@ export default {
 
     .title {
         font-size: 12px;
-        color: #555555;
+        color: #f5eded;
         display: inline-block;
         flex: 1;
     }
@@ -274,7 +274,7 @@ export default {
     .value {
         font-size: 12px;
         display: inline-block;
-        color: #111111;
+        color: #00adff;
         
         flex: 1;
 
@@ -296,6 +296,6 @@ export default {
     border-radius: 3px;
     font-size: 14px;
     border-bottom: 5px solid rgb(74, 99, 211);
-    color: #555555;
+    color: #dfd7d7;
 }
 </style>

@@ -1,4 +1,5 @@
 body {
+    background: #222933;
     margin: 0;
     padding: 0;
 }
@@ -23,7 +24,7 @@ body {
 
 .pos-relative {
     position: relative;
-}
+}   
 
 .pos-sticky {
     position: sticky;

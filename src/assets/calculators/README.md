@@ -1,1 +1,1 @@
-此处函数已经十分混乱，但是角色太多，重构代价太大，因此先不管了
+The functions here are already very confusing, but there are too many roles and refactoring is too costly, so let's ignore it for now

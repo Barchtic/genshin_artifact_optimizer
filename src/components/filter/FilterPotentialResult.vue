@@ -69,7 +69,7 @@ export default {
     align-items: center;
 
     .filter-title {
-        color: #303133;
+        color: white;
         font-size: 14px;
         display: inline-block;
         width: 120px;

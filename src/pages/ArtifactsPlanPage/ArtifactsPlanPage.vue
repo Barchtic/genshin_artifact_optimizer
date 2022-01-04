@@ -493,20 +493,21 @@ export default {
         cursor: pointer;
         font-size: 14px;
         // color: #409eff;
-        color: #303133;
+        color: #ccc;
         /* border-bottom: 1px solid #00000011; */
         transition: 300ms;
         // border-left: 5px solid #12345611;
         font-size: 12px;
 
         &:hover {
-            background: #ecf5ff;
+            background: #1f3647;
         }
 
         &.active {
             // box-shadow: 0 0 20px 3px rgb(0 0 0 / 10%);
-            color: #409eff;
-            background: #ecf5ff;
+            color: #00adff;
+            background: #409EFF;
+            background-color: #1f3647;
         }
 
         .icon {

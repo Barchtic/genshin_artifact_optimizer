@@ -35,16 +35,17 @@ $height: 40px;
     font-size: 14px;
     cursor: pointer;
     line-height: $height;
-    color: #303133;
+    color: #ccc;
     transition: 200ms;
 
     &.active {
-        color: #409EFF;
-        background: #ecf5ff;
+        color: #00adff;
+        background: #409EFF;
+        background-color: #1f3647;
     }
 
     &:hover {
-        background: #ecf5ff;
+        background: #1f3647;
     }
 }
 </style>

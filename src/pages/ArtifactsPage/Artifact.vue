@@ -1,7 +1,7 @@
 <template>
     <div class="artifact" :class="{omit: item.omit}">
         <div class="up">
-            <span class="name">
+            <span class="name" style="color: #54e6eb; ">
                 {{ displayedTitle }}
                 <span style="color: #e7bf4f">
                     <i class="el-icon-star-on"></i>{{ displayedStar }}

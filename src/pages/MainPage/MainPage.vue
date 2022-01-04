@@ -7,14 +7,14 @@
                 direction="ltr"
                 size="80%"
             >
-                <div style="height: 100%; overflow: auto">
+                <div style="height: 100%; overflow: auto; background: #222933;">
                     <side-bar></side-bar>
                 </div>
             </el-drawer>
 
             <el-aside
                 width="15%"
-                style="border-right: 1px solid #eee; min-width: 200px"
+                style="border-right: 1px solid #eee; min-width: 200px;"
                 class="hidden-sm-and-down"
             >
                 <side-bar></side-bar>
@@ -69,9 +69,10 @@ export default {
 </script>
 
 <style>
-/* body {
+ body {
     overflow: auto;
-} */
+    background: #222933;
+} 
 
 .router-view {
     min-height: 100vh;

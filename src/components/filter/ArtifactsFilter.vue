@@ -74,16 +74,19 @@ export default {
         }
     }
 }
+
 </script>
 
 <style lang="scss" scoped>
 .item {
     display: inline-block;
     margin-right: 16px;
+    color: white;
 
     .title {
-        color: #606266;
         font-size: 14px;
+        color: white;
     }
 }
+
 </style>

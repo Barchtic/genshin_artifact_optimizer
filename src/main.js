@@ -21,7 +21,7 @@ Vue.config.productionTip = false
 import ElementUI from 'element-ui'
 import lang from 'element-ui/lib/locale/lang/en'
 import locale from 'element-ui/lib/locale'
-
+import 'element-theme-dark';
 locale.use(lang)
 Vue.filter("str", function (value) {
     return value.toString();

@@ -230,9 +230,9 @@ export default {
 
         .formula {
             display: inline-block;
-            background: #d9ecff;
+            background: #f1e9ce;
             font-size: 12px;
-            color: #444444;
+            color: #1a1818;
             border-radius: 3px;
             padding: 0 8px;
             /* margin-bottom: 4px; */

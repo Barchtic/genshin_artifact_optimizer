@@ -99,19 +99,19 @@
                 </el-menu-item>
             </el-menu-item-group>
 
-            <!-- <el-menu-item-group>
+             <el-menu-item-group>
                 <template #title>
-                    帮助
+                    Help
                 </template>
                 <el-menu-item index="use-case">
                     <i class="el-icon-question"></i>
-                    完整使用示例
+                    Full usage example
                 </el-menu-item>
                 <el-menu-item index="alg">
                     <i class="el-icon-s-opportunity"></i>
-                    算法
+                    Algorithm
                 </el-menu-item>
-            </el-menu-item-group> -->
+            </el-menu-item-group> 
         </el-menu>
     </div>
 </template>

@@ -273,8 +273,8 @@ export default {
 .update-banner {
     padding: 20px;
     color: #303133;
-    background: rgba(225, 243, 216, 0.5);
-    border: 1px solid #67c23a;
+    background: rgba(82, 201, 238, 0.5);
+    border: 1px solid #3cafe4;
     margin-bottom: 16px;
     border-radius: 3px;
 }
@@ -319,9 +319,9 @@ export default {
 }
 
 .mona {
-    background: rgb(86,72,132);
+    background: rgb(128, 124, 82);
     border-radius: 3px;
-    color: white;
+    color: #222933 ;
     padding: 0 8px;
 }
 </style>

@@ -24,6 +24,15 @@
             :pointer="step"
             :lock="false"
             @navigate="step = $event"
+            style="active {
+            color: #00adff;
+            background: #409EFF;
+            background-color: #1f3647;}
+
+            hover {
+            background: #1f3647;
+            }
+            "
         ></my-step>
 
         <div style="margin-top: 24px">
@@ -90,5 +99,7 @@ export default {
 <style lang="scss" scoped>
 .toolbar {
     margin-bottom: 24px;
+    
 }
+
 </style>

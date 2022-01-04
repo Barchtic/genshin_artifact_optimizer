@@ -116,8 +116,8 @@ export default {
     box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.1);
     /* transform: scale(1.1); */
     /* border: 1px solid rgb(46, 221, 221); */
-    background: #f5f7fa;
-    color: #303133;
+    background: #222933;
+    color: #ccc;
     border-radius: 3px;
 }
 

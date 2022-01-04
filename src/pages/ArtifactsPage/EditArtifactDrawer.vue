@@ -24,11 +24,11 @@
                 </el-col>
                 <el-col :span="12">
                     <div class="flex-row">
-                        <p style="margin-right: 8px" class="title">等级</p>
-                        <el-button icon="el-icon-d-arrow-left" circle size="mini" title="0级"
+                        <p style="margin-right: 8px" class="title">Level</p>
+                        <el-button icon="el-icon-d-arrow-left" circle size="mini" title="Level 0"
                             @click="level = 0"
                         ></el-button>
-                        <el-button icon="el-icon-d-arrow-right" circle size="mini" title="满级"
+                        <el-button icon="el-icon-d-arrow-right" circle size="mini" title="Level 20"
                             @click="level = star * 4"
                         ></el-button>
                     </div>

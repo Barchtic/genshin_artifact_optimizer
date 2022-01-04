@@ -4,7 +4,7 @@
     width: 32px;
     text-align: center;
     line-height: 32px;
-    color: #444444;
+    color: #f5f1f1;
     margin-right: 12px;
     margin-top: 12px;
     display: inline-block;
@@ -14,12 +14,12 @@
 }
 
 .select-int:hover {
-    background: rgba(0, 0, 0, 0.1);
+    background: #79bbff;
 }
 
 .select-int.active {
     background: #79bbff;
-    color: white;
+    color: #424346;
 }
 
 .config-item {

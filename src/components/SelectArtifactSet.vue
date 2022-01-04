@@ -7,12 +7,14 @@
         :multiple="multiple"
     >
         <el-option
+          
             v-if="anyOption"
             label="Select"
             value="any"
         >
         </el-option>
         <el-option
+            
             v-for="item in allArtifactsName"
             :key="item.name"
             :label="item.chs"
@@ -71,6 +73,7 @@ export default {
 
 <style scoped>
 .tn {
+    
     height: 80%;
     border-radius: 50%;
     display: inline-block;
@@ -78,6 +81,7 @@ export default {
 }
 
 .item {
+    
     display: flex;
     align-items: center;
     height: 100%;

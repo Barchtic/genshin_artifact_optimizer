@@ -3,6 +3,8 @@
         <el-alert
             title="For unleveled artifacts potential refers to the mathematical expectation of what can be reached, and for leveled artifacts, it can be considered as the current rating, please refer to the algorithm description for details"
             :closable="false"
+            type="danger"
+            style="margin-bottom: 20px"
         >
         </el-alert>
         <el-alert
@@ -61,9 +63,9 @@ export default {
     border-radius: 3px;
     display: flex;
     border: 1px solid transparent;
-
+    color: #ccc;
     &:hover {
-        background: rgba(0, 0, 0, 0.05);
+        background: #1f3647;
     }
 
     .detail {
@@ -90,7 +92,9 @@ export default {
     }
 
     &.active {
-        background: #12345611;
+        color: #00adff;
+        background: #409EFF;
+        background-color: #1f3647;
         border: 1px solid #12345633;
     }
 }

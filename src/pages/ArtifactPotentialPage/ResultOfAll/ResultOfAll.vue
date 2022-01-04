@@ -30,7 +30,6 @@
             <el-pagination
                 layout="prev, pager, next"
                 :total="resultCount"
-                background
                 :current-page.sync="currentPage"
                 hide-on-single-page
                 :page-size="pageSize"
@@ -96,7 +95,7 @@ export default {
         compute({ potentialFunction }) {
             let loading = this.$loading({
                 lock: true,
-                text: "莫娜占卜中",
+                text: "Calculating",
             });
             let arts = this.$store.getters["artifacts/allFlat"];
 

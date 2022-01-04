@@ -204,6 +204,7 @@ export default {
 }
 
 .body {
+    background: #222933;
     display: flex;
     flex-wrap: wrap;
 }

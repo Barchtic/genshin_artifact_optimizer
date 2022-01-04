@@ -130,12 +130,13 @@ export default {
 }
 
 .body {
+    background: #222933;
     // display: flex;
     // overflow: auto;
     overflow-x: auto;
     white-space: nowrap;
     padding: 16px;
-
+    
     .artifact-item {
         margin-right: 16px;
         vertical-align: middle;
