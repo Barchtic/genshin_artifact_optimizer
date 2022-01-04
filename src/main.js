@@ -18,7 +18,11 @@ import store from "./store/store";
 import App from './App.vue';
 
 Vue.config.productionTip = false
+import ElementUI from 'element-ui'
+import lang from 'element-ui/lib/locale/lang/en'
+import locale from 'element-ui/lib/locale'
 
+locale.use(lang)
 Vue.filter("str", function (value) {
     return value.toString();
 });
@@ -35,7 +39,9 @@ async function mount() {
         router: Router,
         store,
     }).$mount('#app');
-
+    Vue.config.lang = 'en'
+    Vue.locale('en', lang)
+    Vue.use(ElementUI, { lang })
     window.monaApp = monaApp;
 }
 

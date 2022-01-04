@@ -1,4 +1,5 @@
 <template>
+
     <div>
         <!-- new artifact dialog -->
         <add-artifact-dialog

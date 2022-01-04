@@ -493,7 +493,7 @@ export default {
         cursor: pointer;
         font-size: 14px;
         // color: #409eff;
-        color: #303133;
+        color: #ecf5ff;
         /* border-bottom: 1px solid #00000011; */
         transition: 300ms;
         // border-left: 5px solid #12345611;
