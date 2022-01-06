@@ -12,6 +12,7 @@
             v-model="configHuskOfOpulentDreams.level"
             :max="4"
             class="artifact-config-item config-item"
+         
         ></common-artifact-config-ratio>
 
         <common-artifact-config-ratio
@@ -205,9 +206,13 @@ export default {
 <style lang="scss" scoped>
 .artifact-config-item {
     margin-bottom: 16px;
-
+   
+    .config-item{
+         color: white;
+    }
     &:last-of-type {
         margin-bottom: 0;
     }
 }
+
 </style>

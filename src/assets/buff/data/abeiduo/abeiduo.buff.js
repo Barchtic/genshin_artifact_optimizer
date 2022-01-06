@@ -2,7 +2,7 @@ import badge from "@asset/badges/abeiduo.png";
 
 export default {
     name: "abeiduo",
-    chs: "阿贝多-瓶中人的天慧",
+    chs: "Albedo- Homuncular Nature",
     badge,
     genre: "character",
     getStandardConfig() {

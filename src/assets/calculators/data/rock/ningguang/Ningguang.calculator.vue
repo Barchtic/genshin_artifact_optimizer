@@ -5,9 +5,9 @@
             size="small"
             style="margin: 16px 0"
         >
-            <el-radio-button label="a">普通攻击·千金掷</el-radio-button>
-            <el-radio-button label="e">璇玑屏</el-radio-button>
-            <el-radio-button label="q">天权崩玉</el-radio-button>
+            <el-radio-button label="a">Normal Attack</el-radio-button>
+            <el-radio-button label="e">Elemental Skilll</el-radio-button>
+            <el-radio-button label="q">Ultimate</el-radio-button>
         </el-radio-group>
 
         <div v-show="showSkill === 'a'">
@@ -28,7 +28,7 @@
             <common-table-rock
                 :data="ningguangE.e"
             ></common-table-rock>
-            <p class="single-item">继承生命：{{ ningguangE.hp }}</p>
+            <p class="single-item">E Shield HP: {{ ningguangE.hp }}</p>
         </div>
 
         <div v-show="showSkill === 'q'">

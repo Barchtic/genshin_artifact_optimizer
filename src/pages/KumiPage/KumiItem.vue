@@ -114,9 +114,10 @@ export default {
     align-items: center;
     justify-content: space-between;
 
-    .title {
+    title {
         flex: 1;
         margin-right: 16px;
+        
     }
 
     .buttons {
@@ -147,5 +148,8 @@ export default {
             margin-right: 0;
         }
     }
+}
+input{
+    color: white;
 }
 </style>

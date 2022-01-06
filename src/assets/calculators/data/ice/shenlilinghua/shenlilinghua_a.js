@@ -5,12 +5,12 @@ let rowsA = [
     { key: "dmg1", chs: "1- Normal Attack Damage" },
     { key: "dmg2", chs: "2- Normal Attack Damage" },
     { key: "dmg3", chs: "3- Normal Attack Damage" },
-    { key: "dmg4", chs: "4- Normal Attack Damage/3" },
+    { key: "dmg4", chs: "4- Normal Attack Damage" },
     { key: "dmg5", chs: "5- Normal Attack Damage" },
 ];
 
 let rowsB = [
-    { key: "bDmg1", chs: "Charge Attack Damage/3" },
+    { key: "bDmg1", chs: "Charge Attack Damage-1" },
 ]
 
 export default function (artifacts, configObject, enemy, { afterDash, afterTalent1, afterTalent2 }) {

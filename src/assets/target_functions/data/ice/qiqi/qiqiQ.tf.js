@@ -2,13 +2,13 @@ import badge from "@asset/badges/qiqi.png";
 
 export default {
     name: "qiqiQ",
-    chs: "七七-救苦渡厄",
+    chs: "Qiqi - Preserve of Fortune Healing",
     description: [
-        "使得符的治疗量最高",
+        "Makes the highest healing amount of the talisman",
     ],
     tags: [
-        "治疗",
-        "七七",
+        "Healing",
+        "QiQi",
     ],
     "for": "qiqi",
     badge,

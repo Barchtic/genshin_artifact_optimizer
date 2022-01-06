@@ -6,8 +6,8 @@ import { charactersData } from "@asset/characters";
 const skill = charactersData["abeiduo"].skill;
 
 const rowsQ = [
-    { key: "dmg1", chs: "爆发伤害" },
-    { key: "dmg2", chs: "生灭之花伤害（朵）" },
+    { key: "dmg1", chs: "Elemental Burst Damage" },
+    { key: "dmg2", chs: "Fatal Blossom Damage" },
 ];
 
 export default function (artifacts, configObject, enemy) {

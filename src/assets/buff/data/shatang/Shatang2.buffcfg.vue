@@ -1,7 +1,7 @@
 <template>
     <div>
         <single-value
-            title="砂糖的元素精通"
+            title="Sucrouse Elemental Mastery"
             v-model="value"
             style="margin-bottom: 0"
         ></single-value>

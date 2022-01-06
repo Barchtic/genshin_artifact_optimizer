@@ -1,17 +1,22 @@
+
 <template>
     <el-table
             :data="data"
-            size="small"
+            size="medium"
             stripe
+            style="color: #fcba03;"
         >
             <el-table-column
                 label="Skill"
                 property="chs"
-                width="200"
+                width="300"
+                
             ></el-table-column>
             <el-table-column
                 label="Physical Damage"
                 width="200"
+                
+               
             >
                 <template slot-scope="scope">
                     <damage-display :damage="scope.row.normal"></damage-display>

@@ -7,7 +7,7 @@ let skill = charactersData["mona"].skill;
 let rowsQ = [
     {
         key: "dmg1",
-        chs: "泡影破裂伤害",
+        chs: "Illusory Bubble Explosion Damage",
     },
 ];
 

@@ -6,7 +6,7 @@ let skill = charactersData["shanhugongxinhai"].skill;
 
 
 let rowsE = [
-    { key: "dmg1", chs: "波纹伤害", },
+    { key: "dmg1", chs: "Ripple Damage", },
 ]
 
 export default function (artifacts, configObject, enemy, { afterQ }) {

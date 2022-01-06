@@ -7,8 +7,8 @@ let skill = charactersData["babala"].skill;
 let rowsE = [
     {
         key: "dmg1",
-        chs: "水珠伤害",
-    },
+        chs: "Droplet Damage",
+    },  
 ];
 
 export default function (artifacts, configObject, enemy) {

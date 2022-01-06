@@ -5,9 +5,9 @@
             size="small"
             style="margin: 16px 0"
         >
-            <el-radio-button label="a">普通攻击-指尖雷暴</el-radio-button>
-            <el-radio-button label="e">苍雷</el-radio-button>
-            <el-radio-button label="q">蔷薇的雷光</el-radio-button>
+            <el-radio-button label="a">Normal Attack</el-radio-button>
+            <el-radio-button label="e">Elemental Skill</el-radio-button>
+            <el-radio-button label="q">Ultimate</el-radio-button>
         </el-radio-group>
 
         <div v-show="showSkill === 'a'">

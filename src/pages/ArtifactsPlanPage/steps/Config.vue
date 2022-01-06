@@ -1,10 +1,11 @@
 <template>
     <div>
-        <div class="config-item">
+        <div class="config-item" style="color:white">
+
             <h3
                 class="config-title"
                 style="margin-bottom: 20px"
-            >Artfact Bonuses</h3>
+            >Artifact Bonuses</h3>
             <div class="row">
                 <el-radio
                     v-model="constraintSet.mode"
@@ -61,24 +62,27 @@
         <div class="config-item">
             <h3 class="config-title" style="margin-bottom: 20px">Main Stat</h3>
             <div class="flex-row row">
-                <span class="cmt-label fs-14 color-normal">Sands</span>
+                <span class="cmt-label fs-14 color-normal" style="color:white">Sands</span>
                 <select-art-main-tag-without-val
                     position="sand"
                     v-model="constraintMainTag.sand"
+                    style="color:white"
                 ></select-art-main-tag-without-val>
             </div>
             <div class="flex-row row">
-                <span class="cmt-label fs-14 color-normal">Goblet</span>
+                <span class="cmt-label fs-14 color-normal" style="color:white">Goblet</span>
                 <select-art-main-tag-without-val
                     position="cup"
                     v-model="constraintMainTag.cup"
+                    style="color:white"
                 ></select-art-main-tag-without-val>
             </div>
             <div class="flex-row row" style="margin-bottom: 0">
-                <span class="cmt-label fs-14 color-normal">Circlet</span>
+                <span class="cmt-label fs-14 color-normal" style="color:white">Circlet</span>
                 <select-art-main-tag-without-val
                     position="head"
                     v-model="constraintMainTag.head"
+                    style="color:white"
                 ></select-art-main-tag-without-val>
             </div>
         </div>
@@ -86,45 +90,45 @@
         <div class="config-item">
             <h3 class="config-title" style="margin-bottom: 20px">Minimun Attributes</h3>
             <div class="flex-row row">
-                <span class="cmt-label fs-14 color-normal">HP</span>
+                <span class="cmt-label fs-14 color-normal" style="color:white">HP</span>
                 <div>
-                    <el-input size="small" v-model="constraintAttributeMin.life"></el-input>
+                    <el-input  style="color:white" size="small" v-model="constraintAttributeMin.life"></el-input>
                 </div>
             </div>
             <div class="flex-row row">
-                <span class="cmt-label fs-14 color-normal">ATK</span>
+                <span class="cmt-label fs-14 color-normal" style="color:white">ATK</span>
                 <div>
-                    <el-input size="small" v-model="constraintAttributeMin.attack"></el-input>
+                    <el-input style="color:white" size="small" v-model="constraintAttributeMin.attack"></el-input>
                 </div>
             </div>
             <div class="flex-row row">
-                <span class="cmt-label fs-14 color-normal">DEF</span>
+                <span class="cmt-label fs-14 color-normal" style="color:white">DEF</span>
                 <div>
-                    <el-input size="small" v-model="constraintAttributeMin.defend"></el-input>
+                    <el-input style="color:white" size="small" v-model="constraintAttributeMin.defend"></el-input>
                 </div>
             </div>
             <div class="flex-row row">
-                <span class="cmt-label fs-14 color-normal">Energy Recharge</span>
+                <span class="cmt-label fs-14 color-normal" style="color:white">Energy Recharge</span>
                 <div>
-                    <el-input size="small" v-model="constraintAttributeMin.recharge"></el-input>
+                    <el-input style="color:white" size="small" v-model="constraintAttributeMin.recharge"></el-input>
                 </div>
             </div>
             <div class="flex-row row">
-                <span class="cmt-label fs-14 color-normal">Elemental Mastery</span>
+                <span class="cmt-label fs-14 color-normal" style="color:white">Elemental Mastery</span>
                 <div>
-                    <el-input size="small" v-model="constraintAttributeMin.elementalMastery"></el-input>
+                    <el-input style="color:white" size="small" v-model="constraintAttributeMin.elementalMastery"></el-input>
                 </div>
             </div>
             <div class="flex-row row">
-                <span class="cmt-label fs-14 color-normal">Crit Rate（%）</span>
+                <span class="cmt-label fs-14 color-normal" style="color:white">Crit Rate（%）</span>
                 <div>
-                    <el-input size="small" v-model="constraintAttributeMin.critical"></el-input>
+                    <el-input style="color:white" size="small" v-model="constraintAttributeMin.critical"></el-input>
                 </div>
             </div>
             <div class="flex-row row" style="margin-bottom: 0">
-                <span class="cmt-label fs-14 color-normal">Crit Damage（%）</span>
+                <span class="cmt-label fs-14 color-normal" style="color:white">Crit Damage（%）</span>
                 <div>
-                    <el-input size="small" v-model="constraintAttributeMin.criticalDamage"></el-input>
+                    <el-input style="color:white" size="small" v-model="constraintAttributeMin.criticalDamage"></el-input>
                 </div>
             </div>
         </div>
@@ -276,7 +280,7 @@ export default {
     border-radius: 3px;
     font-size: 14px;
     border-bottom: 5px solid rgb(74, 99, 211);
-    color: #555555;
+    
 }
 
 .radio {

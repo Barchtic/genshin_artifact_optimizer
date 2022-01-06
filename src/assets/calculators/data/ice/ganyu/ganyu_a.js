@@ -11,11 +11,11 @@ let rowsA = [
 ];
 
 let rowsB1 = [
-    { key: "bDmg1", chs: "Charge Attack Damage (Aimshot)" },
+    { key: "bDmg1", chs: "Aimshot" },
 ];
 
 let rowsB2 = [
-    { key: "bDmg2", chs: "Stage 1 Charge Attack Damage (Aimshot" },
+    { key: "bDmg2", chs: "Stage 1 Aimshot" },
     { key: "bDmg3", chs: "Frostflake Arrow Damage" },
     { key: "bDmg4", chs: "Frostflake Arrow Bloom Damage" },
 ];

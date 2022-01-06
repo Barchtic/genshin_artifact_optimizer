@@ -3,7 +3,7 @@ import config from "./EnemyDefDown.buffcfg";
 
 export default {
     name: "enemyDefDown",
-    chs: "怪物减防",
+    chs: "Enemy Defense Reduction",
     badge,
     config,
     genre: "custom",

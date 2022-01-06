@@ -85,7 +85,7 @@
                         :closable="false"
                     ></el-alert>
 
-                    <h3 class="title">Best Match</h3>
+                    <h3 style="color: white" class="title">Best Match</h3>
                     <div class="artifact-div">
                         <artifact-display
                             v-for="(art, index) in artifacts"
@@ -101,7 +101,7 @@
                         <el-button size="small" @click="handleToggleAll">{{ isAllDisabled ? "Enable" : "Disable" }} All</el-button>
                     </div>
 
-                    <h3 class="title">Max</h3>
+                    <h3 style="color: white" class="title">Max</h3>
                     <el-alert
                         title="The maximum value of different objective functions cannot be compared with each other; the maximum value of the output type is not the final expected damage, so it is for reference only"
                         type="warning"
@@ -410,7 +410,7 @@ ul {
     list-style: none;
     padding: 4px;
     background: #00000005;
-    color: #123456;
+    color: #ff9966;
     border-bottom: 1px solid #00000011;
 }
 
@@ -418,7 +418,7 @@ ul {
     /* background:rgb(74, 99, 211); */
     padding: 0px 16px;
     display: inline-block;
-    /* color: white; */
+    color: white; 
     border-radius: 3px;
     font-size: 14px;
     border-bottom: 5px solid rgb(74, 99, 211);
@@ -432,7 +432,9 @@ ul {
 
 .artifact {
     margin: 0 16px 16px 0;
+
 }
+
 
 .max-value {
     padding: 0;

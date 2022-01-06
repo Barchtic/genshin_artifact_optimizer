@@ -12,8 +12,8 @@
         </p>
 
         <div class="buttons">
-            <el-button type="primary" class="confirm-button" @click="handleCopy" v-if="canCopy">复制</el-button>
-            <el-button class="cancel-button" @click="handleClose">关闭</el-button>
+            <el-button type="primary" class="confirm-button" @click="handleCopy" v-if="canCopy">Copy</el-button>
+            <el-button class="cancel-button" @click="handleClose">Close</el-button>
         </div>
     </el-dialog>
 </template>

@@ -215,7 +215,7 @@ export default {
         justify-content: space-between;
 
         .name {
-            color: #123456;
+            color: #00adff;
             font-size: 12px;
             float: left;
             height: 32px;

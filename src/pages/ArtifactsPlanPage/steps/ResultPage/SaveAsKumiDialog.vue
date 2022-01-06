@@ -40,7 +40,7 @@ export default {
     data() {
         return {
             dirId: -1,
-            kumiName: "New Set",
+            kumiName: "New Set ",
         }
     },
     created() {

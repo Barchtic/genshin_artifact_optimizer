@@ -5,25 +5,25 @@
             size="small"
             style="margin: 16px 0"
         >
-            <el-radio-button label="a">普通攻击·快速射击</el-radio-button>
-            <el-radio-button label="e">冰尘雪野</el-radio-button>
-            <el-radio-button label="q">曙光预言</el-radio-button>
+            <el-radio-button label="a">Normal Attack</el-radio-button>
+            <el-radio-button label="e">Elemental Skill</el-radio-button>
+            <el-radio-button label="q">Ultimate</el-radio-button>
         </el-radio-group>
 
-        <el-alert title="暂未计算天赋效果，请手动添加" :closable="false" style="margin-bottom: 16px"></el-alert>
+        <el-alert title="The effect of talent is not calculated yet, please add it manually" :closable="false" style="margin-bottom: 16px"></el-alert>
 
         <div v-show="showSkill === 'a'">
             <div class="buff-config-item">
-                <h3 class="buff-config-title">冰驰</h3>
+                <h3 class="buff-config-title">Rusing Ice Active</h3>
                 <el-switch
-                    active-text="是"
-                    inactive-text="否"
+                    active-text="Yes"
+                    inactive-text="No"
                     v-model="config.iceRush"
                 ></el-switch>
             </div>
 
             <div class="buff-config-item">
-                <h3 class="buff-config-title">线圈层数</h3>
+                <h3 class="buff-config-title">Number of Coil Stacks</h3>
                 <el-slider
                     :min="0"
                     :max="3"

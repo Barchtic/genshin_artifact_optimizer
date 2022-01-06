@@ -5,9 +5,9 @@
             size="small"
             style="margin: 16px 0"
         >
-            <el-radio-button label="a">普通攻击·西风剑术·宗室</el-radio-button>
-            <el-radio-button label="e">冰潮的涡旋</el-radio-button>
-            <el-radio-button label="q">凝浪之光剑</el-radio-button>
+            <el-radio-button label="a">Normal Attack</el-radio-button>
+            <el-radio-button label="e">Elemental Skil</el-radio-button>
+            <el-radio-button label="q">Ultimate</el-radio-button>
         </el-radio-group>
 
         <div v-show="showSkill === 'a'">
@@ -32,7 +32,7 @@
 
         <div v-show="showSkill === 'q'">
             <div style="margin-bottom: 16px">
-                <span style="font-size: 12px;">光降之剑层数：</span>
+                <span style="font-size: 12px;">Energy Stacks For Lighfall Sword</span>
                 <el-input-number
                     v-model="config.count"
                     :min="0"

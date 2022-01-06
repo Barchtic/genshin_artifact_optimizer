@@ -3,7 +3,7 @@ import config from "./Bonus.buffcfg";
 
 export default {
     name: "bonus",
-    chs: "伤害加成",
+    chs: "Damage bonus",
     badge,
     config,
     genre: "custom",

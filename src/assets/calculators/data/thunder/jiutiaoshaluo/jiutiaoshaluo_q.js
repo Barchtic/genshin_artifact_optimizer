@@ -3,8 +3,8 @@ import { tableThunder } from "../../../utils";
 
 
 let rowsQ = [
-    { key: "dmg1", chs: "天狗咒雷·金刚坏" },
-    { key: "dmg2", chs: "天狗咒雷·雷砾" },
+    { key: "dmg1", chs: "Tengu Juurai: Titanbreaker Damage" },
+    { key: "dmg2", chs: "Tengu Juurai: Stormcluster Damage" },
 ];
 
 

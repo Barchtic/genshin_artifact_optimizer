@@ -3,8 +3,8 @@ import { getAttribute } from "@util/attribute";
 
 
 let rowsQ = [
-    { key: "dmg1", chs: "切割伤害" },
-    { key: "dmg2", chs: "绽放伤害" },
+    { key: "dmg1", chs: "Cutting Damage" },
+    { key: "dmg2", chs: "Bloom Damage" },
 ];
 
 export default function (artifacts, configObject, enemy, { afterTalent2 }) {

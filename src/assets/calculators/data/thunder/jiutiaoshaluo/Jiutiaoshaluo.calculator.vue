@@ -5,9 +5,9 @@
             size="small"
             style="margin: 16px 0"
         >
-            <el-radio-button label="a">普通攻击·天狗传弓术</el-radio-button>
-            <el-radio-button label="e">鸦羽天狗霆雷召咒</el-radio-button>
-            <el-radio-button label="q">煌煌千道镇式</el-radio-button>
+            <el-radio-button label="a">Normal Attack</el-radio-button>
+            <el-radio-button label="e">Elemental Skill</el-radio-button>
+            <el-radio-button label="q">Ultimate</el-radio-button>
         </el-radio-group>
 
         <div v-show="showSkill === 'a'">

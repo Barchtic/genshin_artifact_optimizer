@@ -10,7 +10,7 @@
                 size="small"
                 type="primary"
                 @click="handleNewDir"
-            >New favorite<i class="el-icon-plus"></i></el-button>
+            >New Favorite <i class="el-icon-plus"></i></el-button>
         </div>
 
         <el-row :gutter="16">
@@ -55,7 +55,7 @@ export default {
         },
 
         handleNewDir() {
-            this.$store.commit("kumi/newDir", { name: "New Set" })
+            this.$store.commit("kumi/newDir", { name: "New Set " })
         },
     }
 }

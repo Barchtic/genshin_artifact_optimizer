@@ -5,9 +5,9 @@
             size="small"
             style="margin: 16px 0"
         >
-            <el-radio-button label="a">普通攻击-因果点破</el-radio-button>
-            <el-radio-button label="e">水中幻愿</el-radio-button>
-            <el-radio-button label="q">星命定轨</el-radio-button>
+            <el-radio-button label="a">Normal Attack</el-radio-button>
+            <el-radio-button label="e">Elemental Skil</el-radio-button>
+            <el-radio-button label="q">Ultimate</el-radio-button>
         </el-radio-group>
 
         <div v-show="showSkill === 'a'">
@@ -34,7 +34,7 @@
             <common-table-water
                 :data="monaQ.q"
             ></common-table-water>
-            <p class="single-item">伤害加成：{{ monaQ.bonus }}</p>
+            <p class="single-item">Damage Bonus: {{ monaQ.bonus }}</p>
         </div>
     </div>
 </template>

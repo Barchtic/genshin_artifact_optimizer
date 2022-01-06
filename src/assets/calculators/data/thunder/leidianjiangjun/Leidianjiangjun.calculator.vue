@@ -5,9 +5,9 @@
             size="small"
             style="margin: 16px 0"
         >
-            <el-radio-button label="a">普通攻击·源流</el-radio-button>
-            <el-radio-button label="e">神变·恶曜开眼</el-radio-button>
-            <el-radio-button label="q">奥义·梦想真说</el-radio-button>
+            <el-radio-button label="a">Normal Attack</el-radio-button>
+            <el-radio-button label="e">Elemental Skill</el-radio-button>
+            <el-radio-button label="q">Ultimate</el-radio-button>
         </el-radio-group>
 
         <div v-show="showSkill === 'a'">
@@ -32,15 +32,15 @@
 
         <div v-show="showSkill === 'q'">
             <div class="buff-config-item">
-                <h3 class="buff-config-title">是否在雷罚恶曜之眼状态</h3>
+                <h3 class="buff-config-title">Eye of Stormy Judgement Active</h3>
                 <el-switch
-                    active-text="是"
-                    inactive-text="否"
+                    active-text="Yes"
+                    inactive-text="No"
                     v-model="afterE"
                 ></el-switch>
             </div>
             <div class="buff-config-item">
-                <h3 class="buff-config-title">愿力层数</h3>
+                <h3 class="buff-config-title">Resolve Stacks</h3>
                 <el-slider
                     :min="0"
                     :max="60"

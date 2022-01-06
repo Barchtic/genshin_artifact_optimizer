@@ -1,13 +1,14 @@
 <template>
     <el-table
             :data="data"
-            size="small"
+            size="medium"
+            style="color: #fcba03;"
             stripe
         >
             <el-table-column
                 label="Skill"
                 property="chs"
-                width="200"
+                width="300"
             ></el-table-column>
             <el-table-column
                 label="Hydro Damage"
@@ -86,3 +87,8 @@ export default {
     }
 }
 </script>
+<style>
+damage-display{
+    background: wheat;
+}
+</style>

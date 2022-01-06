@@ -11,11 +11,11 @@ let rows1 = [
 ];
 
 let rows2 = [
-    { key: "bDmg1", chs: "Charge Attack Damage (Aimshot)" },
+    { key: "bDmg1", chs: "Aimshot" },
 ];
 
 let rows3 = [
-    { key: "bDmg2", chs: "Charge Attack Damage (Fully Charge Aimshot)" },
+    { key: "bDmg2", chs: "Fully Charge Aimshot" },
     { key: "bDmg3", chs: "Kindling Arrow Damage" },
 ]
 

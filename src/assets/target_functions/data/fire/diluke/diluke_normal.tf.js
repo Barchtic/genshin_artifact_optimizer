@@ -3,14 +3,14 @@ import config from "./DilukeNormal.tcfg.vue";
 
 export default {
     name: "dilukeNormal",
-    chs: "迪卢克-暗夜英雄",
+    chs: "Diluc - Regular",
     description: [
-        "混伤迪卢克",
+        "Mixed Damge Diluc",
     ],
     tags: [
-        "输出",
-        "迪卢克",
-        "混伤",
+        "Damage",
+        "Diluc",
+        "Mixed Damage",
     ],
     "for": "diluke",
     badge,

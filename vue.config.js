@@ -9,7 +9,7 @@ const WorkerPlugin = require("worker-plugin");
 const BEIAN_CODE = "";
 
 
-let title = "Genshin Optimizer";
+let title = "莫娜占卜铺";
 if ("MONA_TITLE" in process.env) {
     title = process.env.MONA_TITLE;
 }
@@ -36,7 +36,7 @@ if ("MONA_ROUTE_MODE" in process.env) {
 
 console.info(`
 building with:
-title = Genshin Optimizer
+title = ${title}
 needBeian = ${needBeian}
 beianNumber = ${beianNumber}
 needMigrate = ${needMigrate}

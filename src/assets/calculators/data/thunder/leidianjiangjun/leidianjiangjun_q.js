@@ -8,22 +8,22 @@ let skill = charactersData["leidianjiangjun"].skill;
 let rowsQ = [
     {
         key: "dmg1",
-        chs: "梦想一刀基础伤害",
+        chs: "Musou No Hitotachi Base Damage",
     },
 ];
 
 let rowsA = [
-    { key: "dmg2", chs: "一段伤害" },
-    { key: "dmg3", chs: "二段伤害" },
-    { key: "dmg4", chs: "三段伤害" },
-    { key: "dmg51", chs: "四段伤害-1" },
-    { key: "dmg52", chs: "四段伤害-2" },
-    { key: "dmg6", chs: "五段伤害" },
-    { key: "bDmg11", chs: "重击伤害-1" },
-    { key: "bDmg12", chs: "重击伤害-2" },
-    { key: "airDmg1", chs: "下坠期间伤害" },
-    { key: "airDmg2", chs: "低空坠地伤害" },
-    { key: "airDmg3", chs: "高空坠地伤害" },
+    { key: "dmg2", chs: "1- Normal Attack Damage" },
+    { key: "dmg3", chs: "2- Normal Attack Damage" },
+    { key: "dmg4", chs: "3- Normal Attack Damage" },
+    { key: "dmg51", chs: "4-1- Normal Attack Damage" },
+    { key: "dmg52", chs: "4-2- Normal Attack Damage" },
+    { key: "dmg6", chs: "5- Normal Attack Damage" },
+    { key: "bDmg11", chs: "Charge Attack Damage-1" },
+    { key: "bDmg12", chs: "Charge Attack Damage-2" },
+    { key: "airDmg1", chs: "Plunge Damage" },
+    { key: "airDmg2", chs: "Low Plunge Damage" },
+    { key: "airDmg3", chs: "High Plunge Damage" },
 ];
 
 function row(attribute, configObject, enemy, rowConfig, { afterE, qLevel }, isDmg1) {

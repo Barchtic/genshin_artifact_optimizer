@@ -1,13 +1,15 @@
 <template>
     <el-table
             :data="data"
-            size="small"
+            size="medium"
             stripe
+            style="color: #fcba03;"
         >
             <el-table-column
                 label="Skill"
+                style="color: red"
                 property="chs"
-                width="200"
+                width="300"
             ></el-table-column>
             <el-table-column
                 label="Pyro Damage"
@@ -45,6 +47,7 @@
                         :show-expect="getShowExpect(scope.row)"
                         :show-critical="getShowCritical(scope.row)"
                         :show-non-critical="getShowNonCritical(scope.row)"
+                        
                     ></damage-display>
                 </template>
             </el-table-column>

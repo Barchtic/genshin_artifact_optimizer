@@ -5,9 +5,9 @@
             size="small"
             style="margin: 16px 0"
         >
-            <el-radio-button label="a">普通攻击·岩雨</el-radio-button>
-            <el-radio-button label="e">地心</el-radio-button>
-            <el-radio-button label="q">天星</el-radio-button>
+            <el-radio-button label="a">Normal Attack</el-radio-button>
+            <el-radio-button label="e">Elemental Skill</el-radio-button>
+            <el-radio-button label="q">Ultimate</el-radio-button>
         </el-radio-group>
 
         <div v-show="showSkill === 'a'">
@@ -28,7 +28,7 @@
             <common-table-rock
                 :data="zhongliE.e"
             ></common-table-rock>
-            <p class="single-item">护盾吸收量：{{ zhongliE.shield }}</p>
+            <p class="single-item">Elemental Skil Shield: {{ zhongliE.shield }}</p>
         </div>
 
         <div v-show="showSkill === 'q'">

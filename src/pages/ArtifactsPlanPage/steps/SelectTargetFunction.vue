@@ -47,6 +47,7 @@
             v-for="target in commonTargets"
             :key="target.name"
             class="hand item"
+           
             :class="{ active: target.name === targetFuncName }"
             @click="handleChange(target.name)"
         >
@@ -184,7 +185,7 @@ export default {
     border-radius: 3px;
     font-size: 14px;
     border-bottom: 5px solid rgb(74, 99, 211);
-    color: #555555;
+    color: white;
 }
 
 .item {
@@ -224,7 +225,7 @@ export default {
 
         .description span {
             display: block;
-            color: #555555;
+            color: #ffffff;
             padding-top: 3px;
         }
 
@@ -241,7 +242,7 @@ export default {
     }
 
     &:hover {
-        background: rgba(0, 0, 0, 0.05);
+        background: #1f3647;
     }
 
     .tags {
@@ -257,8 +258,10 @@ export default {
     }
 }
 
+
 .active {
-    background: #12345611;
-    border: 1px solid #12345633;
+
+    background: #1f5a96;
+    border: 1px solid #409EFF;
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
     <div>
         <single-value
-            title="数值"
+            title="Value"
             v-model="value"
             :percentage="true"
         ></single-value>

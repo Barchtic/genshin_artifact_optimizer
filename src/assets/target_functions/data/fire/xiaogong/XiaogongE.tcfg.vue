@@ -3,7 +3,7 @@
         <div
             class="config-item"
         >
-            <h3 class="config-title">蒸发占比（0-1）</h3>
+            <h3 class="config-title">Vaporize Percentage（0-1）</h3>
             <el-input
                 v-model="vaporize"
                 size="small"
@@ -13,7 +13,7 @@
         <div
             class="config-item"
         >
-            <h3 class="config-title">融化占比（0-1）（请确保与蒸发占比之和小于1）</h3>
+            <h3 class="config-title">Melting Percentage（0-1）（Please ensure that the value of the vaporize percentage is less than 1）</h3>
             <el-input
                 v-model="melt"
                 size="small"

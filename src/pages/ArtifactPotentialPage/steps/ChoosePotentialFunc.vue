@@ -17,16 +17,18 @@
             class="item hand"
             v-for="(f, key) in potentialFuncData"
             :key="key"
+            style="color:white"
             :class="{ active: key === value }"
             @click="handleClick(key)"
         >
             <div>
                 <img class="badge" :src="f.badge">
             </div>
-            <div class="detail">
+            <div class="detail" >
                 <p class="title fs-14">{{ f.chs }}</p>
-                <div class="description fs-12">
+                <div class="description fs-12" >
                     <span
+                        style="color:white"
                         v-for="(des, index) in f.description"
                         :key="index"
                     >

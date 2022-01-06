@@ -5,7 +5,7 @@ import { getAttribute } from "@util/attribute";
 let rowsQ = [
     {
         key: "dmg1",
-        chs: "落雷伤害",
+        chs: "Falling Thunder Damage",
     },
 ];
 

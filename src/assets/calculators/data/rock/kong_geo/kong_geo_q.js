@@ -3,7 +3,7 @@ import { getAttribute } from "@util/attribute";
 
 
 let rowsQ = [
-    { key: "dmg1", chs: "地震波单次伤害" },
+    { key: "dmg1", chs: "Damage Per Shockwave" },
 ];
 
 export default function (artifacts, configObject, enemy) {

@@ -125,7 +125,9 @@ export default {
 .special:hover {
     background: #345678;
 }
-
+.config-title{
+    color: white;
+}
 /* .active {
     background: #12345622;
 } */

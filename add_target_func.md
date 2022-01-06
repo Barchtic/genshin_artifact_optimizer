@@ -19,10 +19,10 @@ export default {
     name: "aboveCrit",    // 唯一的标识
     chs: "固定暴击率",     // 显示的中文
     description: [        // 描述
-        "Prioritize stacking blast rate to a given threshold, then stack attack and burst damage",
+        "优先堆暴击率到给定阈值，再堆攻击和爆伤",
     ],
     tags: [               // 标签
-        "Damage",
+        "输出",
     ],
     "for": "common",      // 如果是角色专属，就写角色名，公共的写common
     badge,                // 显示的图标

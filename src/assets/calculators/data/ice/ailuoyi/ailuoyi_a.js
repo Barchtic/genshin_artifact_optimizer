@@ -14,16 +14,16 @@ let rowsA = [
 ];
 
 let rowsB1 = [
-    { key: "bDmg1", chs: "Charge Attack Damage (Aimshot)" },
+    { key: "bDmg1", chs: "Aimshot" },
 ]
 
 let rowsB2 = [
-    { key: "bDmg2", chs: "Charge Attack Damage (Fully Charge Aimshot)" },
+    { key: "bDmg2", chs: "Fully Charge Aimshot" },
 ];
 
 let rowsB = [
-    { key: "bDmg1", chs: "Charge Attack Damage (Aimshot)" },
-    { key: "bDmg2", chs: "Charge Attack Damage (Fully Charge Aimshot)" },
+    { key: "bDmg1", chs: "Aimshot" },
+    { key: "bDmg2", chs: "Fully Charge Aimshot" },
 ]
 
 function rowIce(attribute, configObject, enemy, rowConfig, skillName, { coilCount, iceRush }) {

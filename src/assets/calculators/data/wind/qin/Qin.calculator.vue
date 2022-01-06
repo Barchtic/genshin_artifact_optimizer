@@ -5,9 +5,9 @@
             size="small"
             style="margin: 16px 0"
         >
-            <el-radio-button label="a">普通攻击-西风剑术</el-radio-button>
-            <el-radio-button label="e">风压剑</el-radio-button>
-            <el-radio-button label="q">蒲公英之风</el-radio-button>
+            <el-radio-button label="a">Normal Attack</el-radio-button>
+            <el-radio-button label="e">Elemental Skill</el-radio-button>
+            <el-radio-button label="q">Ultimate</el-radio-button>
         </el-radio-group>
 
         <div v-show="showSkill === 'a'">
@@ -34,8 +34,8 @@
             <common-table-wind
                 :data="qinQ.q"
             ></common-table-wind>
-            <p class="single-item">领域发动治疗量：{{ qinQ.cure1 }}</p>
-            <p class="single-item">持续治疗量：{{ qinQ.cure2 }}</p>
+            <p class="single-item">Field Activations Healing: {{ qinQ.cure1 }}</p>
+            <p class="single-item">Continous Healing: {{ qinQ.cure2 }}</p>
         </div>
     </div>
 </template>

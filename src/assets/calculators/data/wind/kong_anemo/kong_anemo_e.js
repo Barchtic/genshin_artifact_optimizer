@@ -3,10 +3,10 @@ import { getAttribute } from "@util/attribute";
 
 
 let rowsE = [
-    { key: "dmg1", chs: "初始切割伤害" },
-    { key: "dmg2", chs: "最大切割伤害" },
-    { key: "dmg3", chs: "初始爆风伤害" },
-    { key: "dmg4", chs: "最大爆风伤害" },
+    { key: "dmg1", chs: "Initial Cutting Damage" },
+    { key: "dmg2", chs: "Max Cutting Damage" },
+    { key: "dmg3", chs: "Initital Storm Damage" },
+    { key: "dmg4", chs: "Max Storm Damage" },
 ];
 
 export default function (artifacts, configObject, enemy) {

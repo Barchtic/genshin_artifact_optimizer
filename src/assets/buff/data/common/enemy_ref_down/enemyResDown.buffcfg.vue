@@ -1,13 +1,13 @@
 <template>
     <div>
         <single-value
-            title="数值（0-100）"
+            title="Value（0-100）"
             v-model="value"
             :percentage="true"
         ></single-value>
 
         <div class="buff-config-item">
-            <h3 class="buff-config-title">元素类型</h3>
+            <h3 class="buff-config-title">Element Type</h3>
             <select-element-multi
                 v-model="elementTypes"
             ></select-element-multi>

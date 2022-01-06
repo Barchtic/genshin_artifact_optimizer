@@ -24,7 +24,7 @@
                 <el-button
                     size="small"
                     @click="handleNewKumi"
-                >New Set<i class="el-icon-plus"></i></el-button>
+                >New Set <i class="el-icon-plus"></i></el-button>
             </div>
             
             <div class="right">
@@ -108,7 +108,7 @@ export default {
         handleNewKumi() {
             this.$store.commit("kumi/newKumi", {
                 ids: [-1, -1, -1, -1, -1],
-                label: "New Set",
+                label: "New Set ",
                 under: this.dirId,
             });
         },
@@ -154,6 +154,7 @@ export default {
 
 .kumi-item {
     margin-bottom: 16px;
+   
     
     // box-shadow: 0px 0px 10px 1px #00000011;
 }
@@ -164,7 +165,7 @@ export default {
     justify-content: space-between;
     border-bottom: 1px solid #dcdfe6;
     padding: 8px;
-
+    
     .child-label {
         font-size: 14px;
 
@@ -173,7 +174,6 @@ export default {
             outline: none;
             padding: 8px;
             border-radius: 3px;
-
         }
     }
 }

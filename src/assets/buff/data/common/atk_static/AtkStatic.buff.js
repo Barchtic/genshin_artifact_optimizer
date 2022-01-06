@@ -3,7 +3,7 @@ import config from "./AtkStatic.buffcfg";
 
 export default {
     name: "atkStatic",
-    chs: "固定攻击力",
+    chs: "Fixed Attack",
     badge,
     config,
     genre: "custom",

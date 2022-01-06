@@ -60,7 +60,7 @@ export default {
     display: flex;
     position: relative;
     overflow: hidden;
-
+   
     .back-image {
         position: absolute;
         right: 0;
@@ -85,7 +85,7 @@ export default {
 
         .effect-div {
             font-size: 13px;
-            color: #606166;
+            color: #ffffff;
 
             .effect-count {
                 color: #67C23A;

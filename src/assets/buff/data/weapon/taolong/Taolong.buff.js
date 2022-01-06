@@ -3,7 +3,7 @@ import config from "./Taolong.buffcfg";
 
 export default {
     name: "taolong",
-    chs: "讨龙英杰谭",
+    chs: "Trilling Tales Of Dragon Slayers",
     badge: weaponsData["taolongyingjietan"].url,
     config,
     genre: "weapon",

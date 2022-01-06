@@ -28,7 +28,7 @@
                 ></component>
 
                 <h3 class="title3">Amplified Reaction Damage</h3>
-                <CommonTableTransformative :data="reactionDamageTable"></CommonTableTransformative>
+                <CommonTableTransformative class="react-table" :data="reactionDamageTable"></CommonTableTransformative>
             </el-col>
             <el-col :span="6">
                 <attribute-panel v-if="configObject !== null" :panel="attributePanel"></attribute-panel>
@@ -145,4 +145,14 @@ export default {
 .toolbar {
     margin-bottom: 16px;
 }
+.title3{
+    color: white;
+}
+.react-table{
+    color: #fcba03;
+}
+.legend{
+    color: red;
+   
+} 
 </style>

@@ -3,7 +3,7 @@ import config from "./Leidianjiangjun.buffcfg.vue";
 
 export default {
     name: "leidianjiangjun",
-    chs: "雷电将军-雷罚恶曜之眼",
+    chs: "Raiden Shogun - Eye of Stormy Judgment",
     badge,
     config,
     genre: "character",

@@ -2,7 +2,7 @@ import { tableThunder } from "../../../utils";
 import { getAttribute } from "@util/attribute";
 
 let rowsE = [
-    { key: "dmg1", chs: "天狗咒雷·伏" },
+    { key: "dmg1", chs: "Tengu Juurai: Ambush Damage" },
 ];
 
 export default function (artifacts, configObject, enemy) {

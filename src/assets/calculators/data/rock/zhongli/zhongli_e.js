@@ -6,9 +6,9 @@ import { rowRock } from "../../../utils";
 let skill = charactersData["zhongli"].skill;
 
 let rowsE = [
-    { key: "dmg1", chs: "岩脊伤害" },
-    { key: "dmg2", chs: "共鸣伤害" },
-    { key: "dmg2", chs: "长按伤害" },
+    { key: "dmg1", chs: "Stone Stele Damage" },
+    { key: "dmg2", chs: "Resonance Damage" },
+    { key: "dmg2", chs: "Hold Damage" },
 ];
 
 export default function (artifacts, configObject, enemy) {

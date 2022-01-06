@@ -2,12 +2,12 @@ import { rowsAir, tableRock } from "../../../utils";
 import { getAttribute } from "@util/attribute";
 
 let rowsA = [
-    { key: "dmg1", chs: "普攻伤害" },
-    { key: "dmg2", chs: "星璇伤害" },
+    { key: "dmg1", chs: "1- Normal Attack Damage" },
+    { key: "dmg2", chs: "2- Normal Attack Damage" },
 ];
 
 let rowsB = [
-    { key: "bDmg1", chs: "重击伤害" },
+    { key: "bDmg1", chs: "Charge Attack Damage -1" },
 ]
 
 export default function (artifacts, configObject, enemy) {

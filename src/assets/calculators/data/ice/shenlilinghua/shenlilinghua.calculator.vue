@@ -5,27 +5,27 @@
             size="small"
             style="margin: 16px 0"
         >
-            <el-radio-button label="a">普通攻击·神里流·倾</el-radio-button>
-            <el-radio-button label="e">神里流·冰华</el-radio-button>
-            <el-radio-button label="q">神里流·霜灭</el-radio-button>
+            <el-radio-button label="a">Normal Attack</el-radio-button>
+            <el-radio-button label="e">Elemental Skill</el-radio-button>
+            <el-radio-button label="q">Ultimate</el-radio-button>
         </el-radio-group>
 
         <div style="margin-bottom: 12px">
             <el-switch
                 v-model="afterDash"
-                active-text="神里流·霰步后"
+                active-text="Cryo Infused Normal Attacks"
             ></el-switch>
         </div>
         <div style="margin-bottom: 12px">
             <el-switch
                 v-model="afterTalent1"
-                active-text="天罪国罪镇词"
+                active-text="After Using Elemental Skill"
             ></el-switch>
         </div>
         <div style="margin-bottom: 12px">
             <el-switch
                 v-model="afterTalent2"
-                active-text="寒天宣命祝词"
+                active-text="After Dash"
             ></el-switch>
         </div>
 

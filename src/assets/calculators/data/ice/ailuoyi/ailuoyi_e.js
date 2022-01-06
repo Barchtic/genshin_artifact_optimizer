@@ -3,8 +3,8 @@ import { getAttribute } from "@util/attribute";
 
 
 let rowsE = [
-    { key: "dmg1", chs: "冰尘弹" },
-    { key: "dmg2", chs: "冷冻炸弹" },
+    { key: "dmg1", chs: "Freeze Bomb Damage" },
+    { key: "dmg2", chs: "Chillwater Damage" },
 ];
 
 export default function (artifacts, configObject, enemy) {

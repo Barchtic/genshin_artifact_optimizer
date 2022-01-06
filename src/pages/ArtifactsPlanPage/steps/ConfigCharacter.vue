@@ -55,6 +55,7 @@
             :value="levelText"
             title="Character Level"
             @input="handleChangeLevel"
+         
         ></select-level>
     </div>
 </template>
@@ -179,6 +180,7 @@ export default {
     .image {
         position: absolute;
         right: 50px;
+        
         // right: 0;
         top: -30px;
         width: 120px;
@@ -190,5 +192,8 @@ export default {
 
 .skill {
     margin-right: 18px;
+}
+h3{
+    color:white;
 }
 </style>

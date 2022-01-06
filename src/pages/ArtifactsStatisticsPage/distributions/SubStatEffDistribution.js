@@ -41,17 +41,20 @@ export default function(vm) {
             //     return `${data.value / sum}%`
             // }
         },
+        
         legend: {
             // top: "0",
             left: "left",
             orient: "vertical",
         },
+        
         series: [
             {
                 name: "Sub Statt Efficiency Distribution",
                 type: "pie",
                 radius: ["40%", "70%"],
                 label: {
+                    
                     // show: false,
                     formatter: ({ data }) => {
                         if (sum === 0) {

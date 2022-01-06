@@ -12,9 +12,9 @@
 
         <div v-show="showSkill === 'a'">
             <div class="buff-config-item">
-                <h3 class="buff-config-title">是否处于“仪来羽衣”状态</h3>
+                <h3 class="buff-config-title">Ceremonial Garment Active</h3>
                 <el-switch
-                    active-text="是"
+                    active-text="Yes"
                     v-model="configA.afterQ"
                 ></el-switch>
             </div>
@@ -34,9 +34,9 @@
 
         <div v-show="showSkill === 'e'">
             <div class="buff-config-item">
-                <h3 class="buff-config-title">是否处于“仪来羽衣”状态</h3>
+                <h3 class="buff-config-title">Ceremonial Garment Active</h3>
                 <el-switch
-                    active-text="是"
+                    active-text="Yes"
                     v-model="configE.afterQ"
                 ></el-switch>
             </div>
@@ -44,14 +44,14 @@
             <common-table-water
                 :data="shanhugongxinhaiE.e"
             ></common-table-water>
-            <p class="single-item">治疗量：{{ shanhugongxinhaiE.heal.toFixed(2) }}</p>
+            <p class="single-item">Elemental Skill Healing: {{ shanhugongxinhaiE.heal.toFixed(2) }}</p>
         </div>
 
         <div v-show="showSkill === 'q'">
             <common-table-water
                 :data="shanhugongxinhaiQ.q"
             ></common-table-water>
-            <p class="single-item">命中治疗量：{{ shanhugongxinhaiQ.heal }}</p>
+            <p class="single-item">Ultimate Healing: {{ shanhugongxinhaiQ.heal }}</p>
         </div>
     </div>
 </template>

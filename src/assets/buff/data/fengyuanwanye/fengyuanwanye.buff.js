@@ -3,7 +3,7 @@ import config from "./Wanye.buffcfg.vue";
 
 export default {
     name: "fengyuanwanye",
-    chs: "枫原万叶-风物之诗咏",
+    chs: "Kaedehara Kazuha - Poetics of Fuubutsu",
     badge,
     config,
     genre: "character",

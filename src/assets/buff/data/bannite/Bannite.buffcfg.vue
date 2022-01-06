@@ -1,7 +1,7 @@
 <template>
     <div>
         <single-value
-            title="班尼特的基础攻击力"
+            title="Bennett's Base Attack: "
             v-model="baseAtk"
         ></single-value>
 

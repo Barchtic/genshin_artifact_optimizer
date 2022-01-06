@@ -76,6 +76,7 @@ export default {
         width: 100%;
         box-sizing: border-box;
         background: none;
+        color: white;
 
         &:focus {
             // background: #00000008;

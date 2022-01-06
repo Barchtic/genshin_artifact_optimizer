@@ -3,7 +3,7 @@ import config from "./CriticalDamage.buffcfg";
 
 export default {
     name: "criticalDamage",
-    chs: "暴击伤害",
+    chs: "Crit Damage",
     badge,
     config,
     genre: "custom",

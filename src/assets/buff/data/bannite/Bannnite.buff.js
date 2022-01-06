@@ -3,8 +3,8 @@ import config from "./Bannite.buffcfg.vue";
 
 export default {
     name: "bannite",
-    chs: "班尼特-美妙旅程",
-    description: "班尼特大招",
+    chs: "Bennett - Fantastic Voyage",
+    description: "Bennett's Ultimate",
     badge,
     config,
     genre: "character",

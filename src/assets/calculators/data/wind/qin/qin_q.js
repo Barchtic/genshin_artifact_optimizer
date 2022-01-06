@@ -5,8 +5,8 @@ import { charactersData } from "@asset/characters";
 let skill = charactersData["qin"].skill;
 
 let rowsQ = [
-    { key: "dmg1", chs: "爆发伤害" },
-    { key: "dmg2", chs: "出入领域伤害" }
+    { key: "dmg1", chs: "Elemental Burst Damage" },
+    { key: "dmg2", chs: "Field Entering Exiting Damage" }
 ];
 
 export default function (artifacts, configObject, enemy) {

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <single-value title="数值" v-model="value"></single-value>
+        <single-value title="Value" v-model="value"></single-value>
     </div>
 </template>
 

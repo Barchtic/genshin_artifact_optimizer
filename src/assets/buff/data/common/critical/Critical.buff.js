@@ -3,7 +3,7 @@ import config from "./Critical.buffcfg";
 
 export default {
     name: "critical",
-    chs: "暴击率",
+    chs: "Crit Rate",
     badge,
     config,
     genre: "custom",

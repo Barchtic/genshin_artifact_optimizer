@@ -4,11 +4,11 @@ import { getAttribute } from "@util/attribute";
 let rowsE = [
     {
         key: "dmg1",
-        chs: "奥兹攻击伤害",
+        chs: "Oz's Attack Damage",
     },
     {
         key: "dmg2",
-        chs: "召唤伤害",
+        chs: "Summoning Damage",
     },
 ];
 

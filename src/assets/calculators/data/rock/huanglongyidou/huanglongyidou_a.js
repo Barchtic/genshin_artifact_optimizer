@@ -6,10 +6,10 @@ import { charactersData } from "@asset/characters";
 const skill = charactersData["huanglongyidou"].skill;
 
 const rowsA = [
-    { key: "dmg1", chs: "Damage 1" },
-    { key: "dmg2", chs: "Damage 2" },
-    { key: "dmg3", chs: "Damage 3" },
-    { key: "dmg4", chs: "Damage 4" },
+    { key: "dmg1", chs: "1- Normal Attack Damage" },
+    { key: "dmg2", chs: "2- Normal Attack Damage" },
+    { key: "dmg3", chs: "3- Normal Attack Damage" },
+    { key: "dmg4", chs: "4- Normal Attack Damage" },
 ];
 
 const rowsB1 = [

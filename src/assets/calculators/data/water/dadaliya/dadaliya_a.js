@@ -31,14 +31,14 @@ let rowsA = [
 let rowsB1 = [
     {
         key: "bDmg1",
-        chs: "Charge Attack Damage (Aimshot)",
+        chs: "Aimshot",
     },
 ];
 
 let rowsB2 = [
     {
         key: "bDmg2",
-        chs: "Charge Attack Damage (Fully Charged Aimshot)",
+        chs: "Fully Charged Aimshot",
     }
 ];
 

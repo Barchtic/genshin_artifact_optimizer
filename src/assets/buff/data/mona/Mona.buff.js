@@ -3,8 +3,8 @@ import config from "./Mona.buffcfg.vue";
 
 export default {
     name: "mona",
-    chs: "莫娜-星异",
-    description: "莫娜星异状态下的伤害加成",
+    chs: "Mona - Omen",
+    description: "Damage bonus from Mona's Omen state",
     badge,
     config,
     genre: "character",
