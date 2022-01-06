@@ -9,7 +9,7 @@ const WorkerPlugin = require("worker-plugin");
 const BEIAN_CODE = "";
 
 
-let title = "莫娜占卜铺";
+let title = "Genshin Artifact Optimizer";
 if ("MONA_TITLE" in process.env) {
     title = process.env.MONA_TITLE;
 }
