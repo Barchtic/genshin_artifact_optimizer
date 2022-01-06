@@ -13,7 +13,7 @@
     "pack": "tar -czvf dist.tar.gz ./dist",
     "optimize-png": "node ./script/optimize_png.js",
     "download-artifact": "node ./script/download_artifact.js",
-    "postinstall": "npm run build",
+    "postinstall": "yarn run build",
     "start": "node server.js"
   },
   "dependencies": {
