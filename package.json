@@ -13,7 +13,6 @@
     "pack": "tar -czvf dist.tar.gz ./dist",
     "optimize-png": "node ./script/optimize_png.js",
     "download-artifact": "node ./script/download_artifact.js",
-    "postinstall": "cross-env MONA_TITLE=Genshin_Artifact_Optimizer MONA_NEED_BEIAN=false MONA_NEED_MIGRATE=false MONA_ROUTE_MODE=hash vue-cli-service build",
     "start": "node server.js"
   },
   "dependencies": {
@@ -74,9 +73,6 @@
       "parser": "babel-eslint"
     },
     "rules": {}
-  },
-  "engines": {
-    "node": "14.x"
   },
   "browserslist": [
     "> 1%",
