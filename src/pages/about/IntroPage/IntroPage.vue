@@ -22,14 +22,14 @@
 
         <el-alert
             class="hidden-sm-and-up"
-            title="使用PC访问以启用全部功能，当前仅能查看信息页"
+            title="Use PC access to enable full functionality, currently only information pages can be viewed"
             type="error"
             style="margin-bottom: 16px"
             :closable="false"
         ></el-alert>
 
         <div class="update-banner">
-            <p style="font-size: 24px; margin: 0;">V {{ version }}</p>
+            <p style="font-size: 24px; margin: 0; color:white">V {{ version }}</p>
             <ul>
                 <li
                     v-for="(item, index) in lastestVersion.changes"

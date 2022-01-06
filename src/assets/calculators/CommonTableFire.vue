@@ -7,7 +7,6 @@
         >
             <el-table-column
                 label="Skill"
-                style="color: red"
                 property="chs"
                 width="300"
             ></el-table-column>
