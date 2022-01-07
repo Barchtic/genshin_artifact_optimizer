@@ -5,7 +5,7 @@ export default {
     name: "dilukeNormal",
     chs: "Diluc - Regular",
     description: [
-        "Mixed Damge Diluc",
+        "Mixed Damage Diluc",
     ],
     tags: [
         "Damage",

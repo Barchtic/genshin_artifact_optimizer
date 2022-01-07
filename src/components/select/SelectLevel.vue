@@ -40,10 +40,10 @@
                 <span class="select-int" :class="{ active: value === '30+' }">30+</span>
                 <span
                     v-for="i in 9"
-                    :key="i + 40"
+                    :key="i + 30"
                     class="select-int"
-                    :class="{ active: (i + 40).toString() === value }"
-                >{{ i + 40 }}</span>
+                    :class="{ active: (i + 30).toString() === value }"
+                >{{ i + 30 }}</span>
                 <span class="select-int" :class="{ active: value === '40-' }">40-</span>
             </div>
 
@@ -51,34 +51,44 @@
                 <span class="select-int" :class="{ active: value === '40+' }">40+</span>
                 <span
                     v-for="i in 9"
+                    :key="i + 40"
+                    class="select-int"
+                    :class="{ active: (i + 40).toString() === value }"
+                >{{ i + 40 }}</span>
+                <span class="select-int" :class="{ active: value === '50-' }">50-</span>
+            </div>
+
+            <div class="panel">
+                <span class="select-int" :class="{ active: value === '50+' }">50+</span>
+                <span
+                    v-for="i in 9"
                     :key="i + 50"
                     class="select-int"
                     :class="{ active: (i + 50).toString() === value }"
                 >{{ i + 50 }}</span>
-                <span class="select-int" :class="{ active: value === '60-' }">60-</span>
+                <span class="select-int" :class="{ active: value === '60-' }" v-if="star >= 3">60-</span>
+                <span class="select-int" :class="{ active: value === '60+' }" v-else>60+</span>
             </div>
 
-            <div class="panel">
-                <span class="select-int" :class="{ active: value === '60+' }">60+</span>
+            <div class="panel" v-if="star >= 3">
+                <span class="select-int" :class="{ active: value === '70-' }">70-</span>
                 <span
                     v-for="i in 9"
                     :key="i + 60"
                     class="select-int"
-                    :class="{ active: (i + 60).toString() === value }"
+                    :class="{ active: i + 60 == value }"
                 >{{ i + 60 }}</span>
-                <span class="select-int" :class="{ active: value === '70-' }" v-if="star >= 3">70-</span>
-                <span class="select-int" :class="{ active: value === '70' }" v-else>70</span>
+                <span class="select-int" :class="{ active: value === '70+' }">70+</span>
             </div>
 
             <div class="panel" v-if="star >= 3">
-                <span class="select-int" :class="{ active: value === '70+' }">70+</span>
+                <span class="select-int" :class="{ active: value === '80-' }">80-</span>
                 <span
-                    v-for="i in 9"
+                    v-for="i in 10"
                     :key="i + 70"
                     class="select-int"
                     :class="{ active: i + 70 == value }"
                 >{{ i + 70 }}</span>
-                <span class="select-int" :class="{ active: value === '80-' }">80-</span>
             </div>
 
             <div class="panel" v-if="star >= 3">
