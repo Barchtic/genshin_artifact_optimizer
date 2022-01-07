@@ -3,10 +3,10 @@ import config from "./Liulangyuezhang.wcfg.vue";
 
 export default {
     name: "liulangyuezhang",
-    chs: "流浪乐章",
+    chs: "The Widsith",
     url: tn,
     star: 4,
     type: "book",
     config,
-    effect: "登场乐：角色登场时，随机获得一个主题曲，持续10秒。每30秒只能触发一次。宣叙调：攻击力提升60%/75%/90%/105%/120%；咏叹调：全元素伤害提升48%/60％/72%/84%/96%；间奏曲：元素精通提升240/300/360/420/480。"
+    effect: "Debut: When a character takes the field, they will gain a random theme song for 10s. This can only occur once every 30s"
 }

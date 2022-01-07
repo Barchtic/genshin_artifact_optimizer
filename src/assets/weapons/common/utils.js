@@ -36,11 +36,11 @@ function f(name, max, title, defaul, attrName) {
 }
 
 export function commonConfigRate(name) {
-    return f(name, 1, "平均被动触发比例", 0.3, "rate");
+    return f(name, 1, "Average Passive Trigger Ratio", 0.3, "rate");
 }
 
 export function commonConfigLevel(name, max) {
-    return f(name, max, "平均被动效果层数", max / 2, "level");
+    return f(name, max, "Average Number of Passive Effect Stacks", max / 2, "level");
 }
 
 export function commonConfigPassive(name, title, attrName="passive") {
@@ -53,8 +53,8 @@ export function commonConfigPassive(name, title, attrName="passive") {
                     h("el-switch", {
                         props: {
                             value: this[attrName],
-                            "active-text": "是",
-                            "inactive-text": "否",
+                            "active-text": "Yes",
+                            "inactive-text": "No",
                         },
                         on: {
                             input: value => {

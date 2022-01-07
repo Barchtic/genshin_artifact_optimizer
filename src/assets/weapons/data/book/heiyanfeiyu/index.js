@@ -3,10 +3,10 @@ import tn from "./tn.png";
 
 export default {
     name: "heiyanfeiyu",
-    chs: "黑岩绯玉",
+    chs: "Blackcliff Agate",
     url: tn,
     star: 4,
     type: "book",
-    config: () => commonConfigLevel("黑岩绯玉", 3),
-    effect: "乘胜追击：击败敌人后，攻击力提升12%/15%/18%/21%/24%，续30秒。该效果至多叠加3层，每层持续时间独立。"
+    config: () => commonConfigLevel("Blackcliff Agate", 3),
+    effect: "Press The Advantage：After defeating an opponent, ATK is increased by 12/15/18/21/24% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others."
 }

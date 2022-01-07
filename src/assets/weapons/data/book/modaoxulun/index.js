@@ -3,10 +3,10 @@ import tn from "./tn.png";
 
 export default {
     name: "modaoxulun",
-    chs: "魔导绪论",
+    chs: "Magic Guide",
     url: tn,
     star: 3,
     type: "book",
-    config: () => commonConfigRate("魔导绪论"),
-    effect: "止水息雷：对处于水元素或雷元素影响下的敌人，造成的伤害提高12%/15%/18%/21%/24%。"
+    config: () => commonConfigRate("Magic Guide"),
+    effect: "Bane of Storm and Tide：Increases DMG against enemies affected by Hydro or Electro by 12/15/18/21/24%."
 }

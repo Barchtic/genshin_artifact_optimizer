@@ -8,7 +8,7 @@
         <p
             class="title"
         >
-            <span class="mona">{{ webTitle }}</span>
+            <span class="mona">Genshin Artifacts Optimizer</span>
             V{{ version }}
             <span class="build-info">BUILD ON {{ buildDate }}</span>
         </p>
@@ -41,7 +41,7 @@
         <!-- <el-card class="mb16">
             <p class="big-card-title">赞助商</p>
             <nok-nok></nok-nok>
-        </el-card> -->
+        </el-card> 
 
         <el-card class="mb16">
             <p class="big-card-title">Features</p>
@@ -72,7 +72,7 @@
                 </el-col>
             </el-row>
         </el-card>
-    <!--
+
         <el-card class="mb16">
             <p class="big-card-title">开源地址</p>
             <el-alert
@@ -212,14 +212,14 @@ import changelogs from "@/changelog/changelog";
 import links from "@const/links";
 
 import MigrateNotification from "./MigrateNotification";
-import UseCaseItem from "./UseCaseItem";
+//import UseCaseItem from "./UseCaseItem";
 // import NokNok from "./ad/NokNok";
 
 export default {
     name: "IntroPage",
     components: {
         MigrateNotification,
-        UseCaseItem,
+        //UseCaseItem,
         // NokNok,
     },
     created: function() {

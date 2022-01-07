@@ -3,10 +3,10 @@ import tn from "./tn.png";
 
 export default {
     name: "ganglungong",
-    chs: "钢轮弓",
+    chs: "Compound Bow",
     url: tn,
     star: 4,
     type: "bow",
-    config: () => commonConfigLevel("钢轮弓", 4),
-    effect: "注能之矢：普通攻击和瞄准攻击命中时，提升4%/5%/6%/7%/8%攻击力与1.2%/1.5%/1.8%/2.1%/2.4%普通攻击速度。该效果持续6秒，最多可以叠加4层，每0.3秒只能触发一次。"
+    config: () => commonConfigLevel("Compound Bow", 4),
+    effect: "Infusion Arrow：Normal Attack and Aimed Shot hits increase ATK by 4/5/6/7/8% and Normal Attack SPD by 1.2/1.5/1.8/2.1/2.4% for 6s. Max 4 stacks. Can only occur once every 0.3s."
 }

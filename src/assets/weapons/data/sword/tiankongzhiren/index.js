@@ -2,9 +2,9 @@ import tn from "./tn.png";
 
 export default {
     name: "tiankongzhiren",
-    chs: "天空之刃",
+    chs: "Skyward Blade",
     url: tn,
     star: 5,
     type: "sword",
-    effect: "穿刺高天的利齿：暴击率提升4%/5%/6%/7%/8%；施放元素爆发时，获得破空之势：移动速度提升10%，攻击速度提升10%，普通攻击与重击命中时，额外造成20%/25%/30%/35%/40%攻击力的伤害，持续12秒。"
+    effect: "Sky-Piercing Fang：CRIT Rate increased by 4/5/6/7/8%. Gains Skypiercing Might upon using an Elemental Burst: Increases Movement SPD by 10%, increases ATK SPD by 10%, and increases the DMG of Normal and Charged Attack hits by 20/25/30/35/40% for 12s."
 }

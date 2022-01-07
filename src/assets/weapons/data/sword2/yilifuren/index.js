@@ -2,9 +2,9 @@ import tn from "./tn.png";
 
 export default {
     name: "yilifuren",
-    chs: "以理服人",
+    chs: "Debate Club",
     url: tn,
     star: 3,
     type: "sword2",
-    effect: "有话直说：施放元素战技后，普通攻击和重击命中时会在小范围内额外造成60%/75%/90%/105%/120%攻击力的伤害。该效果持续15秒，伤害每3秒只能触发一次。"
+    effect: "Blunt Conclusion：After using an Elemental Skill, Normal or Charged Attacks, on hit, deal an additional 60/75/90/105/120% ATK DMG in a small area. Effect lasts 15s. DMG can only occur once every 3s."
 }

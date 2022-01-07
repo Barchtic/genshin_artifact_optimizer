@@ -3,10 +3,10 @@ import config from "./JuedouzhiqiangConfig.wcfg.vue";
 
 export default {
     name: "juedouzhiqiang",
-    chs: "决斗之枪",
+    chs: "Deathmatch",
     url: tn,
     star: 4,
     type: "stick",
     config,
-    effect: "角斗士：身边至少有2个敌人时，获得16%/20%/24%/28%/32%攻击力提升与16%/20%/24%/28%/32%防御力提升；身边的敌人少于2个时，获得24%/30%/36%/42%/48%攻击力提升。"
+    effect: "Gladiator：If there are at least 2 opponents nearby, ATK is increased by 16/20/24/28/32% and DEF is increased by 16/20/24/28/32%. If there are less than 2 enemies nearby, ATK is increased by 24/30/36/42/48%."
 }

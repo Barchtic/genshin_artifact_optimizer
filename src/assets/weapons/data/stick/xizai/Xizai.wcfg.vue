@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="config-item">
-            <h3 class="config-title">平均层数</h3>
+            <h3 class="config-title">Average Number of Stacks</h3>
             <el-slider
                 v-model="level"
                 :min="0"
@@ -11,11 +11,11 @@
             ></el-slider>
         </div>
         <div class="config-item">
-            <h3 class="config-title">是否处于后台</h3>
+            <h3 class="config-title">Is it the Background</h3>
             <el-switch
                 v-model="isBackend"
-                active-text="是"
-                inactive-text="否"
+                active-text="Yes"
+                inactive-text="No"
             ></el-switch>
         </div>
     </div>

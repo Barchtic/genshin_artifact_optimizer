@@ -2,9 +2,9 @@ import tn from "./tn.png";
 
 export default {
     name: "xifengjian",
-    chs: "西风剑",
+    chs: "Favonius Sword",
     url: tn,
     star: 4,
     type: "sword",
-    effect: "顺风而行：攻击造成暴击时，有60%/70%/80%/90%/100%的几率产生少量元素微粒，能为角色恢复6点元素能量。该效果每12/10.5/9/7.5/6秒只能触发一次。",
+    effect: "Windfall：CRIT hits have a 60/70/80/90/100% chance to generate 1 Elemental Orb, which will regenerate 6 Energy for the character. Can only occur once every 12/10.5/9/7.5/6s.",
 }

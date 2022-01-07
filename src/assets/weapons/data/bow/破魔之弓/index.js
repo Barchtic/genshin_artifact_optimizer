@@ -3,10 +3,10 @@ import { commonConfigRate } from "../../../common/utils";
 
 export default {
     name: "pomozhigong",
-    chs: "破魔之弓",
+    chs: "Hamayumi",
     url: tn,
     star: 4,
     type: "bow",
-    config: () => commonConfigRate("破魔之弓"),
-    effect: "普通攻击造成的伤害提升16/20/24/28/32%，重击造成的伤害提升12/15/18/21/24%。当装备该武器的角色元素能量等于100%时，这个效果提升100%。"
+    config: () => commonConfigRate("Hamayumi"),
+    effect: "Full Draw: Increases Normal Attack DMG by 16/20/24/28/32% and Charged ATK DMG by 12/15/18/21/24%. When the equipping character’s Energy reaches 100%, this effect is increased by 100%."
 }

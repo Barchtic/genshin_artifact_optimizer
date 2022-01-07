@@ -3,10 +3,10 @@ import tn from "./tn.png";
 
 export default {
     name: "amosizhigong",
-    chs: "阿莫斯之弓",
+    chs: "Amos' Bow",
     url: tn,
     star: 5,
     type: "bow",
-    config: () => commonConfigLevel("阿莫斯之弓", 5),
-    effect: "矢志不忘：普通攻击和重击造成的伤害提升12%/15%/18%/21%/24%;箭矢发射后每经过0.1秒，伤害还会提升8%/10%/12%/14%/16%。至多提升5次。"
+    config: () => commonConfigLevel("Amos' Bow", 5),
+    effect: "Strong-Willed：Increases Normal Attack and Aimed Shot DMG by 12/15/18/21/24%. Increases DMG from arrows shot by a further 8/10/12/14/16% for every 0.1s that the arrow is in flight, up to 0.5s. Stacks up to 5 times on each arrow."
 }

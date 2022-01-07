@@ -3,10 +3,10 @@ import { commonConfigLevel } from "../../../common/utils";
 
 export default {
     name: "heiyanchangjian",
-    chs: "黑岩长剑",
+    chs: "Blackcliff Longsword",
     url: tn,
     star: 4,
     type: "sword",
-    config: () => commonConfigLevel("黑岩长剑", 3),
-    effect: "乘胜追击：击败敌人后，攻击力提升12%/15%/18%/21%/24%，持续30秒。该效果至多叠加三层，每层持续时间独立。",
+    config: () => commonConfigLevel("Blackcliff Longsword", 3),
+    effect: "Press the Advantage：After defeating an enemy, ATK is increased by 12/15/18/21/24% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
 }

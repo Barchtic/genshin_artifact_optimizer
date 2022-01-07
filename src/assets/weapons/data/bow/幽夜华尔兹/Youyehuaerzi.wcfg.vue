@@ -1,18 +1,18 @@
 <template>
     <div>
         <div class="config-item">
-            <h3 class="config-title">平均效果1比例</h3>
+            <h3 class="config-title">Average Effect 1 Ratio</h3>
             <el-alert
-                title="普通攻击命中敌人后的5秒内，元素战技造成的伤害提升20%/25%/30%/35%/40%"
+                title="Normal Attack hits on opponents increase Elemental Skill DMG by 20/25/30/35/40% for 5s."
                 :closable="false"
                 style="margin-bottom: 16px"
             ></el-alert>
             <common-config-slider v-model="rate1"></common-config-slider>
         </div>
         <div class="config-item">
-            <h3 class="config-title">平均效果2比例</h3>
+            <h3 class="config-title">Average Effect 1 Ratio</h3>
             <el-alert
-                title="元素战技命中敌人后的5秒内，普通攻击造成的伤害提升20%/25%/30%/35%/40%"
+                title="Elemental Skill hits on opponents increase Normal Attack DMG by 20/25/30/35/40% for 5s."
                 :closable="false"
                 style="margin-bottom: 16px"
             ></el-alert>
@@ -27,7 +27,7 @@ import CommonConfigSlider from "../../../common/CommonConfigSlider.vue"
 
 export default {
     components: { CommonConfigSlider },
-    name: "幽夜华尔兹.wcfg",
+    name: "Mitternachts Waltz.wcfg",
     data() {
         return {
             rate1: 0.3,

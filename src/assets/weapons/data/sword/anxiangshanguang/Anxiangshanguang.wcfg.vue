@@ -1,11 +1,11 @@
 <template>
     <div>
         <div class="config-item">
-            <h3 class="config-title">应用效果（未被击中）</h3>
+            <h3 class="config-title">Application Effect (No Damage)</h3>
             <el-switch
                 v-model="undamaged"
-                active-text="是"
-                inactive-text="否"
+                active-text="Yes"
+                inactive-text="No"
             ></el-switch>
         </div>
     </div>

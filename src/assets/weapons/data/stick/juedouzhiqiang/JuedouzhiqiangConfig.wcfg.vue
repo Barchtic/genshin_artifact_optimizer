@@ -1,11 +1,11 @@
 <template>
     <div>
         <div class="config-item">
-            <h3 class="config-title">身边有2个及以上敌人</h3>
+            <h3 class="config-title">Have 2 or More Enemies Around You</h3>
             <el-switch
                 v-model="enemyAbove2"
-                active-text="是"
-                inactive-text="否"
+                active-text="Yes"
+                inactive-text="No"
             ></el-switch>
         </div>
     </div>

@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="config-item">
-            <h3 class="config-title">平均效果比例</h3>
+            <h3 class="config-title">Average Effect Ratio</h3>
             <common-config-slider v-model="rate" :max="1"></common-config-slider>
         </div>
     </div>

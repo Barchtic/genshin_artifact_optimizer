@@ -3,9 +3,9 @@ import tn from "./tn.png";
 
 export default {
     name: "tianmuyingdadao",
-    chs: "天目影打刀",
+    chs: "Amenoma Kageuchi",
     url: tn,
     star: 4,
     type: "sword",
-    effect: "施放元素战技后，获得1个胤种，该效果每5秒至多触发一次。胤种持续30秒，至多同时存在3个。施放元素爆发后，会清除持有的所有胤种，并在2秒之后，基于消耗的胤种数量，每个为该角色恢复6/7.5/9/10.5/12点元素能量",
+    effect: "Iwakura Sucession:	After casting an Elemental Skill, gain 1 Succession Seed. This effect can be triggered once every 5s. The Succession Seed lasts for 30s. Up to 3 Succession Seeds may exist simultaneously. After using an Elemental Burst, all Succession Seeds are consumed and after 2s, the character regenerates 6/7.5/9/10.5/12 Energy for each seed consumed.",
 }

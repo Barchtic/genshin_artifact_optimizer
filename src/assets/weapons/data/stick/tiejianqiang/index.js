@@ -2,7 +2,7 @@ import tn from "./tn.png";
 
 export default {
     name: "tiejianqiang",
-    chs: "铁尖枪",
+    chs: "Iron Point",
     url: tn,
     star: 2,
     type: "stick",

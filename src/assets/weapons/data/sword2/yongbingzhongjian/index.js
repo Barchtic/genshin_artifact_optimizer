@@ -2,7 +2,7 @@ import tn from "./tn.png";
 
 export default {
     name: "yongbingzhongjian",
-    chs: "佣兵重剑",
+    chs: "Old Merc's Pal",
     url: tn,
     star: 2,
     type: "sword2",

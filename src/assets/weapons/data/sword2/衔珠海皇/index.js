@@ -2,9 +2,9 @@ import tn from "./tn.png";
 
 export default {
     name: "xianzhuhaihuang",
-    chs: "衔珠海皇",
+    chs: "Luxurious Sea-Lord",
     url: tn,
     star: 4,
     type: "sword2",
-    effect: "元素爆发造成的伤害提升12/15/18/21/24%。元素爆发命中敌人时，有100%概率召唤大鲔冲击，造成100/125/150/175/200%攻击力的范围伤害。该效果每15秒至多触发一次。",
+    effect: "Oceanic Victory: Increases Elemental Burst DMG by 12/15/18/21/24%. When Elemental Burst hits opponents, there is a 100% chance of summoning a titanic tuna that charges and deals 100/125/150/175/200% ATK as AoE DMG. This effect can occur once every 15s.",
 }

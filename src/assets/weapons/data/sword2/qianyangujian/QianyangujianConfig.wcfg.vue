@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="config-item">
-            <h3 class="config-title">队伍中的璃月角色数量</h3>
+            <h3 class="config-title">Number of Liyue Characters in the Team</h3>
             <el-input-number
                 v-model="liyueCount"
                 :min="0"

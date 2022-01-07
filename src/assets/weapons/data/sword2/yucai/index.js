@@ -3,10 +3,10 @@ import tn from "./tn.png";
 
 export default {
     name: "yucai",
-    chs: "雨裁",
+    chs: "Rainslasher",
     url: tn,
     star: 4,
     type: "sword2",
-    config: () => commonConfigRate("雨裁"),
-    effect: "止水息雷：对处于水元素或雷元素影响下的敌人，造成的伤害提高20％/24%/28%/32%/36%。",
+    config: () => commonConfigRate("Rainslasher"),
+    effect: "Bane of Storm and Tide：Increases DMG against enemies affected by Hydro or Electro by 20/25/30/35/40%.",
 }

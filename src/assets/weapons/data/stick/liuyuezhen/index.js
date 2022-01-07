@@ -2,9 +2,9 @@ import tn from "./tn.png";
 
 export default {
     name: "liuyuezhen",
-    chs: "流月针",
+    chs: "Crescent Pike",
     url: tn,
     star: 4,
     type: "stick",
-    effect: "注能之针：获得元素微粒或元素晶球后的5秒内，普通攻击和重击额外造成20%/25%/30%/35%/40%攻击力伤害。"
+    effect: "Infusion Needle：After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal an additional 20/25/30/35/40% ATK as DMG for 5s."
 }

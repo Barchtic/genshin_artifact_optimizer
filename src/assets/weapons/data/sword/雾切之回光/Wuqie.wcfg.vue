@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="config-item">
-            <h3 class="config-title">雾切之巴印层数</h3>
+            <h3 class="config-title">Mistsplitter's Edge Stacks</h3>
             <el-input-number
                 :min="0"
                 :max="3"
@@ -16,7 +16,7 @@
 
 
 export default {
-    name: "雾切之回光.wcfg",
+    name: "Mistsplitter Reforged.wcfg",
     data() {
         return {
             level: 1,

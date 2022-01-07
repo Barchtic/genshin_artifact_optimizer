@@ -3,10 +3,10 @@ import { commonConfigLevel } from "../../../common/utils";
 
 export default {
     name: "anxianglieshou",
-    chs: "暗巷猎手",
+    chs: "Alley Hunter",
     url: tn,
     star: 4,
     type: "bow",
-    config: () => commonConfigLevel("暗巷猎手", 10),
-    effect: "街巷伏击：装备该武器的角色处于队伍后台时，每1秒角色造成的伤害提升2%/2.5%/3%/3.5%/4%,最多通过这种方式获得20%/25%/30%/35%/40%的伤害提升；在场上超过4秒后，上述伤害提升效果每1秒会流失4%/5%/6%/7%/8%，直到降低至0%。"
+    config: () => commonConfigLevel("Alley Hunter", 10),
+    effect: "Urban Guerrilla：Every 4s a character is on the field, their ATK increases by 4/5/6/7/8% and their CRIT DMG increases by 4/5/6/7/8%. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be cleared when the character takes DMG."
 }

@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="config-item">
-            <h3 class="config-title">施放元素爆发的被动覆盖率</h3>
+            <h3 class="config-title">Passive Coverage for Casting Elemental Burst</h3>
             <el-slider
                 :min="0"
                 :max="1"

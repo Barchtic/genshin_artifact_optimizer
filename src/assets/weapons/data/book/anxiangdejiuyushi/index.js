@@ -3,10 +3,10 @@ import { commonConfigRate } from "../../../common/utils";
 
 export default {
     name: "anxiangdejiuyushi",
-    chs: "暗巷的酒与诗",
+    chs: "Wine and Song",
     url: tn,
     star: 4,
     type: "book",
-    config: () => commonConfigRate("暗巷的酒与诗"),
-    effect: "变化万端：普通攻击命中敌人后，冲刺或替代冲刺的能力消耗的体力降低14%/16%/18%/20%/22%，持续5秒。此外，使用冲刺或替代冲刺的能力后，攻击力提升20%/25%/30%/35%/40%，持续5秒。"
+    config: () => commonConfigRate("Wine and Song"),
+    effect: "Ever-Changing：Hitting and opponent with a Normal Attack decreases stamina consumption of Sprint or Alternate Sprint by 14/16/18/20/22% for 5s. Additionally, using a Spring or Alternate Sprint ability increases ATK by 20/25/30/35/40% for 5s."
 }

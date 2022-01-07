@@ -8,5 +8,5 @@ export default {
     star: 3,
     type: "sword",
     config,
-    effect: "「Vigorous」：When HP is above 90%, increases CRIT Rate by 14%/17.5%/21%/24.5%/28%.",
+    effect: "Vigorous：When HP is above 90%, increases CRIT Rate by 14%/17.5%/21%/24.5%/28%.",
 }

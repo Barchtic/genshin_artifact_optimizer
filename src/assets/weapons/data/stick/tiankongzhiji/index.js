@@ -2,9 +2,9 @@ import tn from "./tn.png";
 
 export default {
     name: "tiankongzhiji",
-    chs: "天空之脊",
+    chs: "Skyward Spine",
     url: tn,
     star: 5,
     type: "stick",
-    effect: "斫断黑翼的利齿：暴击率提升8%/10%/12%/14%/16%， 普通攻击速度提升12%, 此外，普通攻击与重击命中敌人时，有50%概率触发真空刃，在小范围内造成额外40%/55%/70%/85%/100%攻击力的伤害。该效果每2秒至多触发一次。"
+    effect: "Black Wing：Increases CRIT Rate by 8/10/12/14/16% and increases Normal ATK SPD by 12%. Additionally, Normal and Charged Attacks hits on enemies have a 50% chance to trigger a vacuum blade that deals 40/55/70/85/100% of ATK as DMG in a small AoE. This effect can occur no more than once every 2s."
 }

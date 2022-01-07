@@ -2,9 +2,9 @@ import tn from "./tn.png";
 
 export default {
     name: "tiankongzhiyi",
-    chs: "天空之翼",
+    chs: "Skyward Harp",
     url: tn,
     star: 5,
     type: "bow",
-    effect: "回响长天的诗歌：暴击伤害提高20%/25%/30%/35%/40%；攻击命中时有60%/70%/80%/90%/100%概率造成125%攻击力的小范围物理伤害，该效果每4秒/3.5秒/3秒/2.5秒/2秒只能触发一次。"
+    effect: "Echoing Ballad：Increases CRIT DMG by 20/25/30/35/40%. Hits have a 60/70/80/90/100% chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every 4/3.5/3/2.5/2s."
 }

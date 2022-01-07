@@ -1,11 +1,11 @@
 <template>
     <div>
         <div class="config-item">
-            <h3 class="config-title">平均效果层数</h3>
+            <h3 class="config-title">Average Number of Effect Stacks</h3>
             <common-config-slider v-model="level" :max="7"></common-config-slider>
         </div>
         <div class="config-item">
-            <h3 class="config-title">平均满层状态比例</h3>
+            <h3 class="config-title">Average Full Stacks Status Ratio</h3>
             <common-config-slider v-model="rate"></common-config-slider>
         </div>
     </div>
@@ -17,7 +17,7 @@ import CommonConfigSlider from "../../../common/CommonConfigSlider.vue"
 
 export default {
     components: { CommonConfigSlider },
-    name: "和璞鸢.wcfg",
+    name: "Primordial Jade Winged-Spear.wcfg",
     data() {
         return {
             level: 2.5,

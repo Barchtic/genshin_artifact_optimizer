@@ -1,11 +1,11 @@
 <template>
     <div>
         <div class="config-item">
-            <h3 class="config-title">是否攻击史莱姆</h3>
+            <h3 class="config-title">Fighting Slimes</h3>
             <el-switch
                 v-model="slime"
-                active-text="是"
-                inactive-text="否"
+                active-text="Yes"
+                inactive-text="No"
             ></el-switch>
         </div>
     </div>

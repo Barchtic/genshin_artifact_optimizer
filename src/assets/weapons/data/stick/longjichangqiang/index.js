@@ -2,9 +2,9 @@ import tn from "./tn.png";
 
 export default {
     name: "longjichangqiang",
-    chs: "龙脊长枪",
+    chs: "Dragonspine Spear",
     url: tn,
     star: 4,
     type: "stick",
-    effect: "霜葬：普通攻击与重击命中敌人时，有60%/70%/80%/90%/100%概率在敌人上方生成恒冰晶核并坠落，造成80%/95%/110%/125%/140%攻击力的范围伤害。若敌人处于冰元素影响下，则造成200%/240%/280%/320%/360%攻击力的伤害。该效果每10秒至多触发一次。"
+    effect: "Frost Burial：Hitting an opponent with Normal and Charged Attacks has a 60/70/80/90/100% chance of forming and dropping an Everfrost Icicle above them, dealing 80/95/110/125/140% AoE ATK DMG. Opponents affected by Cryo are dealt 200/240/280/320/360% ATK DMG. Can only occur once every 10s."
 }

@@ -3,10 +3,10 @@ import { commonConfigRate } from "../../../common/utils";
 
 export default {
     name: "antiejian",
-    chs: "暗铁剑",
+    chs: "Dark Iron Sword",
     url: tn,
     star: 3,
     type: "sword",
-    config: () => commonConfigRate("暗铁剑"),
-    effect: "过载：触发超载、超导、感电或雷元素扩散反应后的12秒内，攻击力提高20%/25%/30%/35%/40%。",
+    config: () => commonConfigRate("Dark Iron Sword"),
+    effect: "Overloaded:Upon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, increases Base ATK by 20/25/30/35/40% for 12s.",
 }

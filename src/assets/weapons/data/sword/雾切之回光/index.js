@@ -4,10 +4,10 @@ import config from "./Wuqie.wcfg.vue";
 
 export default {
     name: "wuqiezhihuiguang",
-    chs: "雾切之回光",
+    chs: "Mistsplitter Reforged",
     url: tn,
     star: 5,
     type: "sword",
     config,
-    effect: "获得12/15/18/21/24%所有元素伤害加成，并能获得「雾切之巴印」的威势。雾切之巴印：持有1/2/3层雾切之巴印时，获得(8/10/12/14/16%)/(16/20/24/28/32%)/(28/35/42/49/56)%自己的元素类型的元素伤害加成。在下列情况下，角色将各获得1层雾切之巴印：普通攻击造成元素伤害时，持续5秒；施放元素爆发时，持续10秒；此外，角色元素能量低于100%时，将获得1层雾切之巴印，此雾切之巴印会在角色的元素能量充满时消失。每层雾切之巴印的持续时间独立计算。",
+    effect: "Mistsplitter's Edge:Gain a 12/15/18/21/24% Elemental DMG Bonus for every element and receive the might of Mistsplitter's Emblem. At stack levels 1/2/3, Mistsplitter's Emblem provides a 8/16/28% // 10/17/35% // 12/18/42% // 14/19/49% // 16/20/56% Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
 }

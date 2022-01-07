@@ -2,9 +2,9 @@ import tn from "./tn.png";
 
 export default {
     name: "baitiedajian",
-    chs: "白铁大剑",
+    chs: "Ferrous Shadow",
     url: tn,
     star: 3,
     type: "sword2",
-    effect: "收割：击败敌人时，恢复8%/10%/12%/14%/16%生命值。",
+    effect: "Unbending:When HP falls below 70/75/80/85/90%, increases Charged Attack DMG by 30/35/40/45/50%, and Charged Attacks become much harder to interrupt.",
 }

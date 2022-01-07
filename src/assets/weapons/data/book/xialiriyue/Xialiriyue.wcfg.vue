@@ -1,11 +1,11 @@
 <template>
     <div>
         <div class="config-item">
-            <h3 class="config-title">平均效果1比例</h3>
+            <h3 class="config-title">Average Effect 1 Ratio</h3>
             <common-config-slider v-model="rate1"></common-config-slider>
         </div>
         <div class="config-item">
-            <h3 class="config-title">平均效果2比例</h3>
+            <h3 class="config-title">Average Effect 2 Ratio</h3>
             <common-config-slider v-model="rate2"></common-config-slider>
         </div>
     </div>

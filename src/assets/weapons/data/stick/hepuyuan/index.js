@@ -3,10 +3,10 @@ import config from "./Hepuyuan.wcfg.vue";
 
 export default {
     name: "hepuyuan",
-    chs: "和璞鸢",
+    chs: "Primordial Jade Winged-Spear",
     url: tn,
     star: 5,
     type: "stick",
     config,
-    effect: "昭理的鸢之枪：命中敌人时自身攻击力提高3.2%/3.9%/4.6%/5.3%/6%，持续6秒，最高可以叠加7层。该效果每0.3秒最多触发一次。满层状态时伤害提升12%/15%/18%/21%/24%。"
+    effect: "Eagle Spear of Justice：On hit, increases ATK by 3.2/3.9/4.6/5.3/6% for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, DMG dealt is increased by 12/15/18/21/24%."
 }

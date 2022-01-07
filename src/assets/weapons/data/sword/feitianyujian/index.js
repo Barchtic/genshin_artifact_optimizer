@@ -3,10 +3,10 @@ import { commonConfigRate } from "../../../common/utils";
 
 export default {
     name: "feitianyujian",
-    chs: "飞天御剑",
+    chs: "Skyrider Sword",
     url: tn,
     star: 3,
     type: "sword",
-    config: () => commonConfigRate("飞天御剑"),
-    effect: "决心：施放元素爆发后，提高12%/15%/18%/21%/24%攻击力和移动速度，持续15秒。",
+    config: () => commonConfigRate("Skyrider Sword"),
+    effect: "Determination：Using an Elemental Burst grants a 12/15/18/21/24% increase in ATK and Movement SPD for 12s.",
 }

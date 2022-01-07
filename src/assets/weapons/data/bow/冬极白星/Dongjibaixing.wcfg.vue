@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="config-item">
-            <h3 class="config-title">「白夜极星」层数</h3>
+            <h3 class="config-title">Number of "Daylight's Augury" Stacks</h3>
             <el-input-number
                 :min="0"
                 :max="4"

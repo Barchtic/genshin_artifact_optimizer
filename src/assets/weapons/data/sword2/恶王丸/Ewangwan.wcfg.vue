@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="config-item">
-            <h3 class="config-title">队伍中元素能量总和</h3>
+            <h3 class="config-title">Total Energy in the Team</h3>
             <el-input
                 v-model="totalEnergy"
                 size="small"

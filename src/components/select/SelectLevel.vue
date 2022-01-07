@@ -5,38 +5,50 @@
         <div class="delegate" @click="handleClickLevel">
             <div class="panel">
                 <span
-                    v-for="i in 19"
+                    v-for="i in 10"
                     :key="i"
                     class="select-int"
                     :class="{ active: i.toString() === value }"
                 >{{ i }}</span>
+                <span class="select-int" :class="{ active: value === '10-' }">10-</span>
+            </div>
+
+            <div class="panel">
+                <span class="select-int" :class="{ active: value === '10+' }">10+</span>
+                <span
+                    v-for="i in 9"
+                    :key="i + 9"
+                    class="select-int"
+                    :class="{ active: (i + 9).toString() === value }"
+                >{{ i + 9 }}</span>
+
                 <span class="select-int" :class="{ active: value === '20-' }">20-</span>
             </div>
             
             <div class="panel">
                 <span class="select-int" :class="{ active: value === '20+' }">20+</span>
                 <span
-                    v-for="i in 19"
-                    :key="i + 20"
+                    v-for="i in 9"
+                    :key="i + 9"
                     class="select-int"
                     :class="{ active: (i + 20).toString() === value }"
                 >{{ i + 20 }}</span>
-                <span class="select-int" :class="{ active: value === '40-' }">40-</span>
+                <span class="select-int" :class="{ active: value === '30-' }">30-</span>
             </div>
 
             <div class="panel">
-                <span class="select-int" :class="{ active: value === '40+' }">40+</span>
+                <span class="select-int" :class="{ active: value === '30+' }">30+</span>
                 <span
                     v-for="i in 9"
                     :key="i + 40"
                     class="select-int"
                     :class="{ active: (i + 40).toString() === value }"
                 >{{ i + 40 }}</span>
-                <span class="select-int" :class="{ active: value === '50-' }">50-</span>
+                <span class="select-int" :class="{ active: value === '40-' }">40-</span>
             </div>
 
             <div class="panel">
-                <span class="select-int" :class="{ active: value === '50+' }">50+</span>
+                <span class="select-int" :class="{ active: value === '40+' }">40+</span>
                 <span
                     v-for="i in 9"
                     :key="i + 50"

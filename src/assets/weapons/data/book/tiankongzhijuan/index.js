@@ -2,9 +2,9 @@ import tn from "./tn.png";
 
 export default {
     name: "tiankongzhijuan",
-    chs: "天空之卷",
+    chs: "Skyward Atlas",
     url: tn,
     star: 5,
     type: "book",
-    effect: "浮游四方的灵云：元素伤害加成提升12%/15%/18%/21%/24%；普通攻击命中时，有50%的概率获得高天流云的青睐，在15秒内主动攻击附近的敌人，造成等同于160%/200%/240%/280%/320%攻击力的伤害。该效果每30秒只能触发一次。"
+    effect: "Wandering Clouds：Increases Elemental DMG Bonus by 12/15/18/21/24%. Normal Attack hits have a 50% chance to earn the favor of the clouds. which actively seek out nearby enemies to attack for 15s, dealing 160/200/240/280/320% ATK DMG. Can only occur once every 30s."
 }

@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="config-item">
-            <h3 class="config-title">飞雷之巴印层数</h3>
+            <h3 class="config-title">Rule by Thunder Stacks</h3>
             <el-input-number
                 :min="0"
                 :max="3"
@@ -16,7 +16,7 @@
 
 
 export default {
-    name: "飞雷之弦振.wcfg",
+    name: "Thundering Pulse.wcfg",
     data() {
         return {
             level: 1,

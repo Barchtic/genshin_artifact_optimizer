@@ -3,10 +3,10 @@ import config from "./Ticaozhidaoguang.wcfg.vue";
 
 export default {
     name: "ticaozhidaoguang",
-    chs: "薙草之稻光",
+    chs: "Engulfing Lightning",
     url: tn,
     star: 5,
     type: "stick",
     config,
-    effect: "攻击力获得提升，提升程度相当于元素充能效率超出100%部分的28/35/42/49/56%，至多通过这种方式提升80/90/100/110/120%。施放元素爆发后的12秒内，元素充能效率提升30/35/40/45/50%。",
+    effect: "Timeless Dream: Eternal Stove: ATK increased by 28/34/40/46/52% of Energy Recharge over the base 100%. You can gain a maximum bonus of 80/90/100/110/120% ATK. Gain 30/35/40/45/50% Energy Recharge for 12s after using an Elemental Burst.",
 }
