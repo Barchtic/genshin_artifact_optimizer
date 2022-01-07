@@ -16,11 +16,11 @@
             <div class="panel">
                 <span class="select-int" :class="{ active: value === '10+' }">10+</span>
                 <span
-                    v-for="i in 9"
-                    :key="i + 9"
+                    v-for="i in 10"
+                    :key="i + 10"
                     class="select-int"
-                    :class="{ active: (i + 9).toString() === value }"
-                >{{ i + 9 }}</span>
+                    :class="{ active: (i + 10).toString() === value }"
+                >{{ i + 10 }}</span>
 
                 <span class="select-int" :class="{ active: value === '20-' }">20-</span>
             </div>
@@ -28,8 +28,8 @@
             <div class="panel">
                 <span class="select-int" :class="{ active: value === '20+' }">20+</span>
                 <span
-                    v-for="i in 9"
-                    :key="i + 9"
+                    v-for="i in 10"
+                    :key="i + 10"
                     class="select-int"
                     :class="{ active: (i + 20).toString() === value }"
                 >{{ i + 20 }}</span>
@@ -39,7 +39,7 @@
             <div class="panel">
                 <span class="select-int" :class="{ active: value === '30+' }">30+</span>
                 <span
-                    v-for="i in 9"
+                    v-for="i in 10"
                     :key="i + 30"
                     class="select-int"
                     :class="{ active: (i + 30).toString() === value }"
@@ -50,7 +50,7 @@
             <div class="panel">
                 <span class="select-int" :class="{ active: value === '40+' }">40+</span>
                 <span
-                    v-for="i in 9"
+                    v-for="i in 10"
                     :key="i + 40"
                     class="select-int"
                     :class="{ active: (i + 40).toString() === value }"
@@ -61,34 +61,36 @@
             <div class="panel">
                 <span class="select-int" :class="{ active: value === '50+' }">50+</span>
                 <span
-                    v-for="i in 9"
+                    v-for="i in 10"
                     :key="i + 50"
                     class="select-int"
                     :class="{ active: (i + 50).toString() === value }"
                 >{{ i + 50 }}</span>
                 <span class="select-int" :class="{ active: value === '60-' }" v-if="star >= 3">60-</span>
-                <span class="select-int" :class="{ active: value === '60+' }" v-else>60+</span>
+              
             </div>
-
-            <div class="panel" v-if="star >= 3">
-                <span class="select-int" :class="{ active: value === '70-' }">70-</span>
+            <div class="panel">
+                <span class="select-int" :class="{ active: value === '60+' }">60+</span>
                 <span
-                    v-for="i in 9"
+                    v-for="i in 10"
                     :key="i + 60"
                     class="select-int"
-                    :class="{ active: i + 60 == value }"
+                    :class="{ active: (i + 60).toString() === value }"
                 >{{ i + 60 }}</span>
-                <span class="select-int" :class="{ active: value === '70+' }">70+</span>
+                <span class="select-int" :class="{ active: value === '70-' }" v-if="star >= 3">70-</span>
+              
             </div>
 
+
             <div class="panel" v-if="star >= 3">
-                <span class="select-int" :class="{ active: value === '80-' }">80-</span>
+                <span class="select-int" :class="{ active: value === '70+' }">70+</span>
                 <span
                     v-for="i in 10"
                     :key="i + 70"
                     class="select-int"
                     :class="{ active: i + 70 == value }"
                 >{{ i + 70 }}</span>
+                <span class="select-int" :class="{ active: value === '80-' }">80-</span>
             </div>
 
             <div class="panel" v-if="star >= 3">
@@ -100,6 +102,7 @@
                     :class="{ active: i + 80 == value }"
                 >{{ i + 80 }}</span>
             </div>
+
         </div>
     </div>
 </template>
