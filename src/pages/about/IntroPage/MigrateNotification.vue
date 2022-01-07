@@ -1,7 +1,7 @@
 <template>
     <div class="migrate">
-        <h1 style="margin: 0"><i class="el-icon-info"></i>重要通知</h1>
-        <p>{{ `域名 "${host}" 已不再使用，将在近期停用，请尽快转移至新的域名` }}</p>
+        <h1 style="margin: 0"><i class="el-icon-info"></i>Important Notice</h1>
+        <p>{{ `This Domain "${host}" No longer in use, will be deactivated in the near future, please transfer to a new domain name as soon as possible` }}</p>
         <a
             :href="url"
             target="_blank"

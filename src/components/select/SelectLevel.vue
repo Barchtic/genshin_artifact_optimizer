@@ -69,6 +69,7 @@
                 <span class="select-int" :class="{ active: value === '60-' }" v-if="star >= 3">60-</span>
               
             </div>
+            
             <div class="panel">
                 <span class="select-int" :class="{ active: value === '60+' }">60+</span>
                 <span

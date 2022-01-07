@@ -47,7 +47,7 @@
                 </el-menu-item>
             </el-menu-item-group>
 
-            <el-menu-item-group>
+            <!--<el-menu-item-group>
                 <template #title>
                     About this site
                 </template>
@@ -111,7 +111,7 @@
                     <i class="el-icon-s-opportunity"></i>
                     Algorithm
                 </el-menu-item>
-            </el-menu-item-group> 
+            </el-menu-item-group> -->
         </el-menu>
     </div>
 </template>

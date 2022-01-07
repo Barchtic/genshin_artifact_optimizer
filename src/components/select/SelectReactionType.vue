@@ -7,6 +7,7 @@
         <template v-if="type === 'amp' || type === 'any'">
             <el-radio-button label="vaporize">Vaporize</el-radio-button>
             <el-radio-button label="melt">Melt</el-radio-button>
+            <el-radio-button label="overload">Overload</el-radio-button>
         </template>
     </el-radio-group>
 </template>

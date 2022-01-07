@@ -5,7 +5,7 @@ import skill from "./jiutiaoshaluo.skill.js";
 export default {
     cardURL: card,
     name: "jiutiaoshaluo",
-    chs: "Kujo Sara",
+    chs: "Kujou Sara",
     element: "thunder",
     weapon: "bow",
     star: 4,

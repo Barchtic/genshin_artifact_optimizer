@@ -31,6 +31,7 @@
         </div>
 
         <select-level
+            style="height:600px"
             :star="w.star"
             :value="levelText"
             @input="handleClickLevel"

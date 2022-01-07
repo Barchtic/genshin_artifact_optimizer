@@ -13,6 +13,8 @@ function f(config) {
             reactBonus += attribute.vaporizeEnhance;
         } else if (reactionType === "melt") {
             reactBonus += attribute.meltEnhance;
+        }else if (reactionType === "overload") {
+            reactBonus += attribute.overloadEnhance;
         }
 
         let bonus = attribute.bonus + attribute[element + "Bonus"] + attribute[skill + "Bonus"];

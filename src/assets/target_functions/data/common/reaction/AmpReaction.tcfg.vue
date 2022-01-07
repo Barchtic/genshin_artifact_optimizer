@@ -66,6 +66,8 @@ export default {
             this.reactionType = type;
             if (type === "vaporize") {
                 this.elementList = ["fire", "water"];
+            }else if (type === "overload"){
+                this.elementList = ["fire", "thunder"];
             } else {
                 this.elementList = ["fire", "ice"];
             }

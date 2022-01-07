@@ -2,7 +2,7 @@
     <el-select
         :value="value"
         @input="$emit('input', $event)"
-        placeholder="角色"
+        placeholder="Character"
         size="small"
     >
         <el-option-group
