@@ -57,7 +57,7 @@
                     <li
                         :class="{active: currentstep === 'weapon-config'}"
                         x-name="weapon-config"
-                        style="margin-bottom: 16px"
+                        style="margin-bottom: 30px"
                     >
                         <i class="el-icon-knife-fork icon"></i>
                         Weapons
@@ -79,7 +79,7 @@
                     <li
                         :class="{active: currentstep === 'config-artifacts'}"
                         x-name="config-artifacts"
-                        style="margin-bottom: 16px"
+                        style="margin-bottom: 30px"
                     >
                         <i class="el-icon-help icon"></i>
                         Artifacts Parameters
@@ -94,7 +94,7 @@
                     <li
                         :class="{active: currentstep === 'filter-kumi'}"
                         x-name="filter-kumi"
-                        style="margin-bottom: 16px"
+                        style="margin-bottom: 30px"
                     >
                         <i class="el-icon-cold-drink icon"></i>
                         Artifacts Filtering
@@ -102,7 +102,7 @@
                     <li
                         :class="{active: currentstep === 'buff'}"
                         x-name="buff"
-                        style="margin-bottom: 16px"
+                        style="margin-bottom: 30px"
                     >
                         <i class="el-icon-ice-cream-round icon"></i>
                         Global Buffs
@@ -123,7 +123,7 @@
                     </li>
                 </ul>
             </el-col>
-            <el-col :span="20">
+            <el-col :span="16">
                 <div class="choose-div">
                     <config-character
                         v-show="currentstep === 'character-config'"

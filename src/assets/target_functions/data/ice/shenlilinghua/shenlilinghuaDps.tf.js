@@ -9,7 +9,7 @@ export default {
     ],
     tags: [
         "Damage",
-        "kamisato Ayaka",
+        "Kamisato Ayaka",
         "Dps",
     ],
     "for": "shenlilinghua",
