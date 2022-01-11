@@ -3,7 +3,7 @@ import config from "./enemyResDown.buffcfg.vue";
 
 export default {
     name: "enemyResDown",
-    chs: "Enemy Resistance Reduction",
+    chs: "Resistance Reduction",
     badge,
     config,
     genre: "custom",

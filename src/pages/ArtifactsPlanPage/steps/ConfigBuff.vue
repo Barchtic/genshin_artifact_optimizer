@@ -82,10 +82,11 @@ for (let buff of Object.values(buffs)) {
 }
 
 let genre2chs = {
-    "custom": "Customization",
-    "character": "Role-triggered buffs",
-    "resonance": "Elemental Resonance",
-    "weapon": "Weapon triggered buffs",
+    "custom": "Custom Buffs",
+    "character": "Character Triggered Buffs",
+    "resonance": "Elemental Resonances",
+    "weapon": "Weapon Triggered Buffs",
+    "artifact": "Artifacts"
 };
 
 

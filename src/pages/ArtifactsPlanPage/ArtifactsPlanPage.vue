@@ -46,7 +46,7 @@
         </div>
 
         <el-row :gutter="16">
-            <el-col :span="4">
+            <el-col :span="5">
                 <ul class="step" @click="handleNav">
                     <li
                         :class="{active: currentstep === 'character-config'}" x-name="character-config"
