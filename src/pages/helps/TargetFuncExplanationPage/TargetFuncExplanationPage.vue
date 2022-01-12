@@ -11,11 +11,11 @@
                 <h1>Keqing- Object Clear</h1>
                 <target-func-explanation-item name="Enemy Electro Element Coverage" description="The percentage of time the enemy is afected by the electro element, which triggers the effect of thundersoother 4 piece"></target-func-explanation-item>
                 <target-func-explanation-item
-                    name="Normal Attack, Heavy ATK, E, Q"
+                    name="Normal Attack, Charge ATK, E, Q"
                     description="These four are refered as skills. If you put 10 skills and normal attack accounts for 4 times, then the frequency of normal attack is 0.4"
                 ></target-func-explanation-item>
                 <target-func-explanation-item
-                    name="Heavy Attack, Normal Attack Enchantment ratio"
+                    name="Charge Attack, Normal Attack Enchantment ratio"
                     description="The enchantment ratio affected by the E skill, for example, level of normal attack 10 times, 4 times are the thunder element, then the level of normal attack enchantment ratio is 0.4, which will affect the choice of damage bonus"
                 ></target-func-explanation-item>
 
