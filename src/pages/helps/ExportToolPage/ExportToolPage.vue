@@ -6,7 +6,7 @@
         </el-breadcrumb>
         <el-divider></el-divider>
 
-        <el-card class="item">
+        <!--<el-card class="item">
             <div slot="header">
                 {{ getIndex() }}. Yas
             </div>
@@ -21,7 +21,7 @@
                     Project Address - Github
                 </a>
             </div>
-        </el-card>
+        </el-card>-->
 
         <el-card class="item">
             <div slot="header">
