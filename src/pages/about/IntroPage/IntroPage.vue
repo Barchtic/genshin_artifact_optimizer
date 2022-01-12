@@ -28,7 +28,7 @@
             :closable="false"
         ></el-alert>
 
-        <div class="update-banner">
+        <!--<div class="update-banner">
             <p style="font-size: 24px; margin: 0; color:white">V {{ version }}</p>
             <ul>
                 <li
@@ -36,7 +36,7 @@
                     :key="index"
                 >{{ item }}</li>
             </ul>
-        </div>
+        </div>-->
 
         <el-card class="mb16">
             <p class="big-card-title">Resources</p>
