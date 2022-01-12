@@ -62,7 +62,7 @@
                     </el-menu-item>
                     <el-menu-item index="/help/export-tools">
                         <i class="el-icon-aim"></i>
-                        Export Tools
+                        Export Tools / Scanners
                     </el-menu-item>
                     <el-menu-item index="/help/faq">
                         <i class="el-icon-question"></i>

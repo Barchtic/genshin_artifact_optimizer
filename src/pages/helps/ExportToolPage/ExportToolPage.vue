@@ -25,10 +25,10 @@
 
         <el-card class="item">
             <div slot="header">
-                {{ getIndex() }}. 「天目」-- Amenoma
+                {{ getIndex() }}. Amenoma
             </div>
 
-            <p>Fork自 Genshin Art Scanner</p>
+            <p>Genshin Artifact Scanner</p>
 
             <div class="footer">
                 <a target="_blank" href="https://github.com/daydreaming666/Amenoma"
@@ -42,7 +42,7 @@
 
         <el-card class="item">
             <div slot="header">
-                {{ getIndex() }}. Genshin Art Scanner
+                {{ getIndex() }}. Genshin Artifact Scanner
             </div>
 
             <p>Local recognition, basically fully automatic, no UI mode, speed roughly 100-200 per minute</p>
@@ -72,7 +72,7 @@
         </el-card>
 
         <el-card class="item">
-            <div slot="header">{{ getIndex() }}. 椰羊（cocogoat）</div>
+            <div slot="header">{{ getIndex() }}. Cocogoat (Chinese)</div>
 
             <p>Local recognition, basically fully automatic, with UI</p>
 
@@ -88,7 +88,7 @@
             </div>
         </el-card>
 
-        <el-card class="item">
+        <!--<el-card class="item">
             <div slot="header">{{ getIndex() }}. 蹦蹦炸弹 (maintenance has been suspended)</div>
 
             <p>Use Baidu API for remote OCR auto recognition, the disadvantage is that you need to register a Baidu AI account</p>
@@ -99,7 +99,7 @@
                     Project Address - Github
                 </a>
             </div>
-        </el-card>
+        </el-card>-->
     </div>
 </template>
 
