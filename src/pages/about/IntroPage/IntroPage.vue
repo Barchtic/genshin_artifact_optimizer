@@ -38,46 +38,11 @@
             </ul>
         </div>
 
-        <!-- <el-card class="mb16">
-            <p class="big-card-title">赞助商</p>
-            <nok-nok></nok-nok>
-        </el-card> 
-
         <el-card class="mb16">
-            <p class="big-card-title">Features</p>
-            <el-row :gutter="16">
-                <el-col :sm="6" :xs="24" class="mb16">
-                    <use-case-item
-                        text="Optimizer and Calculator"
-                        icon="calculator"
-                    ></use-case-item>
-                </el-col>
-                <el-col :sm="6" :xs="24" class="mb16">
-                    <use-case-item
-                        text="Artifacs and Character Presets"
-                        icon="bell"
-                    ></use-case-item>
-                </el-col>
-                <el-col :sm="6" :xs="24" class="mb16">
-                    <use-case-item
-                        text="Artifact Rater"
-                        icon="thumbs-up"
-                    ></use-case-item>
-                </el-col>
-                <el-col :sm="6" :xs="24" class="mb16">
-                    <use-case-item
-                        text="Artifact Details and Ranking"
-                        icon="chart-pie"
-                    ></use-case-item>
-                </el-col>
-            </el-row>
-        </el-card>
-
-        <el-card class="mb16">
-            <p class="big-card-title">开源地址</p>
+            <p class="big-card-title">Resources</p>
             <el-alert
-                title="该工具全部免费且开源"
-                :closable="false"
+                title="This Project is 100% Open Source Front-End is Based on https://www.mona-uranai.com/ "
+                :closable="true"
                 style="margin-bottom: 16px"
             ></el-alert>
             <el-row :gutter="16">
@@ -89,7 +54,7 @@
                         shadow="hover"
                     >
                         <font-awesome-icon :icon="['fab', 'github']" class="icon"></font-awesome-icon>
-                        <p class="item-title">前端</p>
+                        <p class="item-title">Github - Project Source Code</p>
                     </el-card>
                 </el-col>
                 <el-col :xs="24" :sm="12">
@@ -99,7 +64,7 @@
                         shadow="hover"
                     >
                         <font-awesome-icon :icon="['fab', 'github']" class="icon"></font-awesome-icon>
-                        <p class="item-title">面板计算器（npm包）</p>
+                        <p class="item-title">NPM Package - Damage Calculations (By wormtql)</p>
                     </el-card>
                 </el-col>
             </el-row>
@@ -108,32 +73,22 @@
         <el-row :gutter="16">
             <el-col :xs="24" :sm="12">
                 <el-card class="mb16">
-                    <p class="card-title">提交bug/功能请求</p>
-                    <el-alert
-                        title="如果出现了明显不合理的结果，请务必提交bug"
-                        style="margin-bottom: 16px"
-                        :closable="false"
-                        type="warning"
-                    ></el-alert>
+                    <p class="card-title">Contact the Developer</p>
                     <el-button @click="newPage(links.issue)" class="data-source">
-                        github Issue
+                        Create a Github Issue
                         <font-awesome-icon :icon="['fab', 'github']"></font-awesome-icon>
                     </el-button>
-                    <el-button class="data-source">
-                        QQ(584130248)
-                        <font-awesome-icon icon="comment"></font-awesome-icon>
-                    </el-button>
-                    <el-button class="data-source">
-                        QQ群(801106595)
+                    <el-button @click="newPage(links.discordDM)"  class="data-source">
+                        BunnyHunter031#2458 (Discord)
                         <font-awesome-icon icon="comment"></font-awesome-icon>
                     </el-button>
                 </el-card>
             </el-col>
             <el-col :xs="24" :sm="12">
                 <el-card class="mb16">
-                    <p class="card-title">数据来源</p>
+                    <p class="card-title">Wiki Links</p>
                     <el-button @click="newPage(links.wiki)" class="data-source">
-                        bilibili原神wiki
+                        Genshin Impact Wiki | Bilibili (Chinese)
                         <font-awesome-icon icon="database"></font-awesome-icon>
                     </el-button>
                     <el-button @click="newPage(links.wiki2)" class="data-source">
@@ -141,22 +96,22 @@
                         <font-awesome-icon icon="database"></font-awesome-icon>
                     </el-button>
                     <el-button @click="newPage(links.wiki3)" class="data-source">
-                        旅行者创作平台-观测枢-原神wiki
+                        Genshin Impact Wiki | Mihoyo (Chinese)
                         <font-awesome-icon icon="database"></font-awesome-icon>
                     </el-button>
                 </el-card>
             </el-col>
         </el-row>
 
-        <el-row :gutter="16">
+        <el-row :gutter="12">
             <el-col :xs="24" :sm="12">
                 <el-card class="mb16">
-                    <p class="card-title">第一次使用？</p>
+                    <p class="card-title">Useful Links </p>
                     <el-button
                         @click="$router.push('/help/basic')"
                         class="data-source"
                     >
-                        基本使用帮助
+                        Help
                         <i class="el-icon-question"></i>
                     </el-button>
                     <el-button
@@ -164,7 +119,7 @@
                         type="primary"
                         class="data-source"
                     >
-                        导出工具
+                        Scaners and External Tools
                         <i class="el-icon-aim"></i>
                     </el-button>
                     <el-button
@@ -178,32 +133,14 @@
             </el-col>
             <el-col :xs="24" :sm="12">
                 <el-card class="mb16">
-                    <p class="card-title">开发者文档</p>
-                    <a class="el-button no-deco" :href="links.doc" target="_blank">
-                        文档
+                    <p class="card-title">Discord</p>
+                    <a class="el-button no-deco" :href="links.discord" target="_blank">
+                        Discord Channel
                         <i class="el-icon-connection"></i>
                     </a>
                 </el-card>
             </el-col>
-        </el-row>
-
-        <el-card style="margin-bottom: 16px">
-            <p class="card-title">请莫娜吃饭</p>
-            <el-alert
-                :closable="false"
-                title="才...才不是因为交不起服务器费呢。"
-            ></el-alert>
-
-            <div class="pay">
-                <span>微信支付：</span>
-                <img src="./wechat.png">
-            </div>
-            <div class="pay">
-                <span>支付宝：</span>
-                <img src="./alipay.png">
-            </div>
-        </el-card>
-        -->
+        </el-row>  
     </div>
 </template>
 

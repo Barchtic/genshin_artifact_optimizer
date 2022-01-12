@@ -47,7 +47,7 @@
                 </el-menu-item>
             </el-menu-item-group>
 
-            <!--<el-menu-item-group>
+            <el-menu-item-group>
                 <template #title>
                     About this site
                 </template>
@@ -68,10 +68,10 @@
                         <i class="el-icon-question"></i>
                         FAQ
                     </el-menu-item>
-                    <el-menu-item index="/help/target-func-explanation">
+                    <!--<el-menu-item index="/help/target-func-explanation">
                         <i class="el-icon-question"></i>
                         Target Functions Parameter Description
-                    </el-menu-item>
+                    </el-menu-item>-->
                 </el-submenu>
                 <el-submenu index="alg">
                     <template slot="title">
@@ -88,7 +88,7 @@
                     </el-menu-item>
                 </el-submenu>
                 
-                <el-menu-item index="/changelog">
+                <!--<el-menu-item index="/changelog">
                     <i class="el-icon-date"></i>
                     Update Record
                 </el-menu-item>
@@ -96,10 +96,10 @@
                 <el-menu-item index="/tomodachi">
                     <i class="el-icon-link"></i>
                     Links
-                </el-menu-item>
+                </el-menu-item>-->
             </el-menu-item-group>
 
-             <el-menu-item-group>
+            <!--<el-menu-item-group>
                 <template #title>
                     Help
                 </template>
@@ -111,7 +111,7 @@
                     <i class="el-icon-s-opportunity"></i>
                     Algorithm
                 </el-menu-item>
-            </el-menu-item-group> -->
+            </el-menu-item-group>--> 
         </el-menu>
     </div>
 </template>

@@ -12,7 +12,8 @@
                 <p>Click the "Add Artifact" button, enter the details of the Artifact in the pop-up dialog box, you can manually add a single Artifact</p>
                 <img src="./img1.png">
 
-                <p>Click the "Import json" button to import artifacts in batches from json. json is a format for representing data. For details, please refer to<a href="https://www.json.org/json-zh.html" target="_blank"> json official website </a></p>
+                <p>Click the "Import json" button to import artifacts in batches from json. json is a format for representing data. For details, please refer to </p>
+                <p> <a href="https://www.json.org/json-zh.html" target="_blank"> json official website </a></p>
                 <p>The relics here will be the core data of the entire application, and the configuration and potential calculation depend on the relics here</p>
                 <p>At present, there are third-party automatic relics export tools compatible with this site：</p>
                 <router-link to="/help/export-tools">Summary of export tools</router-link>
