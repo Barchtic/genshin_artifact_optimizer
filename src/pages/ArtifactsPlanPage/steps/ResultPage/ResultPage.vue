@@ -36,7 +36,7 @@
                 <el-button
                     size="small"
                     @click="showArtifactsAnalysis = true"
-                >View Artifacs Analysis</el-button>
+                >View Artifacts Analysis</el-button>
                 <el-button
                     size="small"
                     @click="showAttributeAnalysis = true"
