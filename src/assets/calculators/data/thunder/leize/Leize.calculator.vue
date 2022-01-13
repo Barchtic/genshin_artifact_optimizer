@@ -61,7 +61,7 @@ export default {
         enemy: {
             type: Object,
             default: function () {
-                return new Enemy("hilichurl", 80);
+                return new Enemy("hilichurl", 90);
             }
         },
         configObject: {
