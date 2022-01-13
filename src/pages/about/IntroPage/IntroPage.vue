@@ -41,7 +41,7 @@
         <el-card class="mb16">
             <p class="big-card-title">Resources</p>
             <el-alert
-                title="This Project is 100% Open Source Front-End is Based on https://www.mona-uranai.com/ "
+                title="This Project is 100% Open Source "
                 :closable="true"
                 style="margin-bottom: 16px"
             ></el-alert>
