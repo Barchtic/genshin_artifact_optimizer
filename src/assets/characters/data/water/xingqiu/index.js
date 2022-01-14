@@ -6,7 +6,7 @@ export default {
     cardURL: card,
     detailURL: "",
     name: "xingqiu",
-    chs: "xingqiu",
+    chs: "Xingqiu",
     element: "water",
     weapon: "sword",
     star: 4,
