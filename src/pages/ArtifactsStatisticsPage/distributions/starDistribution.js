@@ -18,11 +18,12 @@ export default function(vm) {
         },
         series: [
             {
-                name: "Quality Distribution",
+                name: "Rarity Distribution",
                 type: "pie",
                 radius: ["40%", "70%"],
                 label: {
                     show: false
+                    
                 },
                 itemStyle: {
                     borderRadius: 10,

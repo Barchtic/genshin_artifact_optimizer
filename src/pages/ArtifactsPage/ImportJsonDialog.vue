@@ -7,17 +7,17 @@
         :before-close="handleClose"
         @opened="handleOpened"
     >
-        <h3 class="text">any help is welcome to develop third-party export tools, please refer to the json interface: <a target="_blank" href="https://wormtql.gitbook.io/mona-uranai/">Documentation</a></h3>
+        <h3 class="text">Any help is welcome to develop third-party export tools, please refer to the JSON interface: <a target="_blank" href="https://wormtql.gitbook.io/mona-uranai/"> Documentation for Mona Format</a></h3>
         <p></p>
         <el-input
             ref="field"
             type="textarea"
-            placeholder="Input JSON"
+            placeholder="Input JSON (Mona Format)"
             v-model="json"
             :rows="5"
         >
         </el-input>
-        <p v-if="supportFileReader">*Support drag and drop files</p>
+        <p v-if="supportFileReader">*Supports drag and drop files</p>
 
         <div class="buttons">
             <!-- <el-button

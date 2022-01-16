@@ -4,7 +4,7 @@ export default {
     name: "xiaoQ",
     chs: "Xiao- Bane of All Evil",
     description: [
-        "Highest Ultimate Damage Possible",
+        "Highest Elemetal Burst Damage",
     ],
     tags: [
         "Damage",

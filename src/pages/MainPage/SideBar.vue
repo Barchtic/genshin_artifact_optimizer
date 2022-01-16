@@ -13,7 +13,7 @@
 
             <el-menu-item-group class="hidden-xs-only">
                 <template #title>
-                    Warehouse
+                    Storage
                 </template>
                 <el-menu-item index="/artifacts">
                     <i class="el-icon-s-help"></i>

@@ -109,6 +109,7 @@ export default {
 .else-div {
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .artifact-panel {

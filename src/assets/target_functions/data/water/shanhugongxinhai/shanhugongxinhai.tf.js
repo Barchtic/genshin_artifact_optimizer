@@ -5,7 +5,7 @@ export default {
     name: "shanhugongxinhaiQ",
     chs: "Sangonomiya Kokomi-Nereid's Ascension",
     description: [
-        "Makes Ultimate Damage Highes Priority For Optimization",
+        "Makes Elemetal Burst Damage Highes Priority For Optimization",
     ],
     tags: [
         "Damage",

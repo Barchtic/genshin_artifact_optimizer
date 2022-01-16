@@ -29,13 +29,13 @@
         </div>
 
         <div class="config-item">
-            <h3 class="config-title">Base HP</h3>
-            <el-input v-model="baseHP"></el-input>
+            <h3 class="config-title">Base DEF</h3>
+            <el-input v-model="baseDEF"></el-input>
         </div>
 
         <div class="config-item">
-            <h3 class="config-title">HP</h3>
-            <el-input v-model="hp"></el-input>
+            <h3 class="config-title">DEF</h3>
+            <el-input v-model="DEF"></el-input>
         </div>
 
         <div class="config-item">
@@ -54,15 +54,15 @@
 
 <script>
 export default {
-    name: "HutaoEPotentialConfig",
+    name: "noelleQPotentialConfig",
     data: function () {
         return {
             baseAtk: "600",
             atk: "1400",
             baseCrit: "0.3",
             baseCriticalDamage: "1",
-            baseHP: "15000",
-            hp: "20000",
+            baseDEF: "1500",
+            DEF: "2000",
         }
     },
     methods: {
@@ -72,8 +72,8 @@ export default {
                 baseCrit: parseFloat(this.baseCrit),
                 baseCriticalDamage: parseFloat(this.baseCriticalDamage),
                 atk: parseFloat(this.atk),
-                baseHP: parseFloat(this.baseHP),
-                hp: parseFloat(this.hp),
+                baseDEF: parseFloat(this.baseDEF),
+                DEF: parseFloat(this.DEF),
             }
         }
     }

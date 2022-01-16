@@ -4,7 +4,7 @@ import config from "./Bannite.buffcfg.vue";
 export default {
     name: "bannite",
     chs: "Bennett - Fantastic Voyage",
-    description: "Bennett's Ultimate",
+    description: "Bennett's Elemetal Burst",
     badge,
     config,
     genre: "character",

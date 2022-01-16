@@ -70,7 +70,7 @@
 
         <div class="small-toolbar" style="margin-bottom: 16px">
             <el-popconfirm
-                title="Are you sure you want to clear it? The artifact set data will be cleared at the same time"
+                title="Are you sure you want to delete every artifact? The artifact set data will also be deleted."
                 @confirm="handleClickDeleteAll"
                 style="margin-right: 8px"
             >
@@ -79,9 +79,9 @@
                     size="mini"
                     icon="el-icon-delete"
                     type="danger"
-                    title="Empty"
+                    title="Delete all"
                 >
-                    Empty
+                    Delete all
                 </el-button>
             </el-popconfirm>
             

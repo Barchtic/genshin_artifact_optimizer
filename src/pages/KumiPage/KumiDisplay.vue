@@ -37,7 +37,7 @@ $height: 40px;
     line-height: $height;
     color: #ccc;
     transition: 200ms;
-
+    
     &.active {
         color: #00adff;
         background: #409EFF;

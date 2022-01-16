@@ -19,7 +19,7 @@
                     description="The enchantment ratio affected by the E skill, for example, level of normal attack 10 times, 4 times are the thunder element, then the level of normal attack enchantment ratio is 0.4, which will affect the choice of damage bonus"
                 ></target-func-explanation-item>
 
-                <h1>Hu Tao- Guide to Afterlife </h1>
+                <h1>Hu Tao - Guide to Afterlife </h1>
                 <target-func-explanation-item
                     name="Enemy Pyro Element Coverage"
                     description="The proportion of time that the enemy is afected by the pyro element, which will affect the effect of crimson witch 4 piece set"

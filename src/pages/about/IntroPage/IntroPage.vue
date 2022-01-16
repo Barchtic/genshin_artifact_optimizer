@@ -135,7 +135,7 @@
                 <el-card class="mb16">
                     <p class="card-title">Discord</p>
                     <a class="el-button no-deco" :href="links.discord" target="_blank">
-                        Discord Channel
+                        Discord Server
                         <i class="el-icon-connection"></i>
                     </a>
                 </el-card>

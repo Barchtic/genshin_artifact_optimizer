@@ -7,12 +7,12 @@
         >
             <el-radio-button label="a">Normal Attack</el-radio-button>
             <el-radio-button label="e">Elemental Skill</el-radio-button>
-            <el-radio-button label="q">Ultimate</el-radio-button>
+            <el-radio-button label="q">Elemetal Burst</el-radio-button>
         </el-radio-group>
 
         <div v-show="showSkill === 'a'">
             <el-switch
-                active-text="Infused by Ultimate"
+                active-text="Infused by Elemetal Burst"
                 v-model="config.afterQ"
                 class="mb-16"
             ></el-switch>

@@ -16,7 +16,7 @@
         <div style="padding: 0 20px">
             <el-row :gutter="16" v-if="this.artifact">
                 <el-col :span="12">
-                    <p class="title">Quality</p>
+                    <p class="title">Rarity</p>
                     <el-rate
                         @input="handleStarChange"
                         :value="star"

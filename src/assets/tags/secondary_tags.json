@@ -96,7 +96,7 @@
     },
     "thunderBonus": {
         "name": "thunderBonus",
-        "chs": "Electro Elemental Damage Bonus",
+        "chs": "Electro Bonus",
         "percentage": true,
         "max": {
             "4": 0.348,
@@ -105,7 +105,7 @@
     },
     "fireBonus": {
         "name": "fireBonus",
-        "chs": "Pyro Elemental Damage Bonus",
+        "chs": "Pyro Bonus",
         "percentage": true,
         "max": {
             "4": 0.348,
@@ -114,7 +114,7 @@
     },
     "waterBonus": {
         "name": "waterBonus",
-        "chs": "Hydro Elemental Damage Bonus",
+        "chs": "Hydro Bonus",
         "percentage": true,
         "max": {
             "4": 0.348,
@@ -123,7 +123,7 @@
     },
     "iceBonus": {
         "name": "iceBonus",
-        "chs": "Cryo Elemental Damage Bonus",
+        "chs": "Cryo Bonus",
         "percentage": true,
         "max": {
             "4": 0.348,
@@ -132,7 +132,7 @@
     },
     "windBonus": {
         "name": "windBonus",
-        "chs": "Anemo Elemental Damage Bonus",
+        "chs": "Anemo Dmg Bonus",
         "percentage": true,
         "max": {
             "4": 0.348,
@@ -141,7 +141,7 @@
     },
     "rockBonus": {
         "name": "rockBonus",
-        "chs": "Geo Elemental Damage Bonus",
+        "chs": "Geo Bonus",
         "percentage": true,
         "max": {
             "4": 0.348,
@@ -150,7 +150,7 @@
     },
     "physicalBonus": {
         "name": "physicalBonus",
-        "chs": "Physical Elemental Damage Bonus",
+        "chs": "Physical Bonus",
         "percentage": true,
         "max": {
             "4": 0.435,

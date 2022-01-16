@@ -25,7 +25,7 @@ export default {
         chs: "Circlet",
         url: head,
     },
-    chs: "Emblem of Severted Fate",
+    chs: "Emblem of Severed Fate",
     eng: "emblemOfSeveredFate",
     minStar: 4,
     maxStar: 5,

@@ -171,14 +171,12 @@ export default {
     // overflow: hidden;
 
     .image {
-        position: absolute;
+        position:absolute;
         right: 20px;
-        top: -20px;
-        // bottom: 0;
-        height: 180px;
-        // z-index: -1;
-        // opacity: 0.3;
-        pointer-events: none;
+        // right: 0;
+        top: -5px;
+        height: 100px;
+        width: 100px;
     }
 
     .weapon-effect {

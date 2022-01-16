@@ -72,7 +72,8 @@ export default {
 }
 
 .active {
-    background: #12345611;
+    background-color: #4798e922;
+    border-bottom: 1px solid #00adff;
 }
 
 .footer {

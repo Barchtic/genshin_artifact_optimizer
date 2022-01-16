@@ -7,7 +7,7 @@
         >
             <el-radio-button label="a">Normal Attack</el-radio-button>
             <el-radio-button label="e">Elemental Skill</el-radio-button>
-            <el-radio-button label="q">Ultimate</el-radio-button>
+            <el-radio-button label="q">Elemetal Burst</el-radio-button>
         </el-radio-group>
 
         <div v-show="showSkill === 'a'">
@@ -51,7 +51,7 @@
             <common-table-water
                 :data="shanhugongxinhaiQ.q"
             ></common-table-water>
-            <p class="single-item">Ultimate Healing: {{ shanhugongxinhaiQ.heal }}</p>
+            <p class="single-item">Elemetal Burst Healing: {{ shanhugongxinhaiQ.heal }}</p>
         </div>
     </div>
 </template>
