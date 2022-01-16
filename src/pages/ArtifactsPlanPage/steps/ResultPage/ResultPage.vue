@@ -81,8 +81,9 @@
             <el-row :gutter="16">
                 <el-col :span="18">
                     <el-alert
-                        title="Since the battle system of Genshin Impact is complicated and there are many buff systems, the calculation results are for reference only"
+                        title="Since the battle system of Genshin Impact is complicated and there are many buff systems, the calculation results are for reference only."
                         :closable="false"
+                         type="warning"
                     ></el-alert>
 
                     <h3 style="color: white" class="title">Best Match</h3>
@@ -98,12 +99,12 @@
                     </div>
                     <div>
                         <el-button size="small" @click="handleSaveAsNewKumi">Save as Artifact Set</el-button>
-                        <el-button size="small" @click="handleToggleAll">{{ isAllDisabled ? "Enable" : "Disable" }} All</el-button>
+                        <el-button size="small" @click="handleToggleAll">{{ isAllDisabled ? "Unlock" : "Lock" }} Selected Artifacts</el-button>
                     </div>
 
-                    <h3 style="color: white" class="title">Max</h3>
+                    <h3 style="color: white" class="title">Output</h3>
                     <el-alert
-                        title="The maximum value of different objective functions cannot be compared with each other; the maximum value of the output type is not the final expected damage, so it is for reference only"
+                        title="The maximum value of different objective functions cannot be compared with each other; the maximum value of the output type is not the final expected damage, so it is for reference only."
                         type="warning"
                         :closable="false"
                         style="margin-bottom: 12px"

@@ -88,7 +88,7 @@
         </div>
 
         <div class="config-item">
-            <h3 class="config-title" style="margin-bottom: 20px">Minimun Attributes</h3>
+            <h3 class="config-title" style="margin-bottom: 20px">Minimum Attributes</h3>
             <div class="flex-row row">
                 <span class="cmt-label fs-14 color-normal" style="color:white">HP</span>
                 <div>

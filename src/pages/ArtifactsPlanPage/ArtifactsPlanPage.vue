@@ -1,7 +1,7 @@
 <template>
     <div>
         <el-breadcrumb>
-            <el-breadcrumb-item>Artifacts Planning</el-breadcrumb-item>
+            <el-breadcrumb-item>Character Calculator</el-breadcrumb-item>
         </el-breadcrumb>
         <el-divider></el-divider>
 
@@ -15,14 +15,12 @@
                 @click="saveAsPreset"
                 size="small"
                 icon="el-icon-folder-add"
-                circle
-            ></el-button>
+            >Save as Preset</el-button>
             <el-button
                 @click="handleClickApplyPreset"
                 size="small"
-                icon="el-icon-truck"
-                circle
-            ></el-button>
+                icon="el-icon-truck"    
+            >Select Preset</el-button>
             <el-button
                 v-show="isPreset"
                 @click="savePreset"
@@ -30,7 +28,7 @@
                 type="success"
             >
                 <i class="el-icon-check"></i>
-                Save Preset：{{ currentPresetName }}
+                Preset：{{ currentPresetName }}
             </el-button>
 
             <div style="float: right">
@@ -463,9 +461,9 @@ export default {
 
             console.log(iterCount);
             if (iterCount >= 5000000) {
-                this.$confirm(`The calculation will be very time consuming (approximately ${estimateToChs(iterCount)}）,Want to continue?`, "Warning", {
-                    confirmButtonText: "Save",
-                    cancelButtonText: "Cancel",
+                this.$confirm(`The calculation will be very time consuming. (approximately ${estimateToChs(iterCount)}）Want to continue?`, "Warning", {
+                    confirmButtonText: "Yes",
+                    cancelButtonText: "No",
                     type: "warning",
                 }).then(() => {
                     start();

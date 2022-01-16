@@ -88,16 +88,15 @@
             <el-button
                 size="mini"
                 icon="el-icon-unlock"
-                title="Enable All"
-                @click="$store.commit('artifacts/unlockAll')"
-            >Enable All</el-button>
+                title="Lock All"
+                @click="lockOrUnlockall"
+            >Unlock All Artifacts</el-button>
             <el-button
                 size="mini"
-                icon="el-icon-unlock"
-                circle
+                icon="el-icon-lock"
                 title="Lock/Unlock current page"
                 @click="lockOrUnlockCurrentPage"
-            ></el-button>
+            >Lock/Unlock Current Page</el-button>
         </div>
 
         <!-- </div> -->
@@ -225,6 +224,9 @@ export default {
                     }
                 }
             }
+        },
+        lockOrUnlockall() {
+            this.$store.commit("artifacts/unlockAll");
         },
 
         /**

@@ -44,7 +44,7 @@
         </el-dialog>
 
         <el-breadcrumb>
-            <el-breadcrumb-item>Preset</el-breadcrumb-item>
+            <el-breadcrumb-item>Character Presets</el-breadcrumb-item>
         </el-breadcrumb>
         <el-divider></el-divider>
 
@@ -78,8 +78,10 @@
             </template>
             <el-alert
                 v-else
-                title="Please go to the Character Calculator page to add a preset"
+                title="Please go to the Character Calculator page to add a preset."
                 :closable="false"
+                type="warning"
+                style="margin-bottom: 20px"
             ></el-alert>
         </div>
     </div>

@@ -139,7 +139,8 @@ export default {
 
 <style scoped>
 .omit {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: #4798e922;
+    border-bottom: 1px solid #00adff;
 }
 
 .sec-tag {
@@ -201,5 +202,8 @@ export default {
     border-radius: 50%;
     display: block;
     margin-right: 8px;
+}
+body{
+   background: #222933;
 }
 </style>

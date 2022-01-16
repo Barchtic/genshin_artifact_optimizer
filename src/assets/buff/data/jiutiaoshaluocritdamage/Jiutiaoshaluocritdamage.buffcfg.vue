@@ -1,9 +1,9 @@
 <template>
     <div>
         <single-value
-            title="Equivalent Crit Rate"
+            title="Critical Damage Value"
             v-model="value"
-            percentage
+            :percentage="true"
         ></single-value>
     </div>
 </template>
@@ -12,31 +12,32 @@
 import SingleValue from "@asset/buff/common_config_item/SingleValue";
 
 export default {
-    name: "Ice2.buffcfg",
+    name: "Jiutiaoshaluocritdamage.buffcfg",
     components: {
         SingleValue,
     },
     data: function () {
         return {
-            value: "15",
+            value: "60",
         }
     },
     methods: {
         getValue() {
-            return (parseFloat(this.value) ?? 10) / 100;
+            return (parseFloat(this.value) ?? 20) / 100;
         },
 
         getStandardConfig() {
             return {
-                type: "critical",
+                type: "criticalDamage",
                 value: this.getValue(),
             }
         },
 
         getBuff() {
             return {
-                name: "ice2",
+                name: "criticalDamage",
                 args: {
+                    
                     value: this.getValue(),
                 }
             }

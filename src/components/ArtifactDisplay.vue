@@ -204,7 +204,8 @@ export default {
     }
 
     &.omit {
-        background-color: rgba(0, 0, 0, 0.1);
+        background-color: #4798e922;
+        border-bottom: 1px solid #00adff;
     }
 
     .up {

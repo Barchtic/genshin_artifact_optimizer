@@ -3,10 +3,11 @@
         title="Import JSON"
         :visible.sync="visible"
         width="80%"
+        style="color: white"
         :before-close="handleClose"
         @opened="handleOpened"
     >
-        <h3 class="text">Big guys are welcome to develop third-party export tools, please refer to the json interface:<a target="_blank" href="https://wormtql.gitbook.io/mona-uranai/">Documentation</a></h3>
+        <h3 class="text">any help is welcome to develop third-party export tools, please refer to the json interface: <a target="_blank" href="https://wormtql.gitbook.io/mona-uranai/">Documentation</a></h3>
         <p></p>
         <el-input
             ref="field"

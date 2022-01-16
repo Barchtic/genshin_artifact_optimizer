@@ -4,6 +4,7 @@
         :visible.sync="visible"
         direction="rtl"
         :before-close="handleCancel"
+       
     >
         <div class="header" v-if="this.artifact">
             <img :src="thumbnail.url">
@@ -225,6 +226,7 @@ export default {
 
 <style lang="scss" scoped>
 .header {
+    background: #222933;
     padding: 0 20px;
     display: flex;
     align-items: center;
@@ -244,16 +246,19 @@ export default {
 }
 
 .main-tag {
+    background: #222933;
     padding: 0 20px;
     margin-top: 32px;
 }
 
 .normal-tag {
+    background: #222933;
     padding: 0 20px;
     margin-top: 32px;
 }
 
 .buttons {
+    background: #222933;
     padding: 0 20px;
     /* margin-top: 32px; */
     button {
@@ -262,6 +267,7 @@ export default {
 }
 
 .title {
+    background: #222933;
     font-size: 12px;
 
 }

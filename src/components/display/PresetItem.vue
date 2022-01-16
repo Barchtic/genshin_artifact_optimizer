@@ -87,7 +87,7 @@ export default {
         span {
             line-height: 32px;
             padding: 4px 8px;
-            color: #123456;
+            color: #00adff;
         }
 
         .buttons {
