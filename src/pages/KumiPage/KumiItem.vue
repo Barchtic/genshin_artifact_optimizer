@@ -13,12 +13,6 @@
                     title="Delete"
                     @click="$emit('delete')"
                 ></el-button>
-                <el-button
-                    type="text"
-                    icon="el-icon-rank"
-                    title="Move"
-                    @click="$emit('move')"
-                ></el-button>
             </div>
         </div>
         <div class="body">
@@ -29,7 +23,7 @@
                     :key="i"
                     v-if="isIdValid(data.ids[i - 1])"
                     class="artifact-item"
-                    width="200px"
+                    width="250px"
                     :item="getArtifactById(data.ids[i - 1])"
                     selectable
                     @click="$emit('click', i - 1)"
@@ -84,6 +78,19 @@ export default {
 
             return true;
         },
+        handleToggleAll() {
+            let op;
+            if (this.isAllDisabled) {
+                op = id => this.$store.commit("artifacts/enableArtifactById", { id });
+            } else {
+                op = id => this.$store.commit("artifacts/disableArtifactById", { id });
+            }
+
+            for (let i = 0, l = this.notDeletedArtifacts.length; i < l; i++) {
+                let art = this.notDeletedArtifacts[i];
+                op(art.id);
+            }
+        },
 
         getArtifactById(id) {
             let artifactsById = this.$store.getters["artifacts/artifactsById"];
@@ -100,7 +107,19 @@ export default {
                 id: this.data.id,
                 newName: text,
             });
+        },
+
+        isAllDisabled() {
+            for (let art of this.notDeletedArtifacts) {
+                if (!art.omit) {
+                    return false;
+                }
+            }
+
+            return true;
         }
+
+        
     }
 }
 </script>

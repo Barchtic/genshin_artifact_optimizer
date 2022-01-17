@@ -3,6 +3,7 @@
         <el-dialog
             :visible.sync="selectArtifactDialogVisible"
             width="80%"
+            color="white"
             title="Select an Artifact"
         >
             <select-artifacts

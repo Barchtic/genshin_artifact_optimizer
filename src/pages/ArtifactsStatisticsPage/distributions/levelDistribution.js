@@ -15,6 +15,9 @@ export default function(vm) {
             orient: "vertical",
             // top: "0",
             left: "left",
+            textStyle: {
+                color:'#FFFF'
+            },
         },
         series: [
             {

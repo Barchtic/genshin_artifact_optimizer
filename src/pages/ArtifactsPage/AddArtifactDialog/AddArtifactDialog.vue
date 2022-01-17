@@ -16,7 +16,7 @@
 
         <el-row :gutter="16">
             <el-col :span="12">
-                <h3>Quality</h3>
+                <h3>Rarity</h3>
                 <el-rate
                     @input="handleStarChange"
                     :value="star"

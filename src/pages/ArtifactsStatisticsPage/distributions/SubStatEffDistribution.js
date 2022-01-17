@@ -35,6 +35,7 @@ export default function(vm) {
     let sum = Object.values(eff).reduce((a, b) => a + b);
 
     let options = {
+       
         tooltip: {
             trigger: "item",
             // formatter: ({ data }) => {
@@ -45,9 +46,11 @@ export default function(vm) {
         legend: {
             // top: "0",
             left: "left",
-            orient: "vertical",
+            orient: "horizontal",
+            textStyle: {
+                color:'#FFFF'
+            },
         },
-        
         series: [
             {
                 name: "Sub Statt Efficiency Distribution",

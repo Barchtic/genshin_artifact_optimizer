@@ -274,6 +274,7 @@ export default {
             let loading = this.$loading({
                 lock: true,
                 text: "Calculating ",
+                background: "rgba(0, 0, 0, 0.7)",
             });
             this.calculating = true;
 

@@ -14,7 +14,7 @@
                 <h1>2. What is the maximum value of the set result?</h1>
                 <p>The essence of the target function is to map weapons, characters, and artifacts to a value. By enumerating all the combinations of artifacts, the maximum value selected is the final maximum value</p>
                 <p>However, the maximum value is not the expected output, because it is only used for the ratio, so many constants that do not affect the assembly result, such as monster resistance, etc., are not included. Therefore, the maximum value of the same objective function can be compared with each other. The maximum value between different target functions is not comparable</p>
-                <h1>3. Are special effects like 4 pice shimenawas take into account?</h1>
+                <h1>3. Are special effects like 4 piece shimenawas take into account?</h1>
                 <p>Some target functions are included, such as shimenawas, and some irrelevant sets and functions are not included.</p>
                 <h1>4. Are passives like Xiangling counted?</h1>
                 <p>Same as above</p>

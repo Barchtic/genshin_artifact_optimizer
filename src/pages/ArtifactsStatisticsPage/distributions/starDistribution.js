@@ -15,6 +15,9 @@ export default function(vm) {
             // top: "0",
             left: "left",
             orient: "vertical",
+            textStyle: {
+                color:'#FFFF'
+            },
         },
         series: [
             {
@@ -22,8 +25,7 @@ export default function(vm) {
                 type: "pie",
                 radius: ["40%", "70%"],
                 label: {
-                    show: false
-                    
+                    show: false,
                 },
                 itemStyle: {
                     borderRadius: 10,

@@ -96,6 +96,7 @@ export default {
             let loading = this.$loading({
                 lock: true,
                 text: "Calculating",
+                background: "rgba(0, 0, 0, 0.7)",
             });
             let arts = this.$store.getters["artifacts/allFlat"];
 
@@ -136,6 +137,7 @@ export default {
 .container {
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .art {
@@ -150,6 +152,7 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
+ 
     margin-top: 24px;
 }
 </style>

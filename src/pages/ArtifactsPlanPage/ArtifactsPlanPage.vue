@@ -430,6 +430,14 @@ export default {
          * start to compute
          */
         startCalculating() {
+            let artscount = this.$store.getters["artifacts/count"];
+            if (artscount === 0) {
+                this.$message({
+                    message: "No artifacts available, please save at least one artifact.",
+                    type: "warning",
+                });
+                return;
+            }
             let configObject = this.getConfigObject();
 
             let rawArtifacts = deepCopy(this.$store.getters["artifacts/notOmittedArtifacts"]);
@@ -453,12 +461,12 @@ export default {
                 * (filteredArtifacts.head.length || 1)
                 ;
             // console.log(configObject);
-
+             
             let start = () => {
                 this.currentstep = "result";
                 this.$refs.resultPage.doCompute(filteredArtifacts, configObject);
             };
-
+ 
             console.log(iterCount);
             if (iterCount >= 5000000) {
                 this.$confirm(`The calculation will be very time consuming. (approximately ${estimateToChs(iterCount)}）Want to continue?`, "Warning", {
@@ -473,8 +481,12 @@ export default {
             } else {
                 start();
             }
-        },
-    },
+            
+            
+        }
+        
+    }
+    
 }
 </script>
 
