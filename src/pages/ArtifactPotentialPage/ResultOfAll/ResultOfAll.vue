@@ -18,7 +18,7 @@
 
             <el-alert
                 v-show="finalResult.length === 0"
-                title="No artifacts that meet the conditions"
+                title="No artifacts meet the conditions or you may not have started calculation"
                 :closable="false"
                 type="warning"
             ></el-alert>

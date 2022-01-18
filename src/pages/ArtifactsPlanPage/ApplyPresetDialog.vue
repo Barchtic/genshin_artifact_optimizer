@@ -23,7 +23,7 @@
                 type="primary"
                 @click="handleConfirm"
                 :disabled="!isSelectedValid"
-            >Save</el-button>
+            >Apply</el-button>
         </template>
     </el-dialog>
 </template>

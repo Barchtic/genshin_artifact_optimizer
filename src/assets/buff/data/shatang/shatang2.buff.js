@@ -3,7 +3,7 @@ import config from "./Shatang2.buffcfg.vue";
 
 export default {
     name: "shatang2",
-    chs: "Sucrouse - Mollis Favonious",
+    chs: "Sucrose - Mollis Favonious",
     badge,
     config,
     genre: "character",

@@ -24,7 +24,7 @@ export default {
     name: "ConfigTargetFunction",
     data() {
         return {
-            targetFuncName: "single",
+            targetFuncName: "expect",
         }
     },
     methods: {

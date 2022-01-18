@@ -3,7 +3,8 @@ import config from "./Expect.tcfg";
 
 export default {
     name: "expect",
-    chs: "Average Damage",
+    chs: "Average Damage - Recomended",
+    recommend: true,
     description: [
         "Makes the highest expected damage of a certain type"
     ],

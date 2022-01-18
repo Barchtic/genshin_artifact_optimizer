@@ -3,7 +3,7 @@ import config from "./AtkStatic.buffcfg";
 
 export default {
     name: "atkStatic",
-    chs: "Fixed Attack",
+    chs: "Flat Attack",
     badge,
     config,
     genre: "custom",

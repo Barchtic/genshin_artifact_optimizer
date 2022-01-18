@@ -46,7 +46,7 @@ export default function(vm) {
         legend: {
             // top: "0",
             left: "left",
-            orient: "horizontal",
+            orient: "vertical",
             textStyle: {
                 color:'#FFFF'
             },

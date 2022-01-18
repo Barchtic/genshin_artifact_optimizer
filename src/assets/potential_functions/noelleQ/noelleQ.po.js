@@ -5,7 +5,7 @@ export default {
     name: "noelleQ",
     chs: "Noelle C6 Elemental Burst",
     description: [
-        "Only consider attack, critical strike rate, critical strike damage, and DEF"
+        "Only consider attack, crit rate, crit damage, and DEF"
     ],
     badge,
     config,

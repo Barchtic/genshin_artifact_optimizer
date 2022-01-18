@@ -6,7 +6,7 @@ export default {
     cardURL: card,
     detailURL: "",
     name: "bannite",
-    chs: "Bennet",
+    chs: "Bennett",
     element: "fire",
     weapon: "sword",
     star: 4,

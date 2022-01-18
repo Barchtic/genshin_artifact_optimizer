@@ -5,7 +5,7 @@ export default {
     name: "hutaoE",
     chs: "Hu Tao",
     description: [
-        "Only consider attack, critical strike rate, critical strike damage, and health"
+        "Only consider attack, crit rate, crit damage, and health"
     ],
     badge,
     config,

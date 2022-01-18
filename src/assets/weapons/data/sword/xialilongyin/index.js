@@ -3,10 +3,10 @@ import tn from "./tn.png";
 
 export default {
     name: "xialilongyin",
-    chs: "Lions Roar",
+    chs: "Lion's Roar",
     url: tn,
     star: 4,
     type: "sword",
-    config: () => commonConfigRate("Lions Roar"),
+    config: () => commonConfigRate("Lion's Roar"),
     effect: "Bane of Fire and Thunder：Increases DMG against enemies affected by Pyro or Electro by 20/24/28/32/36%. ",
 }

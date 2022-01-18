@@ -3,7 +3,7 @@ import config from "./AtkPercentage.buffcfg";
 
 export default {
     name: "atkPercentage",
-    chs: "ATK Percentage",
+    chs: "ATK%",
     badge,
     config,
     genre: "custom",

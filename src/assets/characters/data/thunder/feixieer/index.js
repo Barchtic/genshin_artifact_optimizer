@@ -5,7 +5,7 @@ import skill from "./feixieer.skill.js";
 export default {
     cardURL: card,
     name: "feixieer",
-    chs: "Fishl",
+    chs: "Fischl",
     element: "thunder",
     weapon: "bow",
     star: 4,

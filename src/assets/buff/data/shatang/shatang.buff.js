@@ -2,7 +2,7 @@ import badge from "@asset/badges/shatang.png";
 
 export default {
     name: "shatang1",
-    chs: "Sucrouse - Catalyst Conversion",
+    chs: "Sucrose - Catalyst Conversion",
     badge,
     genre: "character",
     getStandardConfig() {

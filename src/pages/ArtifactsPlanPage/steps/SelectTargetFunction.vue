@@ -106,7 +106,7 @@ export default {
         return {
             characterName: "anbo",
 
-            targetFuncName: "single",
+            targetFuncName: "expect",
         }
     },
     methods: {

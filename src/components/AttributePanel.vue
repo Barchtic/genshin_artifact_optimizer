@@ -35,6 +35,14 @@
                 </span>
             </span>
         </div>
+        <div class="item">
+            <span class="title">Elemental Mastery</span>
+            <span class="value">{{ panel.elementalMastery }}</span>
+        </div>
+        <div class="item">
+            <span class="title">Energy Recharge</span>
+            <span class="value">{{ mul100("recharge") }}</span>
+        </div>
 
 
         <h3 class="class">Crit</h3>
@@ -43,11 +51,11 @@
             <span class="value">{{ mul100("critical") }}</span>
         </div>
         <div class="item">
-            <span class="title">Critical Strike Rate</span>
+            <span class="title">Critical Rate</span>
             <span class="value">{{ mul100("bCritical") }}</span>
         </div>
         <div class="item">
-            <span class="title">Elemental Skills Crit Rate</span>
+            <span class="title">Elemental Skill Crit Rate</span>
             <span class="value">{{ mul100("eCritical") }}</span>
         </div>
         <div class="item">
@@ -119,15 +127,7 @@
         </div>
 
 
-        <h3 class="class">Elemets</h3>
-        <div class="item">
-            <span class="title">Elemental Mastery</span>
-            <span class="value">{{ panel.elementalMastery }}</span>
-        </div>
-        <div class="item">
-            <span class="title">Energy Recharge</span>
-            <span class="value">{{ mul100("recharge") }}</span>
-        </div>
+        <h3 class="class">Elements</h3>
         <div class="item">
             <span class="title">Overload Enhancement</span>
             <span class="value">{{ mul100("overloadEnhance") }}</span>

@@ -9,8 +9,7 @@
             class="title"
         >
             <span class="mona">Genshin Artifacts Optimizer</span>
-            V{{ version }}
-            <span class="build-info">BUILD ON {{ buildDate }}</span>
+            V {{ version }}
         </p>
         
         <!-- <p style="padding: 0; margin: 0; font-size: 10px;">该网站处处透露着贫穷，欢迎有志者参与开发（美术等）</p> -->
@@ -40,11 +39,6 @@
 
         <el-card class="mb16">
             <p class="big-card-title">Resources</p>
-            <el-alert
-                title="This Project is 100% Open Source "
-                :closable="true"
-                style="margin-bottom: 16px"
-            ></el-alert>
             <el-row :gutter="16">
                 <el-col :xs="24" :sm="12">
                     <el-card
@@ -79,32 +73,16 @@
                         <font-awesome-icon :icon="['fab', 'github']"></font-awesome-icon>
                     </el-button>
                     <el-button @click="newPage(links.discordDM)"  class="data-source">
-                        BunnyHunter031#2458 (Discord)
+                        BunnyHunter031#2458
+                        <font-awesome-icon icon="comment"></font-awesome-icon>
+                    </el-button>
+                    <el-button @click="newPage(links.discord)"  class="data-source">
+                        Discord Server
                         <font-awesome-icon icon="comment"></font-awesome-icon>
                     </el-button>
                 </el-card>
             </el-col>
-            <el-col :xs="24" :sm="12">
-                <el-card class="mb16">
-                    <p class="card-title">Wiki Links</p>
-                    <el-button @click="newPage(links.wiki)" class="data-source">
-                        Genshin Impact Wiki | Bilibili (Chinese)
-                        <font-awesome-icon icon="database"></font-awesome-icon>
-                    </el-button>
-                    <el-button @click="newPage(links.wiki2)" class="data-source">
-                        Genshin Impact Wiki | Fandom
-                        <font-awesome-icon icon="database"></font-awesome-icon>
-                    </el-button>
-                    <el-button @click="newPage(links.wiki3)" class="data-source">
-                        Genshin Impact Wiki | Mihoyo (Chinese)
-                        <font-awesome-icon icon="database"></font-awesome-icon>
-                    </el-button>
-                </el-card>
-            </el-col>
-        </el-row>
-
-        <el-row :gutter="12">
-            <el-col :xs="24" :sm="12">
+                        <el-col :xs="24" :sm="12">
                 <el-card class="mb16">
                     <p class="card-title">Useful Links </p>
                     <el-button
@@ -129,18 +107,16 @@
                         FAQ
                         <i class="el-icon-question"></i>
                     </el-button>
+                     <el-button
+                        @click="$router.push('/calculate')"
+                        class="data-source"
+                    >
+                        Character Calculator
+                        <i class="el-icon-cpu"></i>
+                    </el-button>
                 </el-card>
             </el-col>
-            <el-col :xs="24" :sm="12">
-                <el-card class="mb16">
-                    <p class="card-title">Discord</p>
-                    <a class="el-button no-deco" :href="links.discord" target="_blank">
-                        Discord Server
-                        <i class="el-icon-connection"></i>
-                    </a>
-                </el-card>
-            </el-col>
-        </el-row>  
+        </el-row>
     </div>
 </template>
 
@@ -256,7 +232,7 @@ export default {
 }
 
 .mona {
-    background: rgb(128, 124, 82);
+    background: #3cafe4;
     border-radius: 3px;
     color: #222933 ;
     padding: 0 8px;

@@ -21,7 +21,7 @@
                 </el-menu-item>
                 <el-menu-item index="/artifacts-kumi">
                     <i class="el-icon-s-help"></i>
-                    Favorite Artifacts
+                    Artifact Sets
                 </el-menu-item>
                 <el-menu-item index="/character-presets">
                     <i class="el-icon-menu"></i>

@@ -1,7 +1,7 @@
 <template>
     <div>
         <el-alert
-            title="For unleveled artifacts potential refers to the mathematical expectation of what can be reached, and for leveled artifacts, it can be considered as the current rating, please refer to the algorithm description for details"
+            title="Unleveled artifacts potential refers to the mathematical expectation of what can be reached, and for leveled artifacts, it can be considered as the current rating, please refer to the algorithm description for details"
             :closable="false"
             type="danger"
             style="margin-bottom: 20px"

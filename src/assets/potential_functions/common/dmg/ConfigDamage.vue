@@ -27,7 +27,7 @@
         </div>
 
         <div class="config-item">
-            <h3 class="config-title">Base Crit Rate</h3>
+            <h3 class="config-title">Base Crit Rate (Including Ascension Stats)</h3>
             <!-- <el-alert
                 title="如果想要更加精确的结果，这里填不穿任何圣遗物时的暴击率"
                 :closable="false"
@@ -37,7 +37,7 @@
         </div>
 
         <div class="config-item">
-            <h3 class="config-title">Basic Crit Damage</h3>
+            <h3 class="config-title">Base Crit Damage (Including Ascension Stats)</h3>
             <!-- <el-alert
                 title="如果想要更加精确的结果，这里填不穿任何圣遗物时的暴击伤害"
                 :closable="false"

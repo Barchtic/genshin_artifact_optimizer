@@ -48,14 +48,6 @@
             <p>Local recognition, basically fully automatic, no UI mode, speed roughly 100-200 per minute</p>
 
             <div class="footer">
-                <a
-                    target="_blank"
-                    href="https://pan.baidu.com/s/1NSePEf3gzSA45aKASkfZVw"
-                    class="el-button no-deco el-button--primary"
-                >
-                    <i class="el-icon-connection"></i>
-                    Baidu.com (extraction code: sbqv)
-                </a>
                 <a target="_blank" href="https://github.com/ProblemFactory/GenshinArtScanner" class="el-button no-deco">
                     <i class="el-icon-connection"></i>
                     Project Address - Github

@@ -12,7 +12,7 @@
                 <p>It is well known that the impact of the output toward the subtext can be basically summarized by this formula.</p>
                 <p v-katex="'atk*(1+crit*cd)'"></p>
                 <p v-katex="'atk=baseAtk*(1+p)+s'"></p>
-                <p>Among them, <span v-katex="'baseAtk'"></span><span v-katex="'p'"></span>is the base ATK，<span v-katex="'s'"></span>For fixed attack bonus</p>
+                <p>Among them, <span v-katex="'baseAtk'"></span><span v-katex="'p'"></span>is the base ATK，<span v-katex="'s'"></span>For flat attack bonus</p>
 
                 <h1>Expectations</h1>
                 <p>For full level artifacts<span v-katex="'X'"></span>, Definition ：</p>

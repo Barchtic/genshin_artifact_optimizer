@@ -132,7 +132,7 @@
     },
     "windBonus": {
         "name": "windBonus",
-        "chs": "Anemo Dmg Bonus",
+        "chs": "Anemo Bonus",
         "percentage": true,
         "max": {
             "4": 0.348,

@@ -29,7 +29,7 @@
                     In, <br>
                     <span v-katex="'f_x'"></span>Is the frequency of skill x,<span v-katex="'f_x\''"></span>In order to calculate the equivalent frequency after the charging efficiency,<br>
                     <span v-katex="'T_x'"></span>Is the multiplier of skill x<br>
-                    <span v-katex="'c_x'"></span>Critical strike rate for skill x<br>
+                    <span v-katex="'c_x'"></span>Crit for skill x<br>
                     <span v-katex="'r_x'"></span>Percentage of enchantments for skill x<br>
                     <span v-katex="'bonus_p'"></span>For physical damage bonus,<span v-katex="'bonus_{ele}'"></span>Add elemental damage<br>
                     <span v-katex="'c'"></span>For energy recharge,<span v-katex="'cd'"></span>Critical damage

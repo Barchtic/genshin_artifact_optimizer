@@ -34,7 +34,7 @@ export default function(vm) {
                 },
                 data: count.map((item, index) => ({
                     value: item,
-                    name: `${index} Level`,
+                    name: `Level ${index}`,
                 })).filter(item => item.value > 0)
             }
         ]

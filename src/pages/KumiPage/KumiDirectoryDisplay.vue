@@ -129,6 +129,7 @@ export default {
                 newId: -1
             });
         },
+        
     },
     computed: {
         node() {

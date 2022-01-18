@@ -1,53 +1,49 @@
 <template>
     <div>
-        <single-value
-            title="Value"
-            v-model="value"
-        ></single-value>
+        <div class="buff-config-item">
+            <p class="buff-config-title">Refinement level</p>
+            <el-input-number
+                v-model="refine"
+                :min="1"
+                :max="5"
+                size="mini"
+            ></el-input-number>
+        </div>
     </div>
-    
 </template>
 
 <script>
-import SingleValue from "@asset/buff/common_config_item/SingleValue";
-
 export default {
-    name: "EM.buffcfg",
-    components: {
-        SingleValue,
-    },
+    name: "Taolong.buffcfg",
     data: function () {
         return {
-            value: "80",
             refine: 1,
         }
     },
     methods: {
         getValue() {
-            return parseFloat(this.value) ?? 80;
+            return this.refine * 0.06 + 0.18;
         },
 
         getStandardConfig() {
             return {
-                type: "em",
+                type: "atk-percentage",
                 value: this.getValue(),
             }
         },
 
         getBuff() {
             return {
-                name: "em",
+                name: "taolong",
                 args: {
-                    value: this.getValue()
+                    refine: this.refine
                 }
             }
         },
 
         setBuff(buff) {
-            this.value = buff.value.toString();
+            this.refine = buff.refine;
         }
-    },
+    }
 }
-
-
 </script>

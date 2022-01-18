@@ -82,7 +82,7 @@
             <el-col :span="8">
                 <el-card>
                     <div slot="header">
-                        Distribution of the main stats of the Sands: 
+                        Sands Main Stats Distribution: 
                         <div style="float: right">
                             <el-switch
                                 v-model="sandMainStat16Only"
@@ -98,7 +98,7 @@
             <el-col :span="8">
                 <el-card>
                     <div slot="header">
-                        Distribution of the main stats of the Goblet:
+                        Goblet Main Stats Distribution:
                         <div style="float: right">
                             <el-switch
                                 v-model="cupMainStat16Only"
@@ -114,7 +114,7 @@
             <el-col :span="8">
                 <el-card>
                     <div slot="header">
-                         Distribution of the main stats of the Circlet:
+                         Circlet Main Stats Distribution:
                         <div style="float: right">
                             <el-switch
                                 v-model="headMainStat16Only"

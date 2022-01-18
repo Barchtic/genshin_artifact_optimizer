@@ -4,7 +4,7 @@
         @update:visible="$emit('update:visible', $event)"
         title="Save as Artifact Set"
     >
-        <h3 class="config-title">Select Favorites</h3>
+        <h3 class="config-title">Select Sets</h3>
         <div class="select-dir">
             <div
                 v-for="dir in allDirs"

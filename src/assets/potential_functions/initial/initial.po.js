@@ -1,4 +1,4 @@
-import badge from "@asset/badges/shield.png";
+import badge from "@asset/badges/level0.png";
 import config from "./InitialPotentialConfig";
 
 export default {

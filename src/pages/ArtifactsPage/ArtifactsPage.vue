@@ -55,10 +55,10 @@
 
             <div class="tool-right">
                 <el-button @click="handleImportJsonClicked">
-                    Import Json
+                    Import JSON
                 </el-button>
                 <el-button @click="handleOutputJsonClicked">
-                    Export Json
+                    Export JSON
                 </el-button>
             </div>
         </div>
@@ -201,6 +201,9 @@ export default {
         handleClickDeleteAll() {
             this.$store.commit("artifacts/removeAllArtifacts");
         },
+
+        
+
 
         lockOrUnlockCurrentPage() {
             let artifacts = this.$store.getters["artifacts/allArtifacts"][this.activeName];

@@ -9,6 +9,6 @@ export default {
     wiki2: "https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki",
     wiki3: "https://bbs.mihoyo.com/ys/obc/?bbs_presentation_style=no_header",
 
-    discord: "https://discord.gg/aZPkMZKa",
+    discord: "https://discord.gg/Vu2nEDCCUh",
     discordDM: "https://discord.com/channels/BunnyHunter031#2458",
 }

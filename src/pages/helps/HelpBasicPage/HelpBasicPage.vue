@@ -25,8 +25,9 @@
 
 
                 <h1>3. Presets</h1>
-                <p>Click the "Save as preset" button to save all the currently set character, character parameters, weapons, weapon parameters, targets, target parameters and other parameters.</p>
+                <p>Click the "Save as Preset" button to save all the currently set character, character parameters, weapons, weapon parameters, targets, target parameters and other parameters.</p>
                 <p>Click the "Apply Preset" button to apply the saved preset to avoid re-entering parameters.</p>
+                <p>"Click the green "✓Preset:" button to save current preset (Will only show if you have a preset selected)</p>
             </el-col>
         </el-row>
     </div>

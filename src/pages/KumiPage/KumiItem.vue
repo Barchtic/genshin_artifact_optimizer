@@ -13,6 +13,7 @@
                     title="Delete"
                     @click="$emit('delete')"
                 ></el-button>
+            
             </div>
         </div>
         <div class="body">
@@ -22,20 +23,20 @@
                 <artifact-display
                     :key="i"
                     v-if="isIdValid(data.ids[i - 1])"
-                    class="artifact-item"
-                    width="250px"
+                    class="artifact"
+                    width="200"
                     :item="getArtifactById(data.ids[i - 1])"
                     selectable
-                    @click="$emit('click', i - 1)"
                     @delete="$emit('deleteArtifact', i - 1)"
+                    @toggle="toggle(data.ids[i - 1])"
                     buttons
-                    :lock-button="false"
+                    :lock-button="true"
                     :delete-button="true"
                 ></artifact-display>
                 <add-button
                     :key="i"
                     v-else
-                    class="artifact-item"
+                    class="artifact"
                     :back="getIcon(i)"
                     @click="$emit('click', i - 1)"
                 ></add-button>
@@ -78,19 +79,7 @@ export default {
 
             return true;
         },
-        handleToggleAll() {
-            let op;
-            if (this.isAllDisabled) {
-                op = id => this.$store.commit("artifacts/enableArtifactById", { id });
-            } else {
-                op = id => this.$store.commit("artifacts/disableArtifactById", { id });
-            }
 
-            for (let i = 0, l = this.notDeletedArtifacts.length; i < l; i++) {
-                let art = this.notDeletedArtifacts[i];
-                op(art.id);
-            }
-        },
 
         getArtifactById(id) {
             let artifactsById = this.$store.getters["artifacts/artifactsById"];
@@ -117,7 +106,12 @@ export default {
             }
 
             return true;
-        }
+        },
+         toggle(id) {
+            this.$store.commit("artifacts/toggleById", { id });
+        },
+
+
 
         
     }

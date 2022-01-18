@@ -1,7 +1,7 @@
 <template>
     <div>
         <single-value
-            title="Sucrouse Elemental Mastery"
+            title="Sucrose Elemental Mastery"
             v-model="value"
             style="margin-bottom: 0"
         ></single-value>

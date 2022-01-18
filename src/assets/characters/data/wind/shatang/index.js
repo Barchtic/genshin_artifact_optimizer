@@ -6,7 +6,7 @@ export default {
     cardURL: card,
     detailURL: "",
     name: "shatang",
-    chs: "Sucrouse",
+    chs: "Sucrose",
     element: "wind",
     weapon: "book",
     star: 4,

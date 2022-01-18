@@ -11,7 +11,7 @@ let tree = {
     id: 0,
     children: [
         {
-            label: "Default Favorites",
+            label: "Default Sets",
             type: "dir",
             id: 1,
         }

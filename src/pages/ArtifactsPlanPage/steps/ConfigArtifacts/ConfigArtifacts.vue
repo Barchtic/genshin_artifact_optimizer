@@ -61,7 +61,7 @@
         <common-artifact-config-ratio
             artifact-name="blizzardStrayer"
             v-model="configBlizzardStrayer.criticalBonus"
-            title="Equivalent critical strike rate increase"
+            title="Equivalent crit rate increase"
             class="artifact-config-item config-item"
         ></common-artifact-config-ratio>
 
