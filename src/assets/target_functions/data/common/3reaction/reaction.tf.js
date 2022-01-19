@@ -3,12 +3,13 @@ import config from "./AmpReaction.tcfg";
 
 export default {
     name: "reactionAmp",
-    chs: "Elemental reaction - Increase reaction - Expected damage",
+    chs: "Elemental Reaction",
     description: [
-        "Make the highest expected damage of an element reaction (melting, vaporize)"
+        "Highest Average Damage for Specific Reactions"
     ],
     tags: [
         "Reaction",
+        "Average",
     ],
     "for": "common",
     badge,
