@@ -1,6 +1,5 @@
 function f(config) {
     let name = config.tArgs.fieldName;
-
     if (name === "attack") {
         return function (attribute) {
             return attribute.attack();

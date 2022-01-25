@@ -8,7 +8,7 @@ export default {
         "If the level is insufficient, the second talent will be ignored",
     ],
     tags: [
-        "钟离",
+        "Damage",
     ],
     "for": "zhongli",
     badge,

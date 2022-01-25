@@ -3,9 +3,10 @@ import config from "./Shenhe.tcfg";
 
 export default {
     name: "shenhe",
-    chs: "Spring Spirit Summoning",
+    recommend: true,
+    chs: "Shenhe - Spring Spirit Summoning",
     description: [
-        "Maximize ATK"
+        "Maximize ATK and ATK%"
     ],
     tags: [
         "Shenhe",

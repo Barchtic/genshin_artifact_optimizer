@@ -9,7 +9,6 @@ export default {
     ],
     tags: [
         "Reaction",
-        "Average",
     ],
     "for": "common",
     badge,

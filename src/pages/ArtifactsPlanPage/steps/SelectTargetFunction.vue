@@ -56,7 +56,6 @@
             </div>
             <div class="detail">
                 <span class="target-title">{{ target.chs }}</span>
-                <span class="is-recommend" v-if="target.recommend">Recommended</span>
                 <span class="formula" v-if="target.formula">{{ target.formula }}</span>
                 <div class="description fs-12">
                     <span
@@ -123,7 +122,7 @@ export default {
         handleChange(name) {
             if (name !== this.targetFuncName) {
                 this.targetFuncName = name;
-                //this.notifyChange("targetFunc", name);
+                this.notifyChange("targetFunc", name);
             }
         },
 
@@ -134,17 +133,15 @@ export default {
 
                 if (Object.prototype.hasOwnProperty.call(targetGroup, name)) {
                     // character has own target functions
-                   
+
                     if (targetFunctionsData[this.targetFuncName]["for"] !== "common") {
                         let target = targetGroup[name][0];
                         newTarget = target.name;
                     }
                 } else {
                     // character does not have own target functions
-                    
                     let target = targetGroup.common[0];
                     newTarget = target.name;
-                    
                 }
 
                 this.handleChange(newTarget);
@@ -153,11 +150,10 @@ export default {
     },
     computed: {
         specificCharacterTargets() {
-             
             return targetGroup[this.characterName];
         }
     },
-    //  watch: {
+    // watch: {
     //     characterName(name) {
     //         if (commonTargetNames.has(this.value)) {
     //             return;

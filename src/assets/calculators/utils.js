@@ -236,6 +236,14 @@ export function rowThunder(attribute, configObject, enemy, caption, skillName, b
         "thunder": damageCustom(attribute, configObject.character.level, enemy, "thunder", skillName, baseDmg),
     }
 }
+export function rowIce(attribute, configObject, enemy, caption, skillName, baseDmg) {
+    const cLevel = configObject.character.level;
+    return {
+        "chs": caption,
+        "ice": damageCustom(attribute, cLevel, enemy, "ice", skillName, baseDmg),
+        "iceMelt": damageReactionCustom("melt", attribute, cLevel, enemy, "ice", skillName, baseDmg)
+    }
+} 
 
 export function rowWater(attribute, configObject, enemy, caption, skillName, baseDmg) {
     const cLevel = configObject.character.level;

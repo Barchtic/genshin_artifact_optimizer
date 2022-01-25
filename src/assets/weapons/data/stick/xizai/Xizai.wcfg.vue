@@ -11,7 +11,7 @@
             ></el-slider>
         </div>
         <div class="config-item">
-            <h3 class="config-title">Is it the Background</h3>
+            <h3 class="config-title">Off-Field</h3>
             <el-switch
                 v-model="isBackend"
                 active-text="Yes"
