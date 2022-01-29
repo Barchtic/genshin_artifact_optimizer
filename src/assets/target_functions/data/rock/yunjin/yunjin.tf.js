@@ -2,7 +2,7 @@ import badge from "@asset/badges/yunjin.png";
 import config from "./Yunjin.tcfg";
 
 export default {
-    name: "shenhe",
+    name: "yunjin",
     recommend: true,
     chs: "YunJin - Cliffbreaker's Banner",
     description: [
