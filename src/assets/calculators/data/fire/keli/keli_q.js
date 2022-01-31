@@ -4,7 +4,7 @@ import { getAttribute } from "@util/attribute";
 let skillKeys = [
     {
         key: "dmg1",
-        chs: "Sparks'n' Splash Damage",
+        chs: "Sparks 'n' Splash Damage",
     },
 ];
 

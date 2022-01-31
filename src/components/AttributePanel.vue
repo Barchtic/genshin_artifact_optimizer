@@ -43,16 +43,20 @@
             <span class="title">Energy Recharge</span>
             <span class="value">{{ mul100("recharge") }}</span>
         </div>
+         <div class="item">
+            <span class="title">Critical Rate</span>
+            <span class="value">{{ mul100("bCritical") }}</span>
+        </div>
+        <div class="item">
+            <span class="title">Critical Damage</span>
+            <span class="value">{{ mul100("criticalDamage") }}</span>
+        </div>
 
 
         <h3 class="class">Crit</h3>
         <div class="item">
             <span class="title">Normal Attack Crit Rate</span>
             <span class="value">{{ mul100("critical") }}</span>
-        </div>
-        <div class="item">
-            <span class="title">Critical Rate</span>
-            <span class="value">{{ mul100("bCritical") }}</span>
         </div>
         <div class="item">
             <span class="title">Elemental Skill Crit Rate</span>
@@ -63,13 +67,10 @@
             <span class="value">{{ mul100("qCritical") }}</span>
         </div>
         <div class="item">
-            <span class="title">Critical Rate of Plunge Attack</span>
+            <span class="title">Plunge Attack Crit Rate</span>
             <span class="value">{{ mul100("airCritical") }}</span>
         </div>
-        <div class="item">
-            <span class="title">Critical Damage</span>
-            <span class="value">{{ mul100("criticalDamage") }}</span>
-        </div>
+        
 
 
         <h3 class="class">Damage Bonuses</h3>
@@ -207,7 +208,7 @@
             <span class="value">{{ mul100("cureEffect") }}</span>
         </div>
         <div class="item">
-            <span class="title">Shield Resistance</span>
+            <span class="title">Shield Strength</span>
             <span class="value">{{ mul100("shield") }}</span>
         </div>
         <div class="item">

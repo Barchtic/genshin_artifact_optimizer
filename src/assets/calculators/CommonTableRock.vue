@@ -13,6 +13,7 @@
             <el-table-column
                 label="Geo Damage"
                 width="200"
+
             >
                 <template slot-scope="scope">
                     <damage-display :damage="scope.row.rock"></damage-display>
@@ -33,7 +34,7 @@ export default {
 }
 </script>
 <style>
-damage-display{
+.damage-display{
     background: wheat;
 }
 </style>

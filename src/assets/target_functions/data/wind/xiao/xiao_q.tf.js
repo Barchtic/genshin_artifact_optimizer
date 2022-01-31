@@ -2,9 +2,9 @@ import badge from "@asset/badges/xiao.png";
 
 export default {
     name: "xiaoQ",
-    chs: "Xiao- Bane of All Evil",
+    chs: "Xiao - Bane of All Evil",
     description: [
-        "Highest Elemetal Burst Damage",
+        "Highest Elemental Burst Damage",
     ],
     tags: [
         "Damage",

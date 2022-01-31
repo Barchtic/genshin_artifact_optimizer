@@ -3,7 +3,7 @@ import config from "./DefStatic.buffcfg.vue";
 
 export default {
     name: "defStatic",
-    chs: "Fixed Defense",
+    chs: "Flat Defense",
     badge,
     config,
     genre: "custom",

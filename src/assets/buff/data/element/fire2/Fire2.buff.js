@@ -2,7 +2,7 @@ import badge from "@asset/badges/pyro.png";
 
 export default {
     name: "fire2",
-    chs: "Pyro Resonance - Fervent Flames",
+    chs: "Pyro Elemental Resonance - Fervent Flames",
     badge,
     genre: "resonance",
     getStandardConfig() {

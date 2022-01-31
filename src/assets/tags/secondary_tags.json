@@ -1,7 +1,7 @@
 {
     "cureEffect": {
         "name": "cureEffect",
-        "chs": "Healing Bonus",
+        "chs": "Healing Bonus ",
         "percentage": true,
         "max": {
             "4": 0.268,
@@ -10,7 +10,7 @@
     },
     "criticalDamage": {
         "name": "criticalDamage",
-        "chs": "Crit Damage",
+        "chs": "Crit Damage ",
         "percentage": true,
         "max": {
             "4": 0.464,
@@ -19,7 +19,7 @@
     },
     "critical": {
         "name": "critical",
-        "chs": "Crit Rate",
+        "chs": "Crit Rate ",
         "percentage": true,
         "max": {
             "4": 0.232,
@@ -28,7 +28,7 @@
     },
     "attackStatic": {
         "name": "attackStatic",
-        "chs": "ATK",
+        "chs": "ATK ",
         "percentage": false,
         "max": {
             "4": 232,
@@ -37,7 +37,7 @@
     },
     "attackPercentage": {
         "name": "attackPercentage",
-        "chs": "ATK%",
+        "chs": "ATK% ",
         "percentage": true,
         "max": {
             "4": 0.348,
@@ -46,7 +46,7 @@
     },
     "elementalMastery": {
         "name": "elementalMastery",
-        "chs": "Elemental Mastery",
+        "chs": "Elemental Mastery ",
         "percentage": false,
         "max": {
             "4": 139,
@@ -55,7 +55,7 @@
     },
     "recharge": {
         "name": "recharge",
-        "chs": "Energy Recharge",
+        "chs": "Energy Recharge ",
         "percentage": true,
         "max": {
             "4": 0.387,
@@ -64,7 +64,7 @@
     },
     "lifePercentage": {
         "name": "lifePercentage",
-        "chs": "HP%",
+        "chs": "HP% ",
         "percentage": true,
         "max": {
             "4": 0.348,
@@ -73,7 +73,7 @@
     },
     "defendPercentage": {
         "name": "defendPercentage",
-        "chs": "DEF%",
+        "chs": "DEF% ",
         "percentage": true,
         "max": {
             "4": 0.435,
@@ -82,7 +82,7 @@
     },
     "lifeStatic": {
         "name": "lifeStatic",
-        "chs": "HP",
+        "chs": "HP ",
         "percentage": false,
         "max": {
             "4": 3571,
@@ -91,12 +91,12 @@
     },
     "defendStatic": {
         "name": "defendStatic",
-        "chs": "DEF",
+        "chs": "DEF ",
         "percentage": false
     },
     "thunderBonus": {
         "name": "thunderBonus",
-        "chs": "Electro Bonus",
+        "chs": "Electro Damage Bonus ",
         "percentage": true,
         "max": {
             "4": 0.348,
@@ -105,7 +105,7 @@
     },
     "fireBonus": {
         "name": "fireBonus",
-        "chs": "Pyro Bonus",
+        "chs": "Pyro Damage Bonus ",
         "percentage": true,
         "max": {
             "4": 0.348,
@@ -114,7 +114,7 @@
     },
     "waterBonus": {
         "name": "waterBonus",
-        "chs": "Hydro Bonus",
+        "chs": "Hydro Damage Bonus ",
         "percentage": true,
         "max": {
             "4": 0.348,
@@ -123,7 +123,7 @@
     },
     "iceBonus": {
         "name": "iceBonus",
-        "chs": "Cryo Bonus",
+        "chs": "Cryo Damage Bonus ",
         "percentage": true,
         "max": {
             "4": 0.348,
@@ -132,7 +132,7 @@
     },
     "windBonus": {
         "name": "windBonus",
-        "chs": "Anemo Bonus",
+        "chs": "Anemo Damage Bonus ",
         "percentage": true,
         "max": {
             "4": 0.348,
@@ -141,7 +141,7 @@
     },
     "rockBonus": {
         "name": "rockBonus",
-        "chs": "Geo Bonus",
+        "chs": "Geo Damage Bonus ",
         "percentage": true,
         "max": {
             "4": 0.348,
@@ -150,7 +150,7 @@
     },
     "physicalBonus": {
         "name": "physicalBonus",
-        "chs": "Physical Bonus",
+        "chs": "Physical Damage Bonus ",
         "percentage": true,
         "max": {
             "4": 0.435,

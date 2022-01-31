@@ -62,7 +62,7 @@ export function tableTransformativeA(attribute, configObject, enemy) {
     
     table.push({
         name: "electro",
-        title: "Electro Charge",
+        title: "Electro-Charge",
         dmg: damageElectroA(attribute, configObject, enemy),
     });
     table.push({
@@ -77,7 +77,7 @@ export function tableTransformativeA(attribute, configObject, enemy) {
     });
     table.push({
         name: "shattered",
-        title: "Shattered",
+        title: "Shatter",
         dmg: damageShatteredA(attribute, configObject, enemy),
     });
     table.push({

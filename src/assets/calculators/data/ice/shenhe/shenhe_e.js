@@ -6,7 +6,7 @@ const skill = charactersData["shenhe"].skill;
 
 const rowsE = [
     { key: "dmg1", chs: "Tap damage" },
-    { key: "dmg2", chs: "Long press damage" },
+    { key: "dmg2", chs: "Hold damage" },
 ];
 
 export default function (artifacts, configObject, enemy) {

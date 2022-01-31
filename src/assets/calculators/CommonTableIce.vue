@@ -2,7 +2,7 @@
     <el-table
             :data="data"
             size="medium"
-            style="color: #fcba03;"
+            style="color: #fcba03; background-color: #222933;"
             stripe
         >
             <el-table-column

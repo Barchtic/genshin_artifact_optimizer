@@ -5,7 +5,7 @@ export default {
     name: "xingqiuNormal",
     chs: "Xingqiu - Recomended",
     description: [
-        "Highest Elemetal Burst Damage for Xingqiu",
+        "Highest Elemental Burst Damage for Xingqiu",
     ],
     tags: [
         "Output", "Auxiliary",

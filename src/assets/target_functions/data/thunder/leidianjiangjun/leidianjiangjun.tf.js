@@ -5,7 +5,7 @@ export default {
     name: "leidianjiangjunNormal",
     chs: "Raiden Shogun - Secret Art: Musou Shinsetsu",
     description: [
-        "Higest Elemetal Burst Damage",
+        "Higest Elemental Burst Damage",
     ],
     tags: [
         "Damage",

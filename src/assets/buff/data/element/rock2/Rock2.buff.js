@@ -2,7 +2,7 @@ import badge from "@asset/badges/geo.png";
 
 export default {
     name: "rock2",
-    chs: "Elemental Resonance - Enduring Rock",
+    chs: "Geo Elemental Resonance - Enduring Rock",
     badge,
     genre: "resonance",
     getStandardConfig() {

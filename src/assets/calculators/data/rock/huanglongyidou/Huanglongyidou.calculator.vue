@@ -7,13 +7,13 @@
         >
             <el-radio-button label="a">Normal Attack</el-radio-button>
             <el-radio-button label="e">Elemental Skill</el-radio-button>
-            <el-radio-button label="q">Elemetal Burst</el-radio-button>
+            <el-radio-button label="q">Elemental Burst</el-radio-button>
         </el-radio-group>
 
         <div>
             <el-switch
                 v-model="config.afterQ"
-                active-text="After Using Elemetal Burst"
+                active-text="After Using Elemental Burst"
                 style="margin-bottom: 16px"
             ></el-switch>
         </div>

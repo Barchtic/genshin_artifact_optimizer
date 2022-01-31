@@ -27,7 +27,7 @@ import { charactersData } from "@asset/characters";
 let skill = charactersData["leidianjiangjun"].skill;
 
 export default {
-    name: "Fengyuanwanye.buffcfg",
+    name: "leidianjiangjun.buffcfg",
     components: {
     },
     data: function () {

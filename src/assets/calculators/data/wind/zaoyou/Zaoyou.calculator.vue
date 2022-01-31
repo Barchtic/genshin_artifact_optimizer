@@ -11,7 +11,7 @@
         >
             <el-radio-button label="a">Normal Attack </el-radio-button>
             <el-radio-button label="e">Elelmental Skill </el-radio-button>
-            <el-radio-button label="q">Elemetal Burst </el-radio-button>
+            <el-radio-button label="q">Elemental Burst </el-radio-button>
         </el-radio-group>
 
         <div v-show="showSkill === 'a'">

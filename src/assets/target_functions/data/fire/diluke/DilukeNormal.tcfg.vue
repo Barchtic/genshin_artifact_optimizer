@@ -49,7 +49,7 @@
         </div>
 
         <div class="config-item">
-            <h3 class="config-title">Elemetal Burst Frequency</h3>
+            <h3 class="config-title">Elemental Burst Frequency</h3>
             <el-input
                 v-model="qFreq"
                 size="small"

@@ -73,7 +73,13 @@ body {
     overflow: auto;
     background: #222933;
 
+
     /* overflow-x: auto; */
+}
+.el-table tr:nth-child(odd) {
+    background-color: #222933;
+  
+
 }
 
 .el-drawer__container ::-webkit-scrollbar{
@@ -81,10 +87,11 @@ body {
     
 }
 
+
 .single-item {
     
     font-size: 12px;
-    color: #606266;
+    color: #50e7e7;
     /* background: #eee; */
     padding: 8px 0;
     padding-left: 10px;

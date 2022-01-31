@@ -4,8 +4,8 @@ import { getAttribute } from "@util/attribute";
 
 let rowsE = [
     { key: "dmg1", chs: "Tap Damage" },
-    { key: "dmg2", chs: "Charge Damage" },
-    { key: "dmg3", chs: "Icewhril Brand Damage" },
+    { key: "dmg2", chs: "Hold Damage" },
+    { key: "dmg3", chs: "Icewhirl Brand Damage" },
 ];
 
 export default function (artifacts, configObject, enemy) {

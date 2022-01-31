@@ -3,7 +3,7 @@
             :data="data"
             size="medium"
             stripe
-            style="color: #fcba03;"
+            style="color: #fcba03; background-color: #222933;"
         >
             <el-table-column
                 label="Skill"

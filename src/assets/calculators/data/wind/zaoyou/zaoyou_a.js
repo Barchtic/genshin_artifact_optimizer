@@ -11,7 +11,7 @@ let rowsA = [
 
 let rowsB = [
     { key: "bDmg1", chs: "Charged Attack Spining Damage" },
-    { key: "bDmg2", chs: "Final Charged Attack Spining Damage" },
+    { key: "bDmg2", chs: "Final Charged Attack Spinning Damage" },
 ]
 
 export default function (artifacts, configObject, enemy) {

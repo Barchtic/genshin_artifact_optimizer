@@ -3,7 +3,7 @@ import config from "./Ice2.buffcfg";
 
 export default {
     name: "ice2",
-    chs: "Elemental Resonance - Shattering Ice",
+    chs: "Cryo Elemental Resonance - Shattering Ice",
     badge,
     genre: "resonance",
     config,

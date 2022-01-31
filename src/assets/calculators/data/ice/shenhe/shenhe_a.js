@@ -5,12 +5,12 @@ import { charactersData } from "@asset/characters";
 const skill = charactersData["shenhe"].skill;
 
 const rowsA = [
-    { key: "dmg1", chs: "Normal Attack 1" },
-    { key: "dmg2", chs: "Normal Attack 2" },
-    { key: "dmg3", chs: "Normal Attack 3" },
-    { key: "dmg41", chs: "Normal Attack 4-1" },
-    { key: "dmg42", chs: "Normal Attack 4-2" },
-    { key: "dmg5", chs: "Normal Attack 5" },
+    { key: "dmg1", chs: "1- Normal Attack " },
+    { key: "dmg2", chs: "2- Normal Attack " },
+    { key: "dmg3", chs: "3- Normal Attack 3" },
+    { key: "dmg41", chs: "4- Normal Attack -1" },
+    { key: "dmg42", chs: "4- Normal Attack -2" },
+    { key: "dmg5", chs: "5- Normal Attack " },
 ];
 
 const rowsB = [

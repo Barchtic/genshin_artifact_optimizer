@@ -4,15 +4,15 @@ import { getAttribute } from "@util/attribute";
 let skillKeys = [
     {
         key: "dmg1",
-        chs: "Damage 1",
+        chs: "1- Hit Damage",
     },
     {
         key: "dmg2",
-        chs: "Damage 2",
+        chs: "2- Hit Damage",
     },
     {
         key: "dmg3",
-        chs: "Damage 3",
+        chs: "3- Hit Damage",
     },
 ];
 

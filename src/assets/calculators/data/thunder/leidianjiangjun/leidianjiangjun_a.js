@@ -5,8 +5,8 @@ let rowsA = [
     { key: "dmg1", chs: "1- Normal Attack Damage" },
     { key: "dmg2", chs: "2- Normal Attack Damage" },
     { key: "dmg3", chs: "3- Normal Attack Damage" },
-    { key: "dmg41", chs: "4- Normal Attack Damage-1" },
-    { key: "dmg42", chs: "4- Normal Attack Damage-2" },
+    { key: "dmg41", chs: "4- Normal Attack Damage -1" },
+    { key: "dmg42", chs: "4- Normal Attack Damage -2" },
     { key: "dmg5", chs: "5- Normal Attack Damage" },
 ];
 

@@ -14,7 +14,7 @@
 
 <script>
 export default {
-    name: "Taolong.buffcfg",
+    name: "Elegy2.buffcfg",
     data: function () {
         return {
             refine: 1,
@@ -22,19 +22,21 @@ export default {
     },
     methods: {
         getValue() {
-            return this.refine * 0.06 + 0.18;
+            return this.refine * 1.5 + (0.25);
         },
 
         getStandardConfig() {
             return {
-                type: "atk-percentage",
+                type: "em",
                 value: this.getValue(),
+
             }
+            
         },
 
         getBuff() {
             return {
-                name: "taolong",
+                name: "elegy2",
                 args: {
                     refine: this.refine
                 }
