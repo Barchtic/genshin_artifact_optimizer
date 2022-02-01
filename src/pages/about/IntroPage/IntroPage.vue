@@ -4,13 +4,14 @@
             <el-breadcrumb-item>Main Page</el-breadcrumb-item>
         </el-breadcrumb>
         <el-divider></el-divider>
-
+        <center>
         <p
             class="title"
         >
             <span class="mona">Genshin Artifacts Optimizer</span>
-            V {{ version }}
         </p>
+        </center>
+        
         
         <!-- <p style="padding: 0; margin: 0; font-size: 10px;">该网站处处透露着贫穷，欢迎有志者参与开发（美术等）</p> -->
 
@@ -64,7 +65,7 @@
             </el-row>
         </el-card>
 
-        <el-row :gutter="16">
+        <el-row :gutter="48">
             <el-col :xs="24" :sm="12">
                 <el-card class="mb16">
                     <p class="card-title">Contact the Developer</p>
@@ -72,17 +73,13 @@
                         Create a Github Issue
                         <font-awesome-icon :icon="['fab', 'github']"></font-awesome-icon>
                     </el-button>
-                    <el-button @click="newPage(links.discordDM)"  class="data-source">
-                        BunnyHunter031#2458
-                        <font-awesome-icon icon="comment"></font-awesome-icon>
-                    </el-button>
                     <el-button @click="newPage(links.discord)"  class="data-source">
                         Discord Server
                         <font-awesome-icon icon="comment"></font-awesome-icon>
                     </el-button>
                 </el-card>
             </el-col>
-                        <el-col :xs="24" :sm="12">
+            <el-col :xs="24" :sm="12">
                 <el-card class="mb16">
                     <p class="card-title">Useful Links </p>
                     <el-button
@@ -97,7 +94,7 @@
                         type="primary"
                         class="data-source"
                     >
-                        Scaners and External Tools
+                        Scaners
                         <i class="el-icon-aim"></i>
                     </el-button>
                     <el-button
@@ -116,6 +113,14 @@
                     </el-button>
                 </el-card>
             </el-col>
+            <el-col :xs="24" :sm="32">
+                <el-card class="mb16">
+                    <center>
+                    <p class="card-title">Tutorial On How To Use Genshin Artifact Optimizer</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KiBjW41g5vA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </center>
+                </el-card>
+            </el-col>   
         </el-row>
     </div>
 </template>
@@ -123,6 +128,7 @@
 <script>
 import changelogs from "@/changelog/changelog";
 import links from "@const/links";
+
 
 import MigrateNotification from "./MigrateNotification";
 //import UseCaseItem from "./UseCaseItem";

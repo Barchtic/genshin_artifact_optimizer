@@ -75,7 +75,7 @@ export default {
         return {
             step: 0,
             
-            funcName: "ratio",
+            funcName: "damage",
         }
     },
     methods: {

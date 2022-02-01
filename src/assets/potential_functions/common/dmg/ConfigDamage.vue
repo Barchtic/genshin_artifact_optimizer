@@ -55,8 +55,8 @@ export default {
         return {
             baseAtk: "700",
             atk: "1500",
-            baseCrit: "0.3",
-            baseCriticalDamage: "1",
+            baseCrit: "0.35",
+            baseCriticalDamage: "1.0",
         }
     },
     methods: {
