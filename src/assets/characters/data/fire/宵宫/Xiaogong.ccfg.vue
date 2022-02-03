@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="config-item">
-            <h3 class="config-title">Talent cuffs</h3>
+            <h3 class="config-title">Tricks of the Trouble-Maker - First Ascension Passive</h3>
             <el-slider
                 input-size="small"
                 show-input

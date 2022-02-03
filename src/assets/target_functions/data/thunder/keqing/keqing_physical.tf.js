@@ -5,7 +5,7 @@ export default {
     name: "keqingPhysical",
     chs: "Physical - Keqing",
     description: [
-        "Physic Keqing",
+        "Physical Keqing",
         "1 E",
     ],
     tags: [

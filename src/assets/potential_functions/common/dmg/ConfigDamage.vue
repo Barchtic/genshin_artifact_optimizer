@@ -23,7 +23,7 @@
                 :closable="false"
                 class="hint"
             ></el-alert>-->
-            <el-input v-model="atk"></el-input>
+            <el-input v-model="atk" ></el-input>
         </div>
 
         <div class="config-item">
@@ -33,7 +33,7 @@
                 :closable="false"
                 class="hint"
             ></el-alert> -->
-            <el-input v-model="baseCrit"></el-input>
+            <el-input v-model="baseCrit" ></el-input>
         </div>
 
         <div class="config-item">
@@ -55,16 +55,16 @@ export default {
         return {
             baseAtk: "700",
             atk: "1500",
-            baseCrit: "0.35",
-            baseCriticalDamage: "1.0",
+            baseCrit: "35",
+            baseCriticalDamage: "100",
         }
     },
     methods: {
         compact() {
             return {
                 baseAtk: parseFloat(this.baseAtk),
-                baseCrit: parseFloat(this.baseCrit),
-                baseCriticalDamage: parseFloat(this.baseCriticalDamage),
+                baseCrit: parseFloat(this.baseCrit)/100,
+                baseCriticalDamage: parseFloat(this.baseCriticalDamage)/100,
                 atk: parseFloat(this.atk),
             }
         }

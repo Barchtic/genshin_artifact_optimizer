@@ -4,15 +4,15 @@ function f(args) {
     let baseCD = args.pArgs.baseCriticalDamage;
     let atk = args.pArgs.atk;
     let baseDEF = args.pArgs.baseDEF;
-    let DEF = args.pArgs.DEF;
+    let def = args.pArgs.def;
 
-    let original = (atk + Math.min(4 * baseAtk, 0.5 * DEF)) * (1 + baseCrit * baseCD);
+    let original = (atk + Math.min(4 * baseAtk, 0.5 * def)) * (1 + baseCrit * baseCD);
 
     return function (tags) {
         let a = atk;
         let crit = baseCrit;
         let cd = baseCD;
-        let myDEF = DEF;
+        let myDEF = def;
         for (let tag of tags) {
             switch (tag.name) {
                 case "attackStatic":

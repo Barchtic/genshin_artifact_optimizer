@@ -2,7 +2,7 @@ import badge from "@asset/badges/qiqi.png";
 
 export default {
     name: "qiqiE1",
-    chs: "Qiqi - Heral of Frost",
+    chs: "Qiqi - Herald of Frost",
     description: [
         "It makes the damage of Qiqi E skill the highest priority. ",
     ],

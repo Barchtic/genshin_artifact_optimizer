@@ -2,9 +2,10 @@ import badge from "@asset/badges/diaona.png";
 
 export default {
     name: "diaonaShield",
-    chs: "Diona-Icy Paws",
+    recommend: true,
+    chs: "Diona - Icy Paws",
     description: [
-        "Makes Diona’s E skill shield strenght the highest priority",
+        "Makes Diona’s E skill shield strength the highest priority",
     ],
     tags: [
         "Shielding",

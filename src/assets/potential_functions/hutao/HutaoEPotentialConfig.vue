@@ -59,8 +59,8 @@ export default {
         return {
             baseAtk: "600",
             atk: "1400",
-            baseCrit: "0.3",
-            baseCriticalDamage: "1",
+            baseCrit: "30",
+            baseCriticalDamage: "100",
             baseHP: "15000",
             hp: "20000",
         }
@@ -69,8 +69,8 @@ export default {
         compact() {
             return {
                 baseAtk: parseFloat(this.baseAtk),
-                baseCrit: parseFloat(this.baseCrit),
-                baseCriticalDamage: parseFloat(this.baseCriticalDamage),
+                baseCrit: parseFloat(this.baseCrit)/100,
+                baseCriticalDamage: parseFloat(this.baseCriticalDamage)/100,
                 atk: parseFloat(this.atk),
                 baseHP: parseFloat(this.baseHP),
                 hp: parseFloat(this.hp),

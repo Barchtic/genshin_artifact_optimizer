@@ -4,7 +4,7 @@ export default {
     name: "huanglongyidouNormal",
     chs: "Arataki Itto-Behold, Itto the Evil!",
     description: [
-        "Higest Elemental Burst Damage",
+        "Highest Elemental Burst Damage",
     ],
     tags: [
         "Damage",

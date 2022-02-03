@@ -8,5 +8,5 @@ export default {
     star: 4,
     type: "book",
     config,
-    effect: "Debut: When a character takes the field, they will gain a random theme song for 10s. This can only occur once every 30s"
+    effect: "Debut: When a character takes the field, they will gain a random theme song for 10s. This can only occur once every 30s Recitative: ATK is increased by 60%/Aria: Increases all Elemental DMG by 48%Interlude: Elemental Mastery is increased by 240."
 }

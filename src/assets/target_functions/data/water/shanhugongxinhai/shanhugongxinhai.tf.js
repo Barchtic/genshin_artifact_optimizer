@@ -3,9 +3,10 @@ import badge from "@asset/badges/shanhugongxinhai.png";
 
 export default {
     name: "shanhugongxinhaiQ",
+    recommend: true,
     chs: "Sangonomiya Kokomi - Nereid's Ascension",
     description: [
-        "Makes Elemental Burst Damage Highes Priority For Optimization",
+        "Makes Elemental Burst Damage Highest Priority For Optimization",
     ],
     tags: [
         "Damage",

@@ -3,7 +3,7 @@ import config from "./Bonus.buffcfg";
 
 export default {
     name: "bonus",
-    chs: "Flat Damage Buff",
+    chs: "Global Damage Bonus Buff",
     badge,
     config,
     genre: "custom",

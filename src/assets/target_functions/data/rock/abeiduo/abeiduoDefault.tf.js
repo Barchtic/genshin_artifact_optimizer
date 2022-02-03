@@ -3,7 +3,8 @@ import config from "./abeiduoDefault.tcfg.vue";
 
 export default {
     name: "abeiduoDefault",
-    chs: "Albedo",
+    recommend: true,
+    chs: "Albedo - Regular",
     description: [
         "Balanced E and Q Damage",
         "For reference only",

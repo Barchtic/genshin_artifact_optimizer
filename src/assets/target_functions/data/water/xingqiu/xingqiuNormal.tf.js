@@ -3,7 +3,8 @@ import badge from "@asset/badges/xingqiu.png";
 
 export default {
     name: "xingqiuNormal",
-    chs: "Xingqiu - Recomended",
+    recommend: true,
+    chs: "Xingqiu - Regular",
     description: [
         "Highest Elemental Burst Damage for Xingqiu",
     ],

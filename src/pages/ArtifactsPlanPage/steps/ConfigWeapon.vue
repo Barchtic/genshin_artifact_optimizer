@@ -146,7 +146,7 @@ export default {
             let a = this.level.ascend;
             let lvl = this.level.level;
 
-            let temp = this.w.star >= 3 ? [20, 40, 50, 60, 70, 80] : [20, 40, 50, 60];
+            let temp = this.w.star >= 3 ? [20, 40, 50, 60, 70, 80] : [20, 40, 50, 60, 70];
             if (temp.indexOf(lvl) === -1) {
                 return lvl.toString();
             } else {

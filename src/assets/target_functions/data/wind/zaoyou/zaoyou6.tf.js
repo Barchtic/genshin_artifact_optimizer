@@ -4,7 +4,7 @@ export default {
     name: "zaoyou6",
     chs: "Sayu - C6",
     description: [
-        "Higest Damage for C6 (if your constellation is lower than c6 please ignore)",
+        "Highest Damage for C6 (if your constellation is lower than c6 please ignore)",
     ],
     tags: [
         "Damage",

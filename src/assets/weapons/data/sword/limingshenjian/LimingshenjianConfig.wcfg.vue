@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="config-item">
-            <h3 class="config-title">Hp Avobe 90%</h3>
+            <h3 class="config-title">Hp Above 90%</h3>
             <el-switch
                 v-model="lifeAbove90"
                 active-text="Yes"

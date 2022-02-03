@@ -66,7 +66,7 @@
                     class="select-int"
                     :class="{ active: (i + 50).toString() === value }"
                 >{{ i + 50 }}</span>
-                <span class="select-int" :class="{ active: value === '60-' }" v-if="star >= 3">60-</span>
+                <span class="select-int" :class="{ active: value === '60-' }">60-</span>
               
             </div>
             
@@ -78,7 +78,7 @@
                     class="select-int"
                     :class="{ active: (i + 60).toString() === value }"
                 >{{ i + 60 }}</span>
-                <span class="select-int" :class="{ active: value === '70-' }" v-if="star >= 3">70-</span>
+                <span class="select-int" :class="{ active: value === '70-' }">70-</span>
               
             </div>
 

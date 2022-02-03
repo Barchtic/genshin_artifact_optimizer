@@ -4,6 +4,7 @@
             title="Value（0-100）"
             v-model="value"
             :percentage="true"
+            :max="90"
         ></single-value>
     </div>
 </template>

@@ -3,7 +3,8 @@ import config from "./KeqingNormal.tcfg";
 
 export default {
     name: "keqingNormal",
-    chs: "Normal Keqing- Electro",
+    recommend: true,
+    chs: "Normal Keqing - Electro",
     description: [
         "Normal Stellar Restoration	 Activation",
         "2 E's",

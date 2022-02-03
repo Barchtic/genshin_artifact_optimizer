@@ -3,7 +3,8 @@ import badge from "@asset/badges/ningguang.png";
 import config from "./ningguang_yoyo.tcfg.vue";
 
 export default {
-    name: "ningguang_yoyo",    // 唯一的标识
+    name: "ningguang_yoyo",
+    recommend: true,    // 唯一的标识
     chs: "Ningguang - Regular",     // 显示的中文
     description: [        // 描述
         // add strings

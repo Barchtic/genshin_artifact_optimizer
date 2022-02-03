@@ -3,9 +3,10 @@ import config from "./Leidianjiangjun.tcfg.vue";
 
 export default {
     name: "leidianjiangjunNormal",
+    recommend: true,
     chs: "Raiden Shogun - Secret Art: Musou Shinsetsu",
     description: [
-        "Higest Elemental Burst Damage",
+        "Highest Elemental Burst Damage",
     ],
     tags: [
         "Damage",

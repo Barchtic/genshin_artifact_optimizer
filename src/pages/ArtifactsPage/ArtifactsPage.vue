@@ -149,6 +149,7 @@ export default {
         Artifact,
         EditArtifactDrawer,
         ArtifactsFilter,
+    
     },
     created: function () {
         this.artifactsIcon = artifactsIcon;
@@ -201,8 +202,7 @@ export default {
         handleClickDeleteAll() {
             this.$store.commit("artifacts/removeAllArtifacts");
         },
-
-        
+       
 
 
         lockOrUnlockCurrentPage() {

@@ -4,6 +4,7 @@ import badge from "@asset/badges/keli.png";
 
 export default {
     name: "keli_yoyo",    // 唯一的标识
+    recommend: true,
     chs: "Klee - Regular",     // 显示的中文
     description: [        // 描述
         // add strings

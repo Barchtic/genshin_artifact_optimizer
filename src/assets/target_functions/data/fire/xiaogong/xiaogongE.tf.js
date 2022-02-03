@@ -3,9 +3,10 @@ import config from "./XiaogongE.tcfg.vue";
 
 export default {
     name: "xiaogongE",
+    recommend: true,
     chs: "Yoimiya-Niwabi Fire Dance",
     description: [
-        "Makes the normal attack damage after Yoimiya E skills the highest priority",
+        "Makes the normal attack damage after Yoimiya E skill the highest priority",
     ],
     tags: [
         "Damage",

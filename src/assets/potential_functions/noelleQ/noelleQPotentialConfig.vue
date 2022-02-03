@@ -35,7 +35,7 @@
 
         <div class="config-item">
             <h3 class="config-title">DEF</h3>
-            <el-input v-model="DEF"></el-input>
+            <el-input v-model="def"></el-input>
         </div>
 
         <div class="config-item">
@@ -59,21 +59,21 @@ export default {
         return {
             baseAtk: "600",
             atk: "1400",
-            baseCrit: "0.3",
-            baseCriticalDamage: "1",
+            baseCrit: "30",
+            baseCriticalDamage: "100",
             baseDEF: "1500",
-            DEF: "2000",
+            def: "2000",
         }
     },
     methods: {
         compact() {
             return {
                 baseAtk: parseFloat(this.baseAtk),
-                baseCrit: parseFloat(this.baseCrit),
-                baseCriticalDamage: parseFloat(this.baseCriticalDamage),
+                baseCrit: parseFloat(this.baseCrit)/100,
+                baseCriticalDamage: parseFloat(this.baseCriticalDamage)/100,
                 atk: parseFloat(this.atk),
                 baseDEF: parseFloat(this.baseDEF),
-                DEF: parseFloat(this.DEF),
+                DEF: parseFloat(this.def),
             }
         }
     }

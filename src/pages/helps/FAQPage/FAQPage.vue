@@ -10,23 +10,15 @@
             <el-col :xs="24" :sm="18">
                 <h1>Target Function FAQ</h1>  
                 <h1>1. What is the target function?</h1>
-                <p>A set of artifacts can produce a calculation panel, the target function is to map various configurations of artifacts, weapons, characters, etc., to a value</p>
-                <p>Different target functions are the core characteristics of this site, and there are big differences between characters, and the equipment can not be generalized at all. Therefore, this site provides a variety of equipment targets, that is, target functions. For example, you can choose the maximum expected output of Hu Tao's E skill, because Hu Tao has the characteristic of transforming HP into ATK, and you can also choose Noelle’s Q skill to maximize output because Noelle has the characteristic of DEF conversion to ATK.</p>
-                <h1>2. What is the maximum value of the set result?</h1>
-                <p>The essence of the target function is to map weapons, characters, and artifacts to a value. By enumerating all the combinations of artifacts, the maximum value selected is the final maximum value</p>
-                <p>However, the maximum value is not the expected output, because it is only used for the ratio, so many constants that do not affect the assembly result, such as monster resistance, etc., are not included. Therefore, the maximum value of the same objective function can be compared with each other. The maximum value between different target functions is not comparable</p>
-                <h1>3. Are special effects like 4 piece shimenawas take into account?</h1>
-                <p>Some target functions are included, such as shimenawas, and some irrelevant sets and functions are not included.</p>
-                <h1>4. Are passives like Xiangling's counted?</h1>
-                <p>Same as above</p>
-                <h1>5. Why is there a discrepancy between the calculations and in the game?</h1>
-                <p>Because all the values displayed in the game are not exact values (after rounding), small deviations are normal. If there are large deviations, it may be a bug. If possible, please submit bug report in discord server </p>
+                <p>The target function is used to select a function you want to optimize for. Usually, you would want to use a character’s exclusive, and average damage if that option isn't available. An example could be Hu Tao, she wants HP as it increases her damage a lot, so choosing Hu Tao’s target function would include HP when optimizing. Functions such as Maximum Damage max out your damage without caring about crit rate (Basically for those who love Crit fishing), while other functions such as Individual Properties max out a single stat.</p>
+                <h1>2. Are special effects like 4 piece shimenawas or passives taken into account?</h1>
+                <p>Some functions such as 4 piece shimenawas are taken into account, in the artifact parameters section, you can set how long the artifact is active for, for example, if using for Ganyu (She has a 10-second elemental skill cooldown) you can drag the slider to 1 as it has full uptime on her. Passives such as Xiangling’s are also taken into account, but only the passives that matter are used. For example, Ganyu’s bow refund passive will not be taken into account.</p>
+                <h1>3. Why is there a difference between my in-game damage and the damage given by GAOP?</h1>
+                <p>All possible values inside of Genshin Impact are NOT exact values, Genshin Impact does a lot of rounding when calculating damage, and GAOP doesn’t round as often. Due to rounding errors, they may not be the exact number shown in-game, if there is a large difference it may be a bug, if so please report in the GAOP discord server.</p>
             <br>
             <h1>Artifact Potential FAQ</h1>    
             <h1>1. What Does It Do?</h1>
             <p>Artifact rater will give your artifacts a score based on what stats you’re prioritizing or using the built-in features. This can be useful for comparing artifacts without needing to calculate. It is also a more accurate way of measuring how good an artifact is, along with it being MUCH more accurate than other sorts of measurement such as CV (Crit Value, crit rate*2+crit damage).</p>
-            <h1>Tips</h1>
-            <p>It takes crit rate as a decimal, such as 0.05 = 5% crit rate. Crit damage is just a whole number so add as you feel. The “Hu Tao” option and “Noelle” option are just HP scaling and DEF scaling, prioritizing those stats.</p>
             <h1>2. Regular Output</h1>
             <p>Regular output is probably what you will use when giving to score to your characters. The default one is 35 crit rate to 100 crit damage, but if your character is using a crit weapon, you can change the stats accordingly. When comparing your artifacts, we are assuming you are using the default 35 crit rate to crit damage. </p>
             <p>Below Average below 400 score</p>

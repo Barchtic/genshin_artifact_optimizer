@@ -15,6 +15,7 @@
             placeholder="Input JSON (Mona Format)"
             v-model="json"
             :rows="5"
+           
         >
         </el-input>
         <p v-if="supportFileReader">*Supports drag and drop files</p>
@@ -37,6 +38,10 @@
                 Import<i class="el-icon-document-add"></i>
             </el-button>
             <el-button class="cancel-button" @click="handleClose">Cancel</el-button>
+            <label class="text-reader">
+                Open File
+            <input type="file" ref="doc" @change="readFile()" >
+            </label>
         </div>
     </el-dialog>
 </template>
@@ -84,7 +89,27 @@ export default {
                 };
                 fileReader.readAsText(file);
             };
-            // console.log(ele);
+             console.log(ele);
+        },
+         readFile() {
+            this.file = this.$refs.doc.files[0];
+            const reader = new FileReader();
+            if (this.file.name.includes(".json")) {
+                reader.onload = (res) => {
+                this.json = res.target.result;
+
+                };
+
+                reader.onerror = (err) => console.log(err);
+                reader.readAsText(this.file);
+            } else {
+                this.content = "check the console for file output";
+                reader.onload = (res) => {
+                console.log(res.target.result);
+                };
+                reader.onerror = (err) => console.log(err);
+                reader.readAsText(this.file);
+            }
         },
 
         handleClose() {
@@ -161,5 +186,25 @@ export default {
 
 .text {
     margin: 0;
+}
+
+
+.text-reader {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+
+  /* Fancy button style 😎 */
+  border: 0.5px solid rgb(24, 22, 22);
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.text-reader input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0;
 }
 </style>

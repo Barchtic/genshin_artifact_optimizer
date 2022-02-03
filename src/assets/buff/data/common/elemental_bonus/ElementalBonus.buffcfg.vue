@@ -1,7 +1,7 @@
 <template>
     <div>
         <select-element-type
-            :elements="['fire', 'ice', 'water', 'thunder', 'rock', 'wind']"
+            :elements="['fire', 'ice', 'water', 'thunder', 'rock', 'wind', 'physical']"
             v-model="element"
             style="margin-bottom: 8px"
         ></select-element-type>

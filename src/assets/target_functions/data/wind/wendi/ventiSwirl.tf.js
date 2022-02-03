@@ -2,6 +2,7 @@ import badge from "@asset/badges/wendi.png";
 import config from "./VentiSwirl.tcfg";
 
 export default {
+    recommend: true,
     name: "ventiSwirl",
     chs: "Venti - Swirl",
     description: [
