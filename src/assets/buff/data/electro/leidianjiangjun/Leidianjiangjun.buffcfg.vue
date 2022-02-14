@@ -10,7 +10,7 @@
             ></el-input-number>
         </div>
         <div class="buff-config-item">
-            <h3 class="buff-config-title">Maximmun Energy Recharge BUFF</h3>
+            <h3 class="buff-config-title">Maximum Energy Recharge BUFF</h3>
             <el-input-number
                 :min="40"
                 :max="90"

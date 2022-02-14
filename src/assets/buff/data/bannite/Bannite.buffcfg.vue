@@ -74,6 +74,7 @@ export default {
             this.baseAtk = buff.baseAtk.toString();
             this.isConste1 = buff.isConste1;
         }
+    
     }
 }
 </script>

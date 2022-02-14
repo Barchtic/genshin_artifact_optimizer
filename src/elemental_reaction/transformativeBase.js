@@ -1,5 +1,5 @@
 let data = [
-    // superconduct, diffusion, induction, shatter, overload
+    // superconduct, swirl, electro charge, shatter, overload
     [9, 10, 21, 26, 34],        // 1
     [9, 11, 22, 28, 37],
     [10, 12, 24, 30, 40],

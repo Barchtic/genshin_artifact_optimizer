@@ -138,7 +138,7 @@
             <span class="value">{{ mul100("burningEnhance") }}</span>
         </div>
         <div class="item">
-            <span class="title">Electro Enhancement</span>
+            <span class="title">Electro Charge Enhancement</span>
             <span class="value">{{ mul100("electroEnhance") }}</span>
         </div>
         <div class="item">

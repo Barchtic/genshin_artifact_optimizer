@@ -93,7 +93,7 @@ export default {
 
         analysisText() {
             if (this.gradient.length === 0) {
-                return "Any entry has not improved, or there is a bug";
+                return "Stat values did not change, or there is a bug";
             }
 
             let maxIndex = 0;
@@ -103,7 +103,7 @@ export default {
                 }
             }
 
-            return `Next to enhance the biggest entry：${this.gradient[maxIndex][0]}`;
+            return `Stat to priorize：${this.gradient[maxIndex][0]}`;
         },
 
         graphOption() {
