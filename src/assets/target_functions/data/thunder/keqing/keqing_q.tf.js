@@ -8,7 +8,7 @@ export default {
         // "由于Q挂雷很强，因此平雷套、匣里龙吟算满buff",
     ],
     tags: [
-        "Output",
+        "Damage",
         "Starward Sword",
     ],
     "for": "keqing",

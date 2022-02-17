@@ -25,7 +25,7 @@
     "element-theme-dark": "^1.0.3",
     "element-ui": "^2.15.0",
     "express-static": "^1.2.6",
-    "genshin_panel": "^2.21.0",
+    "genshin_panel": "^2.22.0",
     "is-electron": "^2.2.0",
     "katex": "^0.13.0",
     "object-hash": "^2.2.0",

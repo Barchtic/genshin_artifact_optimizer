@@ -4684,10 +4684,10 @@ gauge@~2.7.3:
     strip-ansi "^3.0.1"
     wide-align "^1.1.0"
 
-genshin_panel@^2.21.0:
-  version "2.21.0"
-  resolved "https://registry.yarnpkg.com/genshin_panel/-/genshin_panel-2.21.0.tgz#1d96ed0196e17d97427d782e7e955c77b2e60640"
-  integrity sha512-4LybpiEFngCD3CeaSDQd+PM0h04tPIDJd5oyYHJC/WksNCAHeK6/icHAZ8g36eWnrSNswIpVcZZUU6dpb9K6hg==
+genshin_panel@^2.22.0:
+  version "2.22.0"
+  resolved "https://registry.yarnpkg.com/genshin_panel/-/genshin_panel-2.22.0.tgz#d543ab777756f95e20dc58c3fec26be9e24ebe67"
+  integrity sha512-80RYL7OLrvnkw8F10b12+SF3tptj42qDdI9FWAFXB06FSLk9kmDP0n2L4PnjdevwYJgNNvrADsF57YSFhqs7nQ==
 
 gensync@^1.0.0-beta.2:
   version "1.0.0-beta.2"

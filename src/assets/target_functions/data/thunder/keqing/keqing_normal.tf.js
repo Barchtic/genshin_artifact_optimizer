@@ -10,7 +10,7 @@ export default {
         "2 E's",
     ],
     tags: [
-        "Output",
+        "Damage",
         "Keqing",
         "Electro Damage",
     ],
