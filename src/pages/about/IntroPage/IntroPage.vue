@@ -12,8 +12,6 @@
         </p>
         </center>
         
-        
-        <!-- <p style="padding: 0; margin: 0; font-size: 10px;">该网站处处透露着贫穷，欢迎有志者参与开发（美术等）</p> -->
 
         <migrate-notification
             v-if="needMigrate"
@@ -41,7 +39,7 @@
         <el-card class="mb16">
             <p class="big-card-title">Resources</p>
             <el-row :gutter="16">
-                <el-col :xs="24" :sm="12">
+                <el-col :xs="48" :sm="24">
                     <el-card
                         :body-style="{textAlign: 'center'}"
                         @click.native="newPage(links.frontendProject)"
@@ -52,16 +50,7 @@
                         <p class="item-title">Github - Project Source Code</p>
                     </el-card>
                 </el-col>
-                <el-col :xs="24" :sm="12">
-                    <el-card
-                        :body-style="{textAlign: 'center'}"
-                        @click.native="newPage(links.panelProject)" class="item"
-                        shadow="hover"
-                    >
-                        <font-awesome-icon :icon="['fab', 'github']" class="icon"></font-awesome-icon>
-                        <p class="item-title">NPM Package - Damage Calculations (By wormtql)</p>
-                    </el-card>
-                </el-col>
+            
             </el-row>
         </el-card>
 
